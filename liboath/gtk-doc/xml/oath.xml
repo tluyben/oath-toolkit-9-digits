@@ -1,0 +1,1691 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+          "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+	  [
+	  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+	  <!ENTITY version SYSTEM "version.xml">
+	  ]>
+<refentry id="liboath-oath">
+<refmeta>
+<refentrytitle role="top_of_page" id="liboath-oath.top_of_page">oath</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBOATH Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>oath</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsect1 id="liboath-oath.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_return" colwidth="150px"/>
+<colspec colname="functions_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-init">oath_init</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-done">oath_done</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="oath-check-version">oath_check_version</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="oath-strerror">oath_strerror</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="oath-strerror-name">oath_strerror_name</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-hex2bin">oath_hex2bin</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-bin2hex">oath_bin2hex</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-base32-decode">oath_base32_decode</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-base32-encode">oath_base32_encode</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="OATH-HOTP-LENGTH:CAPS">OATH_HOTP_LENGTH</link><phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-hotp-generate">oath_hotp_generate</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-hotp-validate">oath_hotp_validate</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="oath-validate-strcmp-function">*oath_validate_strcmp_function</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-hotp-validate-callback">oath_hotp_validate_callback</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-totp-generate">oath_totp_generate</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-totp-generate2">oath_totp_generate2</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-totp-validate">oath_totp_validate</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-totp-validate-callback">oath_totp_validate_callback</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-totp-validate2">oath_totp_validate2</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-totp-validate2-callback">oath_totp_validate2_callback</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-totp-validate3">oath_totp_validate3</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-totp-validate3-callback">oath_totp_validate3_callback</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-totp-validate4">oath_totp_validate4</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-totp-validate4-callback">oath_totp_validate4_callback</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="oath-authenticate-usersfile">oath_authenticate_usersfile</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="liboath-oath.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="name" colwidth="150px"/>
+<colspec colname="description"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="OATHAPI:CAPS">OATHAPI</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="OATH-VERSION:CAPS">OATH_VERSION</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="OATH-VERSION-NUMBER:CAPS">OATH_VERSION_NUMBER</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="oath-rc">oath_rc</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="OATH-HOTP-DYNAMIC-TRUNCATION:CAPS">OATH_HOTP_DYNAMIC_TRUNCATION</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="oath-hotp-validate-strcmp-function">oath_hotp_validate_strcmp_function</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="OATH-TOTP-DEFAULT-TIME-STEP-SIZE:CAPS">OATH_TOTP_DEFAULT_TIME_STEP_SIZE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="OATH-TOTP-DEFAULT-START-TIME:CAPS">OATH_TOTP_DEFAULT_START_TIME</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="oath-totp-flags">oath_totp_flags</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+
+<refsect1 id="liboath-oath.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+
+</refsect1>
+<refsect1 id="liboath-oath.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="oath-init" role="function">
+<title>oath_init&#160;()</title>
+<indexterm zone="oath-init"><primary>oath_init</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_init (<parameter><type>void</type></parameter>);</programlisting>
+<para>This function initializes the OATH library.  Every user of this
+library needs to call this function before using other functions.
+You should call <link linkend="oath-done"><function>oath_done()</function></link> when use of the OATH library is no
+longer needed.</para>
+<para>Note that this function may also initialize Libgcrypt, if the OATH
+library is built with libgcrypt support and libgcrypt has not been
+initialized before.  Thus if you want to manually initialize
+libgcrypt you must do it before calling this function.  This is
+useful in cases you want to disable libgcrypt's internal lockings
+etc.</para>
+<refsect3 role="returns">
+<title>Returns</title>
+<para> On success, <link linkend="OATH-OK:CAPS"><literal>OATH_OK</literal></link> (zero) is returned, otherwise an
+error code is returned.</para>
+</refsect3></refsect2>
+<refsect2 id="oath-done" role="function">
+<title>oath_done&#160;()</title>
+<indexterm zone="oath-done"><primary>oath_done</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_done (<parameter><type>void</type></parameter>);</programlisting>
+<para>This function deinitializes the OATH library, which were
+initialized using <link linkend="oath-init"><function>oath_init()</function></link>.  After calling this function, no
+other OATH library function may be called except for to
+re-initialize the library using <link linkend="oath-init"><function>oath_init()</function></link>.</para>
+<refsect3 role="returns">
+<title>Returns</title>
+<para> On success, <link linkend="OATH-OK:CAPS"><literal>OATH_OK</literal></link> (zero) is returned, otherwise an
+error code is returned.</para>
+</refsect3></refsect2>
+<refsect2 id="oath-check-version" role="function">
+<title>oath_check_version&#160;()</title>
+<indexterm zone="oath-check-version"><primary>oath_check_version</primary></indexterm>
+<programlisting language="C">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+oath_check_version (<parameter>const <link linkend="char"><type>char</type></link> *req_version</parameter>);</programlisting>
+<para>Check OATH library version.</para>
+<para>See <link linkend="OATH-VERSION:CAPS"><literal>OATH_VERSION</literal></link> for a suitable <parameter>req_version</parameter>
+ string.</para>
+<para>This function is one of few in the library that can be used without
+a successful call to <link linkend="oath-init"><function>oath_init()</function></link>.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>req_version</para></entry>
+<entry role="parameter_description"><para>version string to compare with, or NULL.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Check that the version of the library is at
+minimum the one given as a string in <parameter>req_version</parameter>
+and return the
+actual version string of the library; return NULL if the
+condition is not met.  If NULL is passed to this function no
+check is done and only the version string is returned.</para>
+</refsect3></refsect2>
+<refsect2 id="oath-strerror" role="function" condition="since:1.8.0">
+<title>oath_strerror&#160;()</title>
+<indexterm zone="oath-strerror" role="1.8.0"><primary>oath_strerror</primary></indexterm>
+<programlisting language="C">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+oath_strerror (<parameter><link linkend="int"><type>int</type></link> err</parameter>);</programlisting>
+<para>Convert return code to human readable string explanation of the
+reason for the particular error code.</para>
+<para>This string can be used to output a diagnostic message to the user.</para>
+<para>This function is one of few in the library that can be used without
+a successful call to <link linkend="oath-init"><function>oath_init()</function></link>.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>err</para></entry>
+<entry role="parameter_description"><para>liboath error code</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Returns a pointer to a statically allocated string
+containing an explanation of the error code <parameter>err</parameter>
+.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.0">1.8.0</link></para></refsect2>
+<refsect2 id="oath-strerror-name" role="function" condition="since:1.8.0">
+<title>oath_strerror_name&#160;()</title>
+<indexterm zone="oath-strerror-name" role="1.8.0"><primary>oath_strerror_name</primary></indexterm>
+<programlisting language="C">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+oath_strerror_name (<parameter><link linkend="int"><type>int</type></link> err</parameter>);</programlisting>
+<para>Convert return code to human readable string representing the error
+code symbol itself.  For example, oath_strerror_name(<link linkend="OATH-OK:CAPS"><literal>OATH_OK</literal></link>)
+returns the string "OATH_OK".</para>
+<para>This string can be used to output a diagnostic message to the user.</para>
+<para>This function is one of few in the library that can be used without
+a successful call to <link linkend="oath-init"><function>oath_init()</function></link>.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>err</para></entry>
+<entry role="parameter_description"><para>liboath error code</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Returns a pointer to a statically allocated string
+containing a string version of the error code <parameter>err</parameter>
+, or NULL if
+the error code is not known.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.0">1.8.0</link></para></refsect2>
+<refsect2 id="oath-hex2bin" role="function">
+<title>oath_hex2bin&#160;()</title>
+<indexterm zone="oath-hex2bin"><primary>oath_hex2bin</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_hex2bin (<parameter>const <link linkend="char"><type>char</type></link> *hexstr</parameter>,
+              <parameter><link linkend="char"><type>char</type></link> *binstr</parameter>,
+              <parameter><link linkend="size-t"><type>size_t</type></link> *binlen</parameter>);</programlisting>
+<para>Convert string with hex data to binary data.</para>
+<para>Non-hexadecimal data are not ignored but instead will lead to an
+<link linkend="OATH-INVALID-HEX:CAPS"><literal>OATH_INVALID_HEX</literal></link> error.</para>
+<para>If <parameter>binstr</parameter>
+ is NULL, then <parameter>binlen</parameter>
+ will be populated with the
+necessary length.  If the <parameter>binstr</parameter>
+ buffer is too small,
+<link linkend="OATH-TOO-SMALL-BUFFER:CAPS"><literal>OATH_TOO_SMALL_BUFFER</literal></link> is returned and <parameter>binlen</parameter>
+ will contain the
+necessary length.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>hexstr</para></entry>
+<entry role="parameter_description"><para>input string with hex data</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>binstr</para></entry>
+<entry role="parameter_description"><para>output string that holds binary data, or NULL</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>binlen</para></entry>
+<entry role="parameter_description"><para>output variable holding needed length of <parameter>binstr</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> On success, <link linkend="OATH-OK:CAPS"><literal>OATH_OK</literal></link> (zero) is returned, otherwise an
+error code is returned.</para>
+</refsect3></refsect2>
+<refsect2 id="oath-bin2hex" role="function" condition="since:1.12.0">
+<title>oath_bin2hex&#160;()</title>
+<indexterm zone="oath-bin2hex" role="1.12.0"><primary>oath_bin2hex</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+oath_bin2hex (<parameter>const <link linkend="char"><type>char</type></link> *binstr</parameter>,
+              <parameter><link linkend="size-t"><type>size_t</type></link> binlen</parameter>,
+              <parameter><link linkend="char"><type>char</type></link> *hexstr</parameter>);</programlisting>
+<para>Convert binary data to NUL-terminated string with hex data.  The
+output <parameter>hexstr</parameter>
+ is allocated by the caller and must have room for at
+least 2*<parameter>binlen</parameter>
++1, to make room for the encoded data and the
+terminating NUL byte.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>binstr</para></entry>
+<entry role="parameter_description"><para>input binary data</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>binlen</para></entry>
+<entry role="parameter_description"><para>length of input binary data <parameter>binstr</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>hexstr</para></entry>
+<entry role="parameter_description"><para>output string with hex data, must have room for 2*<parameter>binlen</parameter>
++1.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.12.0">1.12.0</link></para></refsect2>
+<refsect2 id="oath-base32-decode" role="function" condition="since:1.12.0">
+<title>oath_base32_decode&#160;()</title>
+<indexterm zone="oath-base32-decode" role="1.12.0"><primary>oath_base32_decode</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_base32_decode (<parameter>const <link linkend="char"><type>char</type></link> *in</parameter>,
+                    <parameter><link linkend="size-t"><type>size_t</type></link> inlen</parameter>,
+                    <parameter><link linkend="char"><type>char</type></link> **out</parameter>,
+                    <parameter><link linkend="size-t"><type>size_t</type></link> *outlen</parameter>);</programlisting>
+<para>Decode a base32 encoded string into binary data.</para>
+<para>Space characters are ignored and pad characters are added if
+needed.  Non-base32 data are not ignored but instead will lead to
+an <link linkend="OATH-INVALID-BASE32:CAPS"><literal>OATH_INVALID_BASE32</literal></link> error.</para>
+<para>The <parameter>in</parameter>
+ parameter should contain <parameter>inlen</parameter>
+ bytes of base32 encoded
+data.  The function allocates a new string in *<parameter>out</parameter>
+ to hold the
+decoded data, and sets *<parameter>outlen</parameter>
+ to the length of the data.</para>
+<para>If <parameter>out</parameter>
+ is NULL, then *<parameter>outlen</parameter>
+ will be set to what would have been
+the length of *<parameter>out</parameter>
+ on successful encoding.</para>
+<para>If the caller is not interested in knowing the length of the output
+data <parameter>out</parameter>
+, then <parameter>outlen</parameter>
+ may be set to NULL.</para>
+<para>It is permitted but useless to have both <parameter>out</parameter>
+ and <parameter>outlen</parameter>
+ NULL.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>in</para></entry>
+<entry role="parameter_description"><para>input string with base32 encoded data of length <parameter>inlen</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>inlen</para></entry>
+<entry role="parameter_description"><para>length of input base32 string <parameter>in</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>out</para></entry>
+<entry role="parameter_description"><para>pointer to output variable for binary data of length <parameter>outlen</parameter>
+, or NULL</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>outlen</para></entry>
+<entry role="parameter_description"><para>pointer to output variable holding length of <parameter>out</parameter>
+, or NULL</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> On success <link linkend="OATH-OK:CAPS"><literal>OATH_OK</literal></link> (zero) is returned,
+<link linkend="OATH-INVALID-BASE32:CAPS"><literal>OATH_INVALID_BASE32</literal></link> is returned if the input contains non-base32
+characters, and <link linkend="OATH-MALLOC-ERROR:CAPS"><literal>OATH_MALLOC_ERROR</literal></link> is returned on memory allocation
+errors.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.12.0">1.12.0</link></para></refsect2>
+<refsect2 id="oath-base32-encode" role="function" condition="since:1.12.0">
+<title>oath_base32_encode&#160;()</title>
+<indexterm zone="oath-base32-encode" role="1.12.0"><primary>oath_base32_encode</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_base32_encode (<parameter>const <link linkend="char"><type>char</type></link> *in</parameter>,
+                    <parameter><link linkend="size-t"><type>size_t</type></link> inlen</parameter>,
+                    <parameter><link linkend="char"><type>char</type></link> **out</parameter>,
+                    <parameter><link linkend="size-t"><type>size_t</type></link> *outlen</parameter>);</programlisting>
+<para>Encode binary data into a string with base32 data.</para>
+<para>The <parameter>in</parameter>
+ parameter should contain <parameter>inlen</parameter>
+ bytes of data to encode.
+The function allocates a new string in *<parameter>out</parameter>
+ to hold the encoded
+data, and sets *<parameter>outlen</parameter>
+ to the length of the data.  The output
+string *<parameter>out</parameter>
+ is zero-terminated (ASCII NUL), but the NUL is not
+counted in *<parameter>outlen</parameter>
+.</para>
+<para>If <parameter>out</parameter>
+ is NULL, then *<parameter>outlen</parameter>
+ will be set to what would have been
+the length of *<parameter>out</parameter>
+ on successful encoding.</para>
+<para>If the caller is not interested in knowing the length of the output
+data <parameter>out</parameter>
+, then <parameter>outlen</parameter>
+ may be set to NULL.</para>
+<para>It is permitted but useless to have both <parameter>out</parameter>
+ and <parameter>outlen</parameter>
+ NULL.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>in</para></entry>
+<entry role="parameter_description"><para>input string with binary data of length <parameter>inlen</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>inlen</para></entry>
+<entry role="parameter_description"><para>length of input data <parameter>in</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>out</para></entry>
+<entry role="parameter_description"><para>pointer to newly allocated output string of length <parameter>outlen</parameter>
+, or NULL</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>outlen</para></entry>
+<entry role="parameter_description"><para>pointer to output variable holding length of <parameter>out</parameter>
+, or NULL</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> On success <link linkend="OATH-OK:CAPS"><literal>OATH_OK</literal></link> (zero) is returned,
+<link linkend="OATH-BASE32-OVERFLOW:CAPS"><literal>OATH_BASE32_OVERFLOW</literal></link> is returned if the output would be too large
+to store, and <link linkend="OATH-MALLOC-ERROR:CAPS"><literal>OATH_MALLOC_ERROR</literal></link> is returned on memory allocation
+errors.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.12.0">1.12.0</link></para></refsect2>
+<refsect2 id="OATH-HOTP-LENGTH:CAPS" role="macro">
+<title>OATH_HOTP_LENGTH()</title>
+<indexterm zone="OATH-HOTP-LENGTH:CAPS"><primary>OATH_HOTP_LENGTH</primary></indexterm>
+<programlisting language="C">#define OATH_HOTP_LENGTH(digits, checksum) (digits + (checksum ? 1 : 0))
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="oath-hotp-generate" role="function">
+<title>oath_hotp_generate&#160;()</title>
+<indexterm zone="oath-hotp-generate"><primary>oath_hotp_generate</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_hotp_generate (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                    <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                    <parameter><link linkend="uint64-t"><type>uint64_t</type></link> moving_factor</parameter>,
+                    <parameter><link linkend="unsigned"><type>unsigned </type></link> digits</parameter>,
+                    <parameter><link linkend="bool"><type>bool</type></link> add_checksum</parameter>,
+                    <parameter><link linkend="size-t"><type>size_t</type></link> truncation_offset</parameter>,
+                    <parameter><link linkend="char"><type>char</type></link> *output_otp</parameter>);</programlisting>
+<para>Generate a one-time-password using the HOTP algorithm as described
+in RFC 4226.</para>
+<para>Use a value of <link linkend="OATH-HOTP-DYNAMIC-TRUNCATION:CAPS"><literal>OATH_HOTP_DYNAMIC_TRUNCATION</literal></link> for <parameter>truncation_offset</parameter>
+
+unless you really need a specific truncation offset.</para>
+<para>To find out the size of the OTP you may use the <link linkend="OATH-HOTP-LENGTH:CAPS"><function>OATH_HOTP_LENGTH()</function></link>
+macro.  The <parameter>output_otp</parameter>
+ buffer must be have room for that length
+plus one for the terminating NUL.</para>
+<para>Currently only values 6, 7 and 8 for <parameter>digits</parameter>
+ are supported, and the
+<parameter>add_checksum</parameter>
+ value is ignored.  These restrictions may be lifted
+in future versions, although some limitations are inherent in the
+protocol.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>moving_factor</para></entry>
+<entry role="parameter_description"><para>a counter indicating the current OTP to generate</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>digits</para></entry>
+<entry role="parameter_description"><para>number of requested digits in the OTP, excluding checksum</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>add_checksum</para></entry>
+<entry role="parameter_description"><para>whether to add a checksum digit or not</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>truncation_offset</para></entry>
+<entry role="parameter_description"><para>use a specific truncation offset</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>output_otp</para></entry>
+<entry role="parameter_description"><para>output buffer, must have room for the output OTP plus zero</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> On success, <link linkend="OATH-OK:CAPS"><literal>OATH_OK</literal></link> (zero) is returned, otherwise an
+error code is returned.</para>
+</refsect3></refsect2>
+<refsect2 id="oath-hotp-validate" role="function">
+<title>oath_hotp_validate&#160;()</title>
+<indexterm zone="oath-hotp-validate"><primary>oath_hotp_validate</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_hotp_validate (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                    <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                    <parameter><link linkend="uint64-t"><type>uint64_t</type></link> start_moving_factor</parameter>,
+                    <parameter><link linkend="size-t"><type>size_t</type></link> window</parameter>,
+                    <parameter>const <link linkend="char"><type>char</type></link> *otp</parameter>);</programlisting>
+<para>Validate an OTP according to OATH HOTP algorithm per RFC 4226.</para>
+<para>Currently only OTP lengths of 6, 7 or 8 digits are supported.  This
+restrictions may be lifted in future versions, although some
+limitations are inherent in the protocol.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_moving_factor</para></entry>
+<entry role="parameter_description"><para>start counter in OTP stream</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>window</para></entry>
+<entry role="parameter_description"><para>how many OTPs after start counter to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp</para></entry>
+<entry role="parameter_description"><para>the OTP to validate.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Returns position in OTP window (zero is first position),
+or <link linkend="OATH-INVALID-OTP:CAPS"><literal>OATH_INVALID_OTP</literal></link> if no OTP was found in OTP window, or an
+error code.</para>
+</refsect3></refsect2>
+<refsect2 id="oath-validate-strcmp-function" role="function" condition="since:1.6.0">
+<title>oath_validate_strcmp_function&#160;()</title>
+<indexterm zone="oath-validate-strcmp-function" role="1.6.0"><primary>oath_validate_strcmp_function</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*oath_validate_strcmp_function<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="void"><type>void</type></link> *handle</parameter>,
+                                  <parameter>const <link linkend="char"><type>char</type></link> *test_otp</parameter>);</programlisting>
+<para>Prototype of strcmp-like function that will be called by
+<link linkend="oath-hotp-validate-callback"><function>oath_hotp_validate_callback()</function></link> or <link linkend="oath-totp-validate-callback"><function>oath_totp_validate_callback()</function></link> to
+validate OTPs.</para>
+<para>The function should be similar to strcmp in that it return 0 only
+on matches.  It differs by permitting use of negative return codes
+as indication of internal failures in the callback.  Positive
+values indicate OTP mismatch.</para>
+<para>This callback interface is useful when you cannot compare OTPs
+directly using normal strcmp, but instead for example only have a
+hashed OTP.  You would then typically pass in the hashed OTP in the
+<parameter>strcmp_handle</parameter>
+ and let your implementation of <parameter>oath_strcmp</parameter>
+ hash the
+test_otp OTP using the same hash, and then compare the results.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>handle</para></entry>
+<entry role="parameter_description"><para>caller handle as passed to <link linkend="oath-hotp-validate-callback"><function>oath_hotp_validate_callback()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>test_otp</para></entry>
+<entry role="parameter_description"><para>OTP to match against.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> 0 if and only if <parameter>test_otp</parameter>
+is identical to the OTP to
+be validated.  Negative value if an internal failure occurs.
+Positive value if the test_otp simply doesn't match.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.6.0">1.6.0</link></para></refsect2>
+<refsect2 id="oath-hotp-validate-callback" role="function" condition="since:1.4.0">
+<title>oath_hotp_validate_callback&#160;()</title>
+<indexterm zone="oath-hotp-validate-callback" role="1.4.0"><primary>oath_hotp_validate_callback</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_hotp_validate_callback (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                             <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                             <parameter><link linkend="uint64-t"><type>uint64_t</type></link> start_moving_factor</parameter>,
+                             <parameter><link linkend="size-t"><type>size_t</type></link> window</parameter>,
+                             <parameter><link linkend="unsigned"><type>unsigned </type></link> digits</parameter>,
+                             <parameter><link linkend="oath-validate-strcmp-function"><type>oath_validate_strcmp_function</type></link> strcmp_otp</parameter>,
+                             <parameter><link linkend="void"><type>void</type></link> *strcmp_handle</parameter>);</programlisting>
+<para>Validate an OTP according to OATH HOTP algorithm per RFC 4226.</para>
+<para>Validation is implemented by generating a number of potential OTPs
+and performing a call to the <parameter>strcmp_otp</parameter>
+ function, to compare the
+potential OTP against the given <parameter>otp</parameter>
+.  It has the following
+prototype:</para>
+<para>int (*oath_validate_strcmp_function) (void *handle, const char *test_otp);</para>
+<para>The function should be similar to strcmp in that it return 0 only
+on matches.  It differs by permitting use of negative return codes
+as indication of internal failures in the callback.  Positive
+values indicate OTP mismatch.</para>
+<para>This callback interface is useful when you cannot compare OTPs
+directly using normal strcmp, but instead for example only have a
+hashed OTP.  You would then typically pass in the hashed OTP in the
+<parameter>strcmp_handle</parameter>
+ and let your implementation of <parameter>strcmp_otp</parameter>
+ hash the
+test_otp OTP using the same hash, and then compare the results.</para>
+<para>Currently only OTP lengths of 6, 7 or 8 digits are supported.  This
+restrictions may be lifted in future versions, although some
+limitations are inherent in the protocol.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_moving_factor</para></entry>
+<entry role="parameter_description"><para>start counter in OTP stream</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>window</para></entry>
+<entry role="parameter_description"><para>how many OTPs after start counter to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>digits</para></entry>
+<entry role="parameter_description"><para>number of requested digits in the OTP</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>strcmp_otp</para></entry>
+<entry role="parameter_description"><para>function pointer to a strcmp-like function.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>strcmp_handle</para></entry>
+<entry role="parameter_description"><para>caller handle to be passed on to <parameter>strcmp_otp</parameter>
+.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Returns position in OTP window (zero is first position),
+or <link linkend="OATH-INVALID-OTP:CAPS"><literal>OATH_INVALID_OTP</literal></link> if no OTP was found in OTP window, or an
+error code.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.0">1.4.0</link></para></refsect2>
+<refsect2 id="oath-totp-generate" role="function" condition="since:1.4.0">
+<title>oath_totp_generate&#160;()</title>
+<indexterm zone="oath-totp-generate" role="1.4.0"><primary>oath_totp_generate</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_totp_generate (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                    <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                    <parameter><link linkend="time-t"><type>time_t</type></link> now</parameter>,
+                    <parameter><link linkend="unsigned"><type>unsigned </type></link> time_step_size</parameter>,
+                    <parameter><link linkend="time-t"><type>time_t</type></link> start_offset</parameter>,
+                    <parameter><link linkend="unsigned"><type>unsigned </type></link> digits</parameter>,
+                    <parameter><link linkend="char"><type>char</type></link> *output_otp</parameter>);</programlisting>
+<para>Generate a one-time-password using the time-variant TOTP algorithm
+described in RFC 6238.  The input parameters are taken as time
+values.</para>
+<para>The system parameter <parameter>time_step_size</parameter>
+ describes how long the time
+window for each OTP is.  The recommended value is 30 seconds, and
+you can use the value 0 or the symbol
+<link linkend="OATH-TOTP-DEFAULT-TIME-STEP-SIZE:CAPS"><literal>OATH_TOTP_DEFAULT_TIME_STEP_SIZE</literal></link> to indicate this.</para>
+<para>The system parameter <parameter>start_offset</parameter>
+ denote the Unix time when time
+steps are started to be counted.  The recommended value is 0, to
+fall back on the Unix epoch) and you can use the symbol
+<link linkend="OATH-TOTP-DEFAULT-START-TIME:CAPS"><literal>OATH_TOTP_DEFAULT_START_TIME</literal></link> to indicate this.</para>
+<para>The <parameter>output_otp</parameter>
+ buffer must have room for at least <parameter>digits</parameter>
+
+characters, plus one for the terminating NUL.</para>
+<para>Currently only values 6, 7 and 8 for <parameter>digits</parameter>
+ are supported.  This
+restriction may be lifted in future versions.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>now</para></entry>
+<entry role="parameter_description"><para>Unix time value to compute TOTP for</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>time_step_size</para></entry>
+<entry role="parameter_description"><para>time step system parameter (typically 30)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>Unix time of when to start counting time steps (typically 0)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>digits</para></entry>
+<entry role="parameter_description"><para>number of requested digits in the OTP, excluding checksum</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>output_otp</para></entry>
+<entry role="parameter_description"><para>output buffer, must have room for the output OTP plus zero</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> On success, <link linkend="OATH-OK:CAPS"><literal>OATH_OK</literal></link> (zero) is returned, otherwise an
+error code is returned.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.0">1.4.0</link></para></refsect2>
+<refsect2 id="oath-totp-generate2" role="function" condition="since:2.6.0">
+<title>oath_totp_generate2&#160;()</title>
+<indexterm zone="oath-totp-generate2" role="2.6.0"><primary>oath_totp_generate2</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_totp_generate2 (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                     <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                     <parameter><link linkend="time-t"><type>time_t</type></link> now</parameter>,
+                     <parameter><link linkend="unsigned"><type>unsigned </type></link> time_step_size</parameter>,
+                     <parameter><link linkend="time-t"><type>time_t</type></link> start_offset</parameter>,
+                     <parameter><link linkend="unsigned"><type>unsigned </type></link> digits</parameter>,
+                     <parameter><link linkend="int"><type>int</type></link> flags</parameter>,
+                     <parameter><link linkend="char"><type>char</type></link> *output_otp</parameter>);</programlisting>
+<para>Generate a one-time-password using the time-variant TOTP algorithm
+described in RFC 6238.  The input parameters are taken as time
+values.</para>
+<para>The system parameter <parameter>time_step_size</parameter>
+ describes how long the time
+window for each OTP is.  The recommended value is 30 seconds, and
+you can use the value 0 or the symbol
+<link linkend="OATH-TOTP-DEFAULT-TIME-STEP-SIZE:CAPS"><literal>OATH_TOTP_DEFAULT_TIME_STEP_SIZE</literal></link> to indicate this.</para>
+<para>The system parameter <parameter>start_offset</parameter>
+ denote the Unix time when time
+steps are started to be counted.  The recommended value is 0, to
+fall back on the Unix epoch) and you can use the symbol
+<link linkend="OATH-TOTP-DEFAULT-START-TIME:CAPS"><literal>OATH_TOTP_DEFAULT_START_TIME</literal></link> to indicate this.</para>
+<para>The <parameter>output_otp</parameter>
+ buffer must have room for at least <parameter>digits</parameter>
+
+characters, plus one for the terminating NUL.</para>
+<para>Currently only values 6, 7 and 8 for <parameter>digits</parameter>
+ are supported.  This
+restriction may be lifted in future versions.</para>
+<para>The <parameter>flags</parameter>
+ parameter may be used to change the MAC function, for
+example <link linkend="OATH-TOTP-HMAC-SHA256:CAPS"><literal>OATH_TOTP_HMAC_SHA256</literal></link> or <link linkend="OATH-TOTP-HMAC-SHA512:CAPS"><literal>OATH_TOTP_HMAC_SHA512</literal></link>.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>now</para></entry>
+<entry role="parameter_description"><para>Unix time value to compute TOTP for</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>time_step_size</para></entry>
+<entry role="parameter_description"><para>time step system parameter (typically 30)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>Unix time of when to start counting time steps (typically 0)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>digits</para></entry>
+<entry role="parameter_description"><para>number of requested digits in the OTP, excluding checksum</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>flags</para></entry>
+<entry role="parameter_description"><para>flags indicating mode, one of <link linkend="oath-totp-flags"><type>oath_totp_flags</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>output_otp</para></entry>
+<entry role="parameter_description"><para>output buffer, must have room for the output OTP plus zero</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> On success, <link linkend="OATH-OK:CAPS"><literal>OATH_OK</literal></link> (zero) is returned, otherwise an
+error code is returned.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+<refsect2 id="oath-totp-validate" role="function" condition="since:1.6.0">
+<title>oath_totp_validate&#160;()</title>
+<indexterm zone="oath-totp-validate" role="1.6.0"><primary>oath_totp_validate</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_totp_validate (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                    <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                    <parameter><link linkend="time-t"><type>time_t</type></link> now</parameter>,
+                    <parameter><link linkend="unsigned"><type>unsigned </type></link> time_step_size</parameter>,
+                    <parameter><link linkend="time-t"><type>time_t</type></link> start_offset</parameter>,
+                    <parameter><link linkend="size-t"><type>size_t</type></link> window</parameter>,
+                    <parameter>const <link linkend="char"><type>char</type></link> *otp</parameter>);</programlisting>
+<para>Validate an OTP according to OATH TOTP algorithm per RFC 6238.</para>
+<para>Currently only OTP lengths of 6, 7 or 8 digits are supported.  This
+restrictions may be lifted in future versions, although some
+limitations are inherent in the protocol.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>now</para></entry>
+<entry role="parameter_description"><para>Unix time value to validate TOTP for</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>time_step_size</para></entry>
+<entry role="parameter_description"><para>time step system parameter (typically 30)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>Unix time of when to start counting time steps (typically 0)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>window</para></entry>
+<entry role="parameter_description"><para>how many OTPs after/before start OTP to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp</para></entry>
+<entry role="parameter_description"><para>the OTP to validate.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Returns absolute value of position in OTP window (zero is
+first position), or <link linkend="OATH-INVALID-OTP:CAPS"><literal>OATH_INVALID_OTP</literal></link> if no OTP was found in OTP
+window, or an error code.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.6.0">1.6.0</link></para></refsect2>
+<refsect2 id="oath-totp-validate-callback" role="function" condition="since:1.6.0">
+<title>oath_totp_validate_callback&#160;()</title>
+<indexterm zone="oath-totp-validate-callback" role="1.6.0"><primary>oath_totp_validate_callback</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_totp_validate_callback (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                             <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                             <parameter><link linkend="time-t"><type>time_t</type></link> now</parameter>,
+                             <parameter><link linkend="unsigned"><type>unsigned </type></link> time_step_size</parameter>,
+                             <parameter><link linkend="time-t"><type>time_t</type></link> start_offset</parameter>,
+                             <parameter><link linkend="unsigned"><type>unsigned </type></link> digits</parameter>,
+                             <parameter><link linkend="size-t"><type>size_t</type></link> window</parameter>,
+                             <parameter><link linkend="oath-validate-strcmp-function"><type>oath_validate_strcmp_function</type></link> strcmp_otp</parameter>,
+                             <parameter><link linkend="void"><type>void</type></link> *strcmp_handle</parameter>);</programlisting>
+<para>Validate an OTP according to OATH TOTP algorithm per RFC 6238.</para>
+<para>Validation is implemented by generating a number of potential OTPs
+and performing a call to the <parameter>strcmp_otp</parameter>
+ function, to compare the
+potential OTP against the given <parameter>otp</parameter>
+.  It has the following
+prototype:</para>
+<para>int (*oath_validate_strcmp_function) (void *handle, const char *test_otp);</para>
+<para>The function should be similar to strcmp in that it return 0 only
+on matches.  It differs by permitting use of negative return codes
+as indication of internal failures in the callback.  Positive
+values indicate OTP mismatch.</para>
+<para>This callback interface is useful when you cannot compare OTPs
+directly using normal strcmp, but instead for example only have a
+hashed OTP.  You would then typically pass in the hashed OTP in the
+<parameter>strcmp_handle</parameter>
+ and let your implementation of <parameter>strcmp_otp</parameter>
+ hash the
+test_otp OTP using the same hash, and then compare the results.</para>
+<para>Currently only OTP lengths of 6, 7 or 8 digits are supported.  This
+restrictions may be lifted in future versions, although some
+limitations are inherent in the protocol.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>now</para></entry>
+<entry role="parameter_description"><para>Unix time value to compute TOTP for</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>time_step_size</para></entry>
+<entry role="parameter_description"><para>time step system parameter (typically 30)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>Unix time of when to start counting time steps (typically 0)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>digits</para></entry>
+<entry role="parameter_description"><para>number of requested digits in the OTP</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>window</para></entry>
+<entry role="parameter_description"><para>how many OTPs after start counter to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>strcmp_otp</para></entry>
+<entry role="parameter_description"><para>function pointer to a strcmp-like function.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>strcmp_handle</para></entry>
+<entry role="parameter_description"><para>caller handle to be passed on to <parameter>strcmp_otp</parameter>
+.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Returns position in OTP window (zero is first position),
+or <link linkend="OATH-INVALID-OTP:CAPS"><literal>OATH_INVALID_OTP</literal></link> if no OTP was found in OTP window, or an
+error code.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.6.0">1.6.0</link></para></refsect2>
+<refsect2 id="oath-totp-validate2" role="function" condition="since:1.10.0">
+<title>oath_totp_validate2&#160;()</title>
+<indexterm zone="oath-totp-validate2" role="1.10.0"><primary>oath_totp_validate2</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_totp_validate2 (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                     <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                     <parameter><link linkend="time-t"><type>time_t</type></link> now</parameter>,
+                     <parameter><link linkend="unsigned"><type>unsigned </type></link> time_step_size</parameter>,
+                     <parameter><link linkend="time-t"><type>time_t</type></link> start_offset</parameter>,
+                     <parameter><link linkend="size-t"><type>size_t</type></link> window</parameter>,
+                     <parameter><link linkend="int"><type>int</type></link> *otp_pos</parameter>,
+                     <parameter>const <link linkend="char"><type>char</type></link> *otp</parameter>);</programlisting>
+<para>Validate an OTP according to OATH TOTP algorithm per RFC 6238.</para>
+<para>Currently only OTP lengths of 6, 7 or 8 digits are supported.  This
+restrictions may be lifted in future versions, although some
+limitations are inherent in the protocol.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>now</para></entry>
+<entry role="parameter_description"><para>Unix time value to validate TOTP for</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>time_step_size</para></entry>
+<entry role="parameter_description"><para>time step system parameter (typically 30)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>Unix time of when to start counting time steps (typically 0)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>window</para></entry>
+<entry role="parameter_description"><para>how many OTPs after/before start OTP to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp_pos</para></entry>
+<entry role="parameter_description"><para>output search position in search window (may be NULL).</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp</para></entry>
+<entry role="parameter_description"><para>the OTP to validate.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Returns absolute value of position in OTP window (zero is
+first position), or <link linkend="OATH-INVALID-OTP:CAPS"><literal>OATH_INVALID_OTP</literal></link> if no OTP was found in OTP
+window, or an error code.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.10.0">1.10.0</link></para></refsect2>
+<refsect2 id="oath-totp-validate2-callback" role="function" condition="since:1.10.0">
+<title>oath_totp_validate2_callback&#160;()</title>
+<indexterm zone="oath-totp-validate2-callback" role="1.10.0"><primary>oath_totp_validate2_callback</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_totp_validate2_callback (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                              <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                              <parameter><link linkend="time-t"><type>time_t</type></link> now</parameter>,
+                              <parameter><link linkend="unsigned"><type>unsigned </type></link> time_step_size</parameter>,
+                              <parameter><link linkend="time-t"><type>time_t</type></link> start_offset</parameter>,
+                              <parameter><link linkend="unsigned"><type>unsigned </type></link> digits</parameter>,
+                              <parameter><link linkend="size-t"><type>size_t</type></link> window</parameter>,
+                              <parameter><link linkend="int"><type>int</type></link> *otp_pos</parameter>,
+                              <parameter><link linkend="oath-validate-strcmp-function"><type>oath_validate_strcmp_function</type></link> strcmp_otp</parameter>,
+                              <parameter><link linkend="void"><type>void</type></link> *strcmp_handle</parameter>);</programlisting>
+<para>Validate an OTP according to OATH TOTP algorithm per RFC 6238.</para>
+<para>Validation is implemented by generating a number of potential OTPs
+and performing a call to the <parameter>strcmp_otp</parameter>
+ function, to compare the
+potential OTP against the given <parameter>otp</parameter>
+.  It has the following
+prototype:</para>
+<para>int (*oath_validate_strcmp_function) (void *handle, const char *test_otp);</para>
+<para>The function should be similar to strcmp in that it return 0 only
+on matches.  It differs by permitting use of negative return codes
+as indication of internal failures in the callback.  Positive
+values indicate OTP mismatch.</para>
+<para>This callback interface is useful when you cannot compare OTPs
+directly using normal strcmp, but instead for example only have a
+hashed OTP.  You would then typically pass in the hashed OTP in the
+<parameter>strcmp_handle</parameter>
+ and let your implementation of <parameter>strcmp_otp</parameter>
+ hash the
+test_otp OTP using the same hash, and then compare the results.</para>
+<para>Currently only OTP lengths of 6, 7 or 8 digits are supported.  This
+restrictions may be lifted in future versions, although some
+limitations are inherent in the protocol.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>now</para></entry>
+<entry role="parameter_description"><para>Unix time value to compute TOTP for</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>time_step_size</para></entry>
+<entry role="parameter_description"><para>time step system parameter (typically 30)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>Unix time of when to start counting time steps (typically 0)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>digits</para></entry>
+<entry role="parameter_description"><para>number of requested digits in the OTP</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>window</para></entry>
+<entry role="parameter_description"><para>how many OTPs after start counter to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp_pos</para></entry>
+<entry role="parameter_description"><para>output search position in search window (may be NULL).</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>strcmp_otp</para></entry>
+<entry role="parameter_description"><para>function pointer to a strcmp-like function.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>strcmp_handle</para></entry>
+<entry role="parameter_description"><para>caller handle to be passed on to <parameter>strcmp_otp</parameter>
+.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Returns absolute value of position in OTP window (zero is
+first position), or <link linkend="OATH-INVALID-OTP:CAPS"><literal>OATH_INVALID_OTP</literal></link> if no OTP was found in OTP
+window, or an error code.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.10.0">1.10.0</link></para></refsect2>
+<refsect2 id="oath-totp-validate3" role="function" condition="since:2.4.0">
+<title>oath_totp_validate3&#160;()</title>
+<indexterm zone="oath-totp-validate3" role="2.4.0"><primary>oath_totp_validate3</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_totp_validate3 (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                     <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                     <parameter><link linkend="time-t"><type>time_t</type></link> now</parameter>,
+                     <parameter><link linkend="unsigned"><type>unsigned </type></link> time_step_size</parameter>,
+                     <parameter><link linkend="time-t"><type>time_t</type></link> start_offset</parameter>,
+                     <parameter><link linkend="size-t"><type>size_t</type></link> window</parameter>,
+                     <parameter><link linkend="int"><type>int</type></link> *otp_pos</parameter>,
+                     <parameter><link linkend="uint64-t"><type>uint64_t</type></link> *otp_counter</parameter>,
+                     <parameter>const <link linkend="char"><type>char</type></link> *otp</parameter>);</programlisting>
+<para>Validate an OTP according to OATH TOTP algorithm per RFC 6238.</para>
+<para>Currently only OTP lengths of 6, 7 or 8 digits are supported.  This
+restrictions may be lifted in future versions, although some
+limitations are inherent in the protocol.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>now</para></entry>
+<entry role="parameter_description"><para>Unix time value to validate TOTP for</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>time_step_size</para></entry>
+<entry role="parameter_description"><para>time step system parameter (typically 30)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>Unix time of when to start counting time steps (typically 0)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>window</para></entry>
+<entry role="parameter_description"><para>how many OTPs after/before start OTP to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp_pos</para></entry>
+<entry role="parameter_description"><para>output search position in search window (may be NULL).</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp_counter</para></entry>
+<entry role="parameter_description"><para>counter value used to calculate OTP value (may be NULL).</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp</para></entry>
+<entry role="parameter_description"><para>the OTP to validate.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Returns absolute value of position in OTP window (zero is
+first position), or <link linkend="OATH-INVALID-OTP:CAPS"><literal>OATH_INVALID_OTP</literal></link> if no OTP was found in OTP
+window, or an error code.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.4.0">2.4.0</link></para></refsect2>
+<refsect2 id="oath-totp-validate3-callback" role="function" condition="since:2.4.0">
+<title>oath_totp_validate3_callback&#160;()</title>
+<indexterm zone="oath-totp-validate3-callback" role="2.4.0"><primary>oath_totp_validate3_callback</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_totp_validate3_callback (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                              <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                              <parameter><link linkend="time-t"><type>time_t</type></link> now</parameter>,
+                              <parameter><link linkend="unsigned"><type>unsigned </type></link> time_step_size</parameter>,
+                              <parameter><link linkend="time-t"><type>time_t</type></link> start_offset</parameter>,
+                              <parameter><link linkend="unsigned"><type>unsigned </type></link> digits</parameter>,
+                              <parameter><link linkend="size-t"><type>size_t</type></link> window</parameter>,
+                              <parameter><link linkend="int"><type>int</type></link> *otp_pos</parameter>,
+                              <parameter><link linkend="uint64-t"><type>uint64_t</type></link> *otp_counter</parameter>,
+                              <parameter><link linkend="oath-validate-strcmp-function"><type>oath_validate_strcmp_function</type></link> strcmp_otp</parameter>,
+                              <parameter><link linkend="void"><type>void</type></link> *strcmp_handle</parameter>);</programlisting>
+<para>Validate an OTP according to OATH TOTP algorithm per RFC 6238.</para>
+<para>Validation is implemented by generating a number of potential OTPs
+and performing a call to the <parameter>strcmp_otp</parameter>
+ function, to compare the
+potential OTP against the given <parameter>otp</parameter>
+.  It has the following
+prototype:</para>
+<para>int (*oath_validate_strcmp_function) (void *handle, const char *test_otp);</para>
+<para>The function should be similar to strcmp in that it return 0 only
+on matches.  It differs by permitting use of negative return codes
+as indication of internal failures in the callback.  Positive
+values indicate OTP mismatch.</para>
+<para>This callback interface is useful when you cannot compare OTPs
+directly using normal strcmp, but instead for example only have a
+hashed OTP.  You would then typically pass in the hashed OTP in the
+<parameter>strcmp_handle</parameter>
+ and let your implementation of <parameter>strcmp_otp</parameter>
+ hash the
+test_otp OTP using the same hash, and then compare the results.</para>
+<para>Currently only OTP lengths of 6, 7 or 8 digits are supported.  This
+restrictions may be lifted in future versions, although some
+limitations are inherent in the protocol.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>now</para></entry>
+<entry role="parameter_description"><para>Unix time value to compute TOTP for</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>time_step_size</para></entry>
+<entry role="parameter_description"><para>time step system parameter (typically 30)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>Unix time of when to start counting time steps (typically 0)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>digits</para></entry>
+<entry role="parameter_description"><para>number of requested digits in the OTP</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>window</para></entry>
+<entry role="parameter_description"><para>how many OTPs after start counter to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp_pos</para></entry>
+<entry role="parameter_description"><para>output search position in search window (may be NULL).</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp_counter</para></entry>
+<entry role="parameter_description"><para>counter value used to calculate OTP value (may be NULL).</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>strcmp_otp</para></entry>
+<entry role="parameter_description"><para>function pointer to a strcmp-like function.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>strcmp_handle</para></entry>
+<entry role="parameter_description"><para>caller handle to be passed on to <parameter>strcmp_otp</parameter>
+.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Returns absolute value of position in OTP window (zero is
+first position), or <link linkend="OATH-INVALID-OTP:CAPS"><literal>OATH_INVALID_OTP</literal></link> if no OTP was found in OTP
+window, or an error code.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.4.0">2.4.0</link></para></refsect2>
+<refsect2 id="oath-totp-validate4" role="function" condition="since:2.6.0">
+<title>oath_totp_validate4&#160;()</title>
+<indexterm zone="oath-totp-validate4" role="2.6.0"><primary>oath_totp_validate4</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_totp_validate4 (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                     <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                     <parameter><link linkend="time-t"><type>time_t</type></link> now</parameter>,
+                     <parameter><link linkend="unsigned"><type>unsigned </type></link> time_step_size</parameter>,
+                     <parameter><link linkend="time-t"><type>time_t</type></link> start_offset</parameter>,
+                     <parameter><link linkend="size-t"><type>size_t</type></link> window</parameter>,
+                     <parameter><link linkend="int"><type>int</type></link> *otp_pos</parameter>,
+                     <parameter><link linkend="uint64-t"><type>uint64_t</type></link> *otp_counter</parameter>,
+                     <parameter><link linkend="int"><type>int</type></link> flags</parameter>,
+                     <parameter>const <link linkend="char"><type>char</type></link> *otp</parameter>);</programlisting>
+<para>Validate an OTP according to OATH TOTP algorithm per RFC 6238.</para>
+<para>Currently only OTP lengths of 6, 7 or 8 digits are supported.  This
+restrictions may be lifted in future versions, although some
+limitations are inherent in the protocol.</para>
+<para>The <parameter>flags</parameter>
+ parameter may be used to change the MAC function, for
+example <link linkend="OATH-TOTP-HMAC-SHA256:CAPS"><literal>OATH_TOTP_HMAC_SHA256</literal></link> or <link linkend="OATH-TOTP-HMAC-SHA512:CAPS"><literal>OATH_TOTP_HMAC_SHA512</literal></link>.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>now</para></entry>
+<entry role="parameter_description"><para>Unix time value to validate TOTP for</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>time_step_size</para></entry>
+<entry role="parameter_description"><para>time step system parameter (typically 30)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>Unix time of when to start counting time steps (typically 0)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>window</para></entry>
+<entry role="parameter_description"><para>how many OTPs after/before start OTP to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp_pos</para></entry>
+<entry role="parameter_description"><para>output search position in search window (may be NULL).</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp_counter</para></entry>
+<entry role="parameter_description"><para>counter value used to calculate OTP value (may be NULL).</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>flags</para></entry>
+<entry role="parameter_description"><para>flags indicating mode, one of <link linkend="oath-totp-flags"><type>oath_totp_flags</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp</para></entry>
+<entry role="parameter_description"><para>the OTP to validate.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Returns absolute value of position in OTP window (zero is
+first position), or <link linkend="OATH-INVALID-OTP:CAPS"><literal>OATH_INVALID_OTP</literal></link> if no OTP was found in OTP
+window, or an error code.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+<refsect2 id="oath-totp-validate4-callback" role="function" condition="since:2.6.0">
+<title>oath_totp_validate4_callback&#160;()</title>
+<indexterm zone="oath-totp-validate4-callback" role="2.6.0"><primary>oath_totp_validate4_callback</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_totp_validate4_callback (<parameter>const <link linkend="char"><type>char</type></link> *secret</parameter>,
+                              <parameter><link linkend="size-t"><type>size_t</type></link> secret_length</parameter>,
+                              <parameter><link linkend="time-t"><type>time_t</type></link> now</parameter>,
+                              <parameter><link linkend="unsigned"><type>unsigned </type></link> time_step_size</parameter>,
+                              <parameter><link linkend="time-t"><type>time_t</type></link> start_offset</parameter>,
+                              <parameter><link linkend="unsigned"><type>unsigned </type></link> digits</parameter>,
+                              <parameter><link linkend="size-t"><type>size_t</type></link> window</parameter>,
+                              <parameter><link linkend="int"><type>int</type></link> *otp_pos</parameter>,
+                              <parameter><link linkend="uint64-t"><type>uint64_t</type></link> *otp_counter</parameter>,
+                              <parameter><link linkend="int"><type>int</type></link> flags</parameter>,
+                              <parameter><link linkend="oath-validate-strcmp-function"><type>oath_validate_strcmp_function</type></link> strcmp_otp</parameter>,
+                              <parameter><link linkend="void"><type>void</type></link> *strcmp_handle</parameter>);</programlisting>
+<para>Validate an OTP according to OATH TOTP algorithm per RFC 6238.</para>
+<para>Validation is implemented by generating a number of potential OTPs
+and performing a call to the <parameter>strcmp_otp</parameter>
+ function, to compare the
+potential OTP against the given <parameter>otp</parameter>
+.  It has the following
+prototype:</para>
+<para>int (*oath_validate_strcmp_function) (void *handle, const char *test_otp);</para>
+<para>The function should be similar to strcmp in that it return 0 only
+on matches.  It differs by permitting use of negative return codes
+as indication of internal failures in the callback.  Positive
+values indicate OTP mismatch.</para>
+<para>This callback interface is useful when you cannot compare OTPs
+directly using normal strcmp, but instead for example only have a
+hashed OTP.  You would then typically pass in the hashed OTP in the
+<parameter>strcmp_handle</parameter>
+ and let your implementation of <parameter>strcmp_otp</parameter>
+ hash the
+test_otp OTP using the same hash, and then compare the results.</para>
+<para>Currently only OTP lengths of 6, 7 or 8 digits are supported.  This
+restrictions may be lifted in future versions, although some
+limitations are inherent in the protocol.</para>
+<para>The <parameter>flags</parameter>
+ parameter may be used to change the MAC function, for
+example <link linkend="OATH-TOTP-HMAC-SHA256:CAPS"><literal>OATH_TOTP_HMAC_SHA256</literal></link> or <link linkend="OATH-TOTP-HMAC-SHA512:CAPS"><literal>OATH_TOTP_HMAC_SHA512</literal></link>.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>secret</para></entry>
+<entry role="parameter_description"><para>the shared secret string</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>secret_length</para></entry>
+<entry role="parameter_description"><para>length of <parameter>secret</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>now</para></entry>
+<entry role="parameter_description"><para>Unix time value to compute TOTP for</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>time_step_size</para></entry>
+<entry role="parameter_description"><para>time step system parameter (typically 30)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>Unix time of when to start counting time steps (typically 0)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>digits</para></entry>
+<entry role="parameter_description"><para>number of requested digits in the OTP</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>window</para></entry>
+<entry role="parameter_description"><para>how many OTPs after start counter to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp_pos</para></entry>
+<entry role="parameter_description"><para>output search position in search window (may be NULL).</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp_counter</para></entry>
+<entry role="parameter_description"><para>counter value used to calculate OTP value (may be NULL).</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>flags</para></entry>
+<entry role="parameter_description"><para>flags indicating mode, one of <link linkend="oath-totp-flags"><type>oath_totp_flags</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>strcmp_otp</para></entry>
+<entry role="parameter_description"><para>function pointer to a strcmp-like function.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>strcmp_handle</para></entry>
+<entry role="parameter_description"><para>caller handle to be passed on to <parameter>strcmp_otp</parameter>
+.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> Returns absolute value of position in OTP window (zero is
+first position), or <link linkend="OATH-INVALID-OTP:CAPS"><literal>OATH_INVALID_OTP</literal></link> if no OTP was found in OTP
+window, or an error code.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+<refsect2 id="oath-authenticate-usersfile" role="function">
+<title>oath_authenticate_usersfile&#160;()</title>
+<indexterm zone="oath-authenticate-usersfile"><primary>oath_authenticate_usersfile</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+oath_authenticate_usersfile (<parameter>const <link linkend="char"><type>char</type></link> *usersfile</parameter>,
+                             <parameter>const <link linkend="char"><type>char</type></link> *username</parameter>,
+                             <parameter>const <link linkend="char"><type>char</type></link> *otp</parameter>,
+                             <parameter><link linkend="size-t"><type>size_t</type></link> window</parameter>,
+                             <parameter>const <link linkend="char"><type>char</type></link> *passwd</parameter>,
+                             <parameter><link linkend="time-t"><type>time_t</type></link> *last_otp</parameter>);</programlisting>
+<para>Authenticate user named <parameter>username</parameter>
+ with the one-time password <parameter>otp</parameter>
+
+and (optional) password <parameter>passwd</parameter>
+.  Credentials are read (and
+updated) from a text file named <parameter>usersfile</parameter>
+.</para>
+<para>Note that for TOTP the usersfile will only record the last OTP and
+use that to make sure more recent OTPs have not been seen yet when
+validating a new OTP.  That logics relies on using the same search
+window for the same user.</para>
+<refsect3 role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>usersfile</para></entry>
+<entry role="parameter_description"><para>string with user credential filename, in UsersFile format</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>username</para></entry>
+<entry role="parameter_description"><para>string with name of user</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>otp</para></entry>
+<entry role="parameter_description"><para>string with one-time password to authenticate</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>window</para></entry>
+<entry role="parameter_description"><para>how many past/future OTPs to search</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>passwd</para></entry>
+<entry role="parameter_description"><para>string with password, or NULL to disable password checking</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>last_otp</para></entry>
+<entry role="parameter_description"><para>output variable holding last successful authentication</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 role="returns">
+<title>Returns</title>
+<para> On successful validation, <link linkend="OATH-OK:CAPS"><literal>OATH_OK</literal></link> is returned.  If the
+supplied <parameter>otp</parameter>
+is the same as the last successfully authenticated
+one-time password, <link linkend="OATH-REPLAYED-OTP:CAPS"><literal>OATH_REPLAYED_OTP</literal></link> is returned and the
+timestamp of the last authentication is returned in <parameter>last_otp</parameter>
+.
+If the one-time password is not found in the indicated search
+window, <link linkend="OATH-INVALID-OTP:CAPS"><literal>OATH_INVALID_OTP</literal></link> is returned.  Otherwise, an error code
+is returned.</para>
+</refsect3></refsect2>
+
+</refsect1>
+<refsect1 id="liboath-oath.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="OATHAPI:CAPS" role="macro">
+<title>OATHAPI</title>
+<indexterm zone="OATHAPI:CAPS"><primary>OATHAPI</primary></indexterm>
+<programlisting language="C">#  define OATHAPI __attribute__((__visibility__("default")))
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="OATH-VERSION:CAPS" role="macro">
+<title>OATH_VERSION</title>
+<indexterm zone="OATH-VERSION:CAPS"><primary>OATH_VERSION</primary></indexterm>
+<programlisting language="C">#define OATH_VERSION "2.6.1"
+</programlisting>
+<para>Pre-processor symbol with a string that describe the header file
+version number.  Used together with <link linkend="oath-check-version"><function>oath_check_version()</function></link> to verify
+header file and run-time library consistency.</para>
+</refsect2>
+<refsect2 id="OATH-VERSION-NUMBER:CAPS" role="macro">
+<title>OATH_VERSION_NUMBER</title>
+<indexterm zone="OATH-VERSION-NUMBER:CAPS"><primary>OATH_VERSION_NUMBER</primary></indexterm>
+<programlisting language="C">#define OATH_VERSION_NUMBER 0x02060100
+</programlisting>
+<para>Pre-processor symbol with a hexadecimal value describing the header
+file version number.  For example, when the header version is 1.2.3
+this symbol will have the value 0x01020300.  The last two digits
+are only used between public releases, and will otherwise be 00.</para>
+</refsect2>
+<refsect2 id="oath-rc" role="enum">
+<title>enum oath_rc</title>
+<indexterm zone="oath-rc"><primary>oath_rc</primary></indexterm>
+<para>Return codes for OATH functions.  All return codes are negative
+except for the successful code <link linkend="OATH-OK:CAPS"><literal>OATH_OK</literal></link> which are guaranteed to be</para>
+<orderedlist>
+<listitem>
+<para>Positive values are reserved for non-error return codes.</para>
+</listitem>
+</orderedlist>
+<para>Note that the <link linkend="oath-rc"><type>oath_rc</type></link> enumeration may be extended at a later date
+to include new return codes.</para>
+<refsect3 role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-OK:CAPS">OATH_OK</para></entry>
+<entry role="enum_member_description"><para>Successful return</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-CRYPTO-ERROR:CAPS">OATH_CRYPTO_ERROR</para></entry>
+<entry role="enum_member_description"><para>Internal error in crypto functions</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-INVALID-DIGITS:CAPS">OATH_INVALID_DIGITS</para></entry>
+<entry role="enum_member_description"><para>Unsupported number of OTP digits</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-PRINTF-ERROR:CAPS">OATH_PRINTF_ERROR</para></entry>
+<entry role="enum_member_description"><para>Error from system printf call</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-INVALID-HEX:CAPS">OATH_INVALID_HEX</para></entry>
+<entry role="enum_member_description"><para>Hex string is invalid</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-TOO-SMALL-BUFFER:CAPS">OATH_TOO_SMALL_BUFFER</para></entry>
+<entry role="enum_member_description"><para>The output buffer is too small</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-INVALID-OTP:CAPS">OATH_INVALID_OTP</para></entry>
+<entry role="enum_member_description"><para>The OTP is not valid</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-REPLAYED-OTP:CAPS">OATH_REPLAYED_OTP</para></entry>
+<entry role="enum_member_description"><para>The OTP has been replayed</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-BAD-PASSWORD:CAPS">OATH_BAD_PASSWORD</para></entry>
+<entry role="enum_member_description"><para>The password does not match</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-INVALID-COUNTER:CAPS">OATH_INVALID_COUNTER</para></entry>
+<entry role="enum_member_description"><para>The counter value is corrupt</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-INVALID-TIMESTAMP:CAPS">OATH_INVALID_TIMESTAMP</para></entry>
+<entry role="enum_member_description"><para>The timestamp is corrupt</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-NO-SUCH-FILE:CAPS">OATH_NO_SUCH_FILE</para></entry>
+<entry role="enum_member_description"><para>The supplied filename does not exist</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-UNKNOWN-USER:CAPS">OATH_UNKNOWN_USER</para></entry>
+<entry role="enum_member_description"><para>Cannot find information about user</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-FILE-SEEK-ERROR:CAPS">OATH_FILE_SEEK_ERROR</para></entry>
+<entry role="enum_member_description"><para>System error when seeking in file</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-FILE-CREATE-ERROR:CAPS">OATH_FILE_CREATE_ERROR</para></entry>
+<entry role="enum_member_description"><para>System error when creating file</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-FILE-LOCK-ERROR:CAPS">OATH_FILE_LOCK_ERROR</para></entry>
+<entry role="enum_member_description"><para>System error when locking file</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-FILE-RENAME-ERROR:CAPS">OATH_FILE_RENAME_ERROR</para></entry>
+<entry role="enum_member_description"><para>System error when renaming file</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-FILE-UNLINK-ERROR:CAPS">OATH_FILE_UNLINK_ERROR</para></entry>
+<entry role="enum_member_description"><para>System error when removing file</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-TIME-ERROR:CAPS">OATH_TIME_ERROR</para></entry>
+<entry role="enum_member_description"><para>System error for time manipulation</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-STRCMP-ERROR:CAPS">OATH_STRCMP_ERROR</para></entry>
+<entry role="enum_member_description"><para>A strcmp callback returned an error</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-INVALID-BASE32:CAPS">OATH_INVALID_BASE32</para></entry>
+<entry role="enum_member_description"><para>Base32 string is invalid</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-BASE32-OVERFLOW:CAPS">OATH_BASE32_OVERFLOW</para></entry>
+<entry role="enum_member_description"><para>Base32 encoding would overflow</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-MALLOC-ERROR:CAPS">OATH_MALLOC_ERROR</para></entry>
+<entry role="enum_member_description"><para>Memory allocation failed</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-FILE-FLUSH-ERROR:CAPS">OATH_FILE_FLUSH_ERROR</para></entry>
+<entry role="enum_member_description"><para>System error when flushing file buffer</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-FILE-SYNC-ERROR:CAPS">OATH_FILE_SYNC_ERROR</para></entry>
+<entry role="enum_member_description"><para>System error when syncing file to disk</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-FILE-CLOSE-ERROR:CAPS">OATH_FILE_CLOSE_ERROR</para></entry>
+<entry role="enum_member_description"><para>System error when closing file</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-LAST-ERROR:CAPS">OATH_LAST_ERROR</para></entry>
+<entry role="enum_member_description"><para>Meta-error indicating the last error code, for use
+  when iterating over all error codes or similar.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+<refsect2 id="OATH-HOTP-DYNAMIC-TRUNCATION:CAPS" role="macro">
+<title>OATH_HOTP_DYNAMIC_TRUNCATION</title>
+<indexterm zone="OATH-HOTP-DYNAMIC-TRUNCATION:CAPS"><primary>OATH_HOTP_DYNAMIC_TRUNCATION</primary></indexterm>
+<programlisting language="C">#define OATH_HOTP_DYNAMIC_TRUNCATION SIZE_MAX
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="oath-hotp-validate-strcmp-function" role="macro">
+<title>oath_hotp_validate_strcmp_function</title>
+<indexterm zone="oath-hotp-validate-strcmp-function"><primary>oath_hotp_validate_strcmp_function</primary></indexterm>
+<programlisting language="C">#define oath_hotp_validate_strcmp_function oath_validate_strcmp_function
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="OATH-TOTP-DEFAULT-TIME-STEP-SIZE:CAPS" role="macro">
+<title>OATH_TOTP_DEFAULT_TIME_STEP_SIZE</title>
+<indexterm zone="OATH-TOTP-DEFAULT-TIME-STEP-SIZE:CAPS"><primary>OATH_TOTP_DEFAULT_TIME_STEP_SIZE</primary></indexterm>
+<programlisting language="C">#define OATH_TOTP_DEFAULT_TIME_STEP_SIZE&#160;30
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="OATH-TOTP-DEFAULT-START-TIME:CAPS" role="macro">
+<title>OATH_TOTP_DEFAULT_START_TIME</title>
+<indexterm zone="OATH-TOTP-DEFAULT-START-TIME:CAPS"><primary>OATH_TOTP_DEFAULT_START_TIME</primary></indexterm>
+<programlisting language="C">#define OATH_TOTP_DEFAULT_START_TIME		((time_t) 0)
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="oath-totp-flags" role="enum" condition="since:2.6.0">
+<title>enum oath_totp_flags</title>
+<indexterm zone="oath-totp-flags" role="2.6.0"><primary>oath_totp_flags</primary></indexterm>
+<para>Flags for <link linkend="oath-totp-generate2"><function>oath_totp_generate2()</function></link>.</para>
+<refsect3 role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-TOTP-HMAC-SHA256:CAPS">OATH_TOTP_HMAC_SHA256</para></entry>
+<entry role="enum_member_description"><para>Use HMAC-SHA256 instead of HMAC-SHA1.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="OATH-TOTP-HMAC-SHA512:CAPS">OATH_TOTP_HMAC_SHA512</para></entry>
+<entry role="enum_member_description"><para>Use HMAC-SHA512 instead of HMAC-SHA1.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

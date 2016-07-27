@@ -1,0 +1,2227 @@
+<!-- ##### SECTION Title ##### -->
+config
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO DBL_EXPBIT0_BIT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO DBL_EXPBIT0_WORD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO FUNC_FFLUSH_STDIN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO FUNC_REALPATH_WORKS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GETTIMEOFDAY_TIMEZONE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_CANONICALIZE_LGPL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_FFLUSH ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_FSCANF ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_GC_HMAC_SHA1 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_GC_HMAC_SHA256 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_GC_HMAC_SHA512 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_SCANF ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_SNPRINTF ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_CANONICALIZE_FILE_NAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_CHDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_CLOSE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_CLOSEDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_ENVIRON ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_FCLOSE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_FDOPEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_FFLUSH ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_FOPEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_FPURGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_FSEEK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_FSEEKO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_FSTAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_FTELL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_FTELLO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_GETCWD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_GETDELIM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_GETLINE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_GETPAGESIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_GETTIMEOFDAY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_LINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_LSEEK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_LSTAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_MALLOC_POSIX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_MEMCHR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_OPENDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_PUTENV ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_READDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_READLINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_REALLOC_POSIX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_REALPATH ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_RENAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_RMDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_SNPRINTF ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_STAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_STRDUP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_STRTOK_R ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_STRVERSCMP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_SYMLINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_UNLINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GNULIB_TEST_UNSETENV ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_ALLOCA ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_ALLOCA_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_CANONICALIZE_FILE_NAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_CLOSEDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_DECL_FPURGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_DECL_FSEEKO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_DECL_FTELLO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_DECL_GETDELIM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_DECL_GETLINE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_DECL_SNPRINTF ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_DECL_STRDUP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_DECL_STRTOK_R ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_DECL_UNSETENV ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_DECL__SNPRINTF ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_DIRENT_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_DLFCN_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_ENVIRON_DECL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_FEATURES_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_FSEEKO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_GETCWD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_GETDELIM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_GETPAGESIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_GETTIMEOFDAY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_INTMAX_T ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_INTTYPES_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_INTTYPES_H_WITH_UINTMAX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_LINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_LONG_LONG_INT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_LSTAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_MALLOC_POSIX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_MAP_ANONYMOUS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_MBRTOWC ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_MEMORY_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_MPROTECT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_OPENDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_ALPHASORT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_ATOLL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_BTOWC ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_CANONICALIZE_FILE_NAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_CHDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_CHOWN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_CLOSEDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_DIRFD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_DPRINTF ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_DUP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_DUP2 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_DUP3 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_ENDUSERSHELL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_ENVIRON ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_EUIDACCESS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FACCESSAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FCHDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FCHMODAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FCHOWNAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FCNTL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FDATASYNC ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FDOPENDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FFSL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FFSLL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FSEEKO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FSTAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FSTATAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FSYNC ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FTELLO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FTRUNCATE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_FUTIMENS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETCWD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETDELIM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETDOMAINNAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETDTABLESIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETGROUPS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETHOSTNAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETLINE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETLOADAVG ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETLOGIN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETLOGIN_R ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETPAGESIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETSUBOPT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETTIMEOFDAY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GETUSERSHELL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GRANTPT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_GROUP_MEMBER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_IMAXABS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_IMAXDIV ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_INITSTATE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_INITSTATE_R ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_ISATTY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_LCHMOD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_LCHOWN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_LINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_LINKAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_LSEEK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_LSTAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MBRLEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MBRTOWC ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MBSINIT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MBSNRTOWCS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MBSRTOWCS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MEMMEM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MEMPCPY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MEMRCHR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MKDIRAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MKDTEMP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MKFIFO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MKFIFOAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MKNOD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MKNODAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MKOSTEMP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MKOSTEMPS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MKSTEMP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_MKSTEMPS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_OPENAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_OPENDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_PCLOSE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_PIPE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_PIPE2 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_POPEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_POSIX_OPENPT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_PREAD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_PTSNAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_PTSNAME_R ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_PWRITE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_RANDOM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_RANDOM_R ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_RAWMEMCHR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_READDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_READLINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_READLINKAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_REALPATH ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_RENAMEAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_REWINDDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_RMDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_RPMATCH ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SCANDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SECURE_GETENV ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SETENV ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SETHOSTNAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SETSTATE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SETSTATE_R ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SETUSERSHELL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SLEEP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SNPRINTF ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SRANDOM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SRANDOM_R ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STPCPY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STPNCPY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRCASESTR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRCHRNUL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRDUP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRERROR_R ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRNCAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRNDUP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRNLEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRPBRK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRSEP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRSIGNAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRTOD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRTOIMAX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRTOK_R ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRTOLL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRTOULL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRTOUMAX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_STRVERSCMP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SYMLINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_SYMLINKAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_TMPFILE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_TTYNAME_R ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_UNLINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_UNLINKAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_UNLOCKPT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_UNSETENV ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_USLEEP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_UTIMENSAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_VDPRINTF ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_VSNPRINTF ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCPCPY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCPNCPY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCRTOMB ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSCASECMP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSCAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSCHR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSCMP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSCOLL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSCPY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSCSPN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSDUP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSLEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSNCASECMP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSNCAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSNCMP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSNCPY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSNLEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSNRTOMBS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSPBRK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSRCHR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSRTOMBS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSSPN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSSTR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSTOK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSWIDTH ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCSXFRM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCTOB ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WCWIDTH ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WMEMCHR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WMEMCMP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WMEMCPY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WMEMMOVE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL_WMEMSET ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_RAW_DECL__EXIT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_READDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_READLINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_REALLOC_POSIX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_REALPATH ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_SNPRINTF ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_SNPRINTF_RETVAL_C99 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_STDINT_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_STDINT_H_WITH_UINTMAX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_STDLIB_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_STRDUP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_STRINGS_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_STRING_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_STRNLEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_STRTOK_R ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_STRVERSCMP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_SYMLINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_SYS_MMAN_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_SYS_PARAM_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_SYS_SOCKET_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_SYS_STAT_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_SYS_TIME_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_SYS_TYPES_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_UNISTD_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_UNSETENV ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_UNSIGNED_LONG_LONG_INT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_VISIBILITY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_WCHAR_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_WCHAR_T ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_WCRTOMB ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_WCSLEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_WCSNLEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_WINT_T ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_WORKING_O_NOATIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE_WORKING_O_NOFOLLOW ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE__BOOL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE___FPURGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HAVE___FREADING ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO LSTAT_FOLLOWS_SLASHED_SYMLINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO LT_OBJDIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO PACKAGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO PACKAGE_BUGREPORT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO PACKAGE_NAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO PACKAGE_STRING ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO PACKAGE_TARNAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO PACKAGE_URL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO PACKAGE_VERSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO STDC_HEADERS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UNLINK_CANNOT_UNLINK_DIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO VERSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO WORDS_BIGENDIAN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO restrict ##### -->
+<para>
+
+</para>
+
+
+

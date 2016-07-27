@@ -1,0 +1,65 @@
+<!-- ##### SECTION Title ##### -->
+global
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION pskc_global_init ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_global_done ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### USER_FUNCTION pskc_log_func ##### -->
+<para>
+
+</para>
+
+@msg: 
+
+
+<!-- ##### FUNCTION pskc_global_log ##### -->
+<para>
+
+</para>
+
+@log_func: 
+
+
+<!-- ##### FUNCTION pskc_free ##### -->
+<para>
+
+</para>
+
+@ptr: 
+
+

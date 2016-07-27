@@ -1,0 +1,82 @@
+Copyright (C) 2009-2015 Simon Josefsson.  Licensed under the GPLv3+.
+
+.Download, build and self-check version controlled sources:
+----
+$ git clone git://git.savannah.nongnu.org/oath-toolkit.git
+$ cd oath-toolkit
+$ make
+$ make check
+----
+
+Links to resources that may be useful if you want to get involved the
+project:
+
+* Mailing list: http://lists.nongnu.org/mailman/listinfo/oath-toolkit-help
+
+* Savannah OATH Toolkit Project page: https://savannah.nongnu.org/projects/oath-toolkit/
+
+* Bug tracker: https://savannah.nongnu.org/support/?group=oath-toolkit
+
+* Code browser: http://git.savannah.gnu.org/cgit/oath-toolkit.git/tree
+
+* Code coverage report: http://www.nongnu.org/oath-toolkit/coverage/
+
+* Clang code analysis: http://www.nongnu.org/oath-toolkit/clang-analyzer/
+
+* Daily snapshot: http://daily.josefsson.org/oath-toolkit/
+
+* Build bot status: http://autobuild.josefsson.org/oath-toolkit/
+
+Several tools are required to build the software, including:
+
+- Make <http://www.gnu.org/software/make/>
+- Automake <http://www.gnu.org/software/automake/>
+- Autoconf <http://www.gnu.org/software/autoconf/>
+- Libtool <http://www.gnu.org/software/libtool/>
+- Bison <http://www.gnu.org/software/bison/>
+- help2man <http://www.gnu.org/software/help2man/>
+- Gengetopt <http://www.gnu.org/software/gengetopt/>
+- Tar <http://www.gnu.org/software/tar/>
+- Gzip <http://www.gnu.org/software/gzip/>
+- GTK-DOC <http://www.gtk.org/gtk-doc/> (for API manual)
+- Git <http://git.or.cz/>
+- Valgrind <http://valgrind.org/> (optional)
+- PAM library/headers (optional, required for PAM module)
+- XMLSec <http://www.aleksey.com/xmlsec/> (optional, for libpskc)
+
+The software is typically distributed with your operating system, and
+the instructions for installing them differ.  Here are some hints:
+
+.gNewSense/Debian/Ubuntu dependencies:
+-----
+apt-get install make git autoconf automake libtool bison libxmlsec1-dev
+apt-get install help2man gtk-doc-tools valgrind gengetopt
+-----
+
+If you have hints on how to install the required dependencies on other
+operating systems, please let us know.
+
+When building from version controlled sources, some developer specific
+flags are automatically enabled.  For example, the self-checks are run
+under valgrind if available.  For various reasons, you may run into
+valgrind false positives that will cause self-checks to fail.  We ship
+a Valgrind suppression file to address common issues.  You can use it
+by putting the following in your ~/.valgrindrc:
+
+----
+--suppressions=/path/to/oath-toolkit/libpskc/tests/libpskc.supp
+----
+
+To prepare releases (see rules in cfg.mk) you need some additional
+tools:
+
+- Asciidoc <http://www.methods.co.nz/asciidoc/>
+- Lcov (to produce coverage HTML pages)
+- Clang (to produce clang analysis)
+
+.gNewSense/Debian/Ubuntu dependencies:
+-----
+apt-get install asciidoc lcov clang
+-----
+
+Happy hacking!

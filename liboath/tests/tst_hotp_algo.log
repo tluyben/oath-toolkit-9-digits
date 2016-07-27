@@ -1,0 +1,2 @@
+oath_hotp_generate 9 digits 0
+FAIL tst_hotp_algo (exit status: 1)

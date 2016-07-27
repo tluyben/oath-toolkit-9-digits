@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+          "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+	  [
+	  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+	  <!ENTITY version SYSTEM "version.xml">
+	  ]>
+<indexdiv id="api-index-full">
+<indexdiv><title>A</title>
+<indexentry><primaryie linkends="HAVE-ALLOCA:CAPS"><link linkend="HAVE-ALLOCA:CAPS">HAVE_ALLOCA</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-ALLOCA-H:CAPS"><link linkend="HAVE-ALLOCA-H:CAPS">HAVE_ALLOCA_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>C</title>
+<indexentry><primaryie linkends="HAVE-CANONICALIZE-FILE-NAME:CAPS"><link linkend="HAVE-CANONICALIZE-FILE-NAME:CAPS">HAVE_CANONICALIZE_FILE_NAME</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-CLOSEDIR:CAPS"><link linkend="HAVE-CLOSEDIR:CAPS">HAVE_CLOSEDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>D</title>
+<indexentry><primaryie linkends="DBL-EXPBIT0-BIT:CAPS"><link linkend="DBL-EXPBIT0-BIT:CAPS">DBL_EXPBIT0_BIT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="DBL-EXPBIT0-WORD:CAPS"><link linkend="DBL-EXPBIT0-WORD:CAPS">DBL_EXPBIT0_WORD</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-DECL-FPURGE:CAPS"><link linkend="HAVE-DECL-FPURGE:CAPS">HAVE_DECL_FPURGE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-DECL-FSEEKO:CAPS"><link linkend="HAVE-DECL-FSEEKO:CAPS">HAVE_DECL_FSEEKO</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-DECL-FTELLO:CAPS"><link linkend="HAVE-DECL-FTELLO:CAPS">HAVE_DECL_FTELLO</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-DECL-GETDELIM:CAPS"><link linkend="HAVE-DECL-GETDELIM:CAPS">HAVE_DECL_GETDELIM</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-DECL-GETLINE:CAPS"><link linkend="HAVE-DECL-GETLINE:CAPS">HAVE_DECL_GETLINE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-DECL-SNPRINTF:CAPS"><link linkend="HAVE-DECL-SNPRINTF:CAPS">HAVE_DECL_SNPRINTF</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-DECL-STRDUP:CAPS"><link linkend="HAVE-DECL-STRDUP:CAPS">HAVE_DECL_STRDUP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-DECL-STRTOK-R:CAPS"><link linkend="HAVE-DECL-STRTOK-R:CAPS">HAVE_DECL_STRTOK_R</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-DECL-UNSETENV:CAPS"><link linkend="HAVE-DECL-UNSETENV:CAPS">HAVE_DECL_UNSETENV</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-DECL--SNPRINTF:CAPS"><link linkend="HAVE-DECL--SNPRINTF:CAPS">HAVE_DECL__SNPRINTF</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-DIRENT-H:CAPS"><link linkend="HAVE-DIRENT-H:CAPS">HAVE_DIRENT_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-DLFCN-H:CAPS"><link linkend="HAVE-DLFCN-H:CAPS">HAVE_DLFCN_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>E</title>
+<indexentry><primaryie linkends="HAVE-ENVIRON-DECL:CAPS"><link linkend="HAVE-ENVIRON-DECL:CAPS">HAVE_ENVIRON_DECL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="HAVE-FEATURES-H:CAPS"><link linkend="HAVE-FEATURES-H:CAPS">HAVE_FEATURES_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-FSEEKO:CAPS"><link linkend="HAVE-FSEEKO:CAPS">HAVE_FSEEKO</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="FUNC-FFLUSH-STDIN:CAPS"><link linkend="FUNC-FFLUSH-STDIN:CAPS">FUNC_FFLUSH_STDIN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="FUNC-REALPATH-WORKS:CAPS"><link linkend="FUNC-REALPATH-WORKS:CAPS">FUNC_REALPATH_WORKS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="HAVE-GETCWD:CAPS"><link linkend="HAVE-GETCWD:CAPS">HAVE_GETCWD</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-GETDELIM:CAPS"><link linkend="HAVE-GETDELIM:CAPS">HAVE_GETDELIM</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-GETPAGESIZE:CAPS"><link linkend="HAVE-GETPAGESIZE:CAPS">HAVE_GETPAGESIZE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-GETTIMEOFDAY:CAPS"><link linkend="HAVE-GETTIMEOFDAY:CAPS">HAVE_GETTIMEOFDAY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GETTIMEOFDAY-TIMEZONE:CAPS"><link linkend="GETTIMEOFDAY-TIMEZONE:CAPS">GETTIMEOFDAY_TIMEZONE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-CANONICALIZE-LGPL:CAPS"><link linkend="GNULIB-CANONICALIZE-LGPL:CAPS">GNULIB_CANONICALIZE_LGPL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-FFLUSH:CAPS"><link linkend="GNULIB-FFLUSH:CAPS">GNULIB_FFLUSH</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-FSCANF:CAPS"><link linkend="GNULIB-FSCANF:CAPS">GNULIB_FSCANF</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-GC-HMAC-SHA1:CAPS"><link linkend="GNULIB-GC-HMAC-SHA1:CAPS">GNULIB_GC_HMAC_SHA1</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-GC-HMAC-SHA256:CAPS"><link linkend="GNULIB-GC-HMAC-SHA256:CAPS">GNULIB_GC_HMAC_SHA256</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-GC-HMAC-SHA512:CAPS"><link linkend="GNULIB-GC-HMAC-SHA512:CAPS">GNULIB_GC_HMAC_SHA512</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-SCANF:CAPS"><link linkend="GNULIB-SCANF:CAPS">GNULIB_SCANF</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-SNPRINTF:CAPS"><link linkend="GNULIB-SNPRINTF:CAPS">GNULIB_SNPRINTF</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-CANONICALIZE-FILE-NAME:CAPS"><link linkend="GNULIB-TEST-CANONICALIZE-FILE-NAME:CAPS">GNULIB_TEST_CANONICALIZE_FILE_NAME</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-CHDIR:CAPS"><link linkend="GNULIB-TEST-CHDIR:CAPS">GNULIB_TEST_CHDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-CLOSE:CAPS"><link linkend="GNULIB-TEST-CLOSE:CAPS">GNULIB_TEST_CLOSE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-CLOSEDIR:CAPS"><link linkend="GNULIB-TEST-CLOSEDIR:CAPS">GNULIB_TEST_CLOSEDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-ENVIRON:CAPS"><link linkend="GNULIB-TEST-ENVIRON:CAPS">GNULIB_TEST_ENVIRON</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-FCLOSE:CAPS"><link linkend="GNULIB-TEST-FCLOSE:CAPS">GNULIB_TEST_FCLOSE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-FDOPEN:CAPS"><link linkend="GNULIB-TEST-FDOPEN:CAPS">GNULIB_TEST_FDOPEN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-FFLUSH:CAPS"><link linkend="GNULIB-TEST-FFLUSH:CAPS">GNULIB_TEST_FFLUSH</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-FOPEN:CAPS"><link linkend="GNULIB-TEST-FOPEN:CAPS">GNULIB_TEST_FOPEN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-FPURGE:CAPS"><link linkend="GNULIB-TEST-FPURGE:CAPS">GNULIB_TEST_FPURGE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-FSEEK:CAPS"><link linkend="GNULIB-TEST-FSEEK:CAPS">GNULIB_TEST_FSEEK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-FSEEKO:CAPS"><link linkend="GNULIB-TEST-FSEEKO:CAPS">GNULIB_TEST_FSEEKO</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-FSTAT:CAPS"><link linkend="GNULIB-TEST-FSTAT:CAPS">GNULIB_TEST_FSTAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-FTELL:CAPS"><link linkend="GNULIB-TEST-FTELL:CAPS">GNULIB_TEST_FTELL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-FTELLO:CAPS"><link linkend="GNULIB-TEST-FTELLO:CAPS">GNULIB_TEST_FTELLO</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-GETCWD:CAPS"><link linkend="GNULIB-TEST-GETCWD:CAPS">GNULIB_TEST_GETCWD</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-GETDELIM:CAPS"><link linkend="GNULIB-TEST-GETDELIM:CAPS">GNULIB_TEST_GETDELIM</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-GETLINE:CAPS"><link linkend="GNULIB-TEST-GETLINE:CAPS">GNULIB_TEST_GETLINE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-GETPAGESIZE:CAPS"><link linkend="GNULIB-TEST-GETPAGESIZE:CAPS">GNULIB_TEST_GETPAGESIZE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-GETTIMEOFDAY:CAPS"><link linkend="GNULIB-TEST-GETTIMEOFDAY:CAPS">GNULIB_TEST_GETTIMEOFDAY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-LINK:CAPS"><link linkend="GNULIB-TEST-LINK:CAPS">GNULIB_TEST_LINK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-LSEEK:CAPS"><link linkend="GNULIB-TEST-LSEEK:CAPS">GNULIB_TEST_LSEEK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-LSTAT:CAPS"><link linkend="GNULIB-TEST-LSTAT:CAPS">GNULIB_TEST_LSTAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-MALLOC-POSIX:CAPS"><link linkend="GNULIB-TEST-MALLOC-POSIX:CAPS">GNULIB_TEST_MALLOC_POSIX</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-MEMCHR:CAPS"><link linkend="GNULIB-TEST-MEMCHR:CAPS">GNULIB_TEST_MEMCHR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-OPENDIR:CAPS"><link linkend="GNULIB-TEST-OPENDIR:CAPS">GNULIB_TEST_OPENDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-PUTENV:CAPS"><link linkend="GNULIB-TEST-PUTENV:CAPS">GNULIB_TEST_PUTENV</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-READDIR:CAPS"><link linkend="GNULIB-TEST-READDIR:CAPS">GNULIB_TEST_READDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-READLINK:CAPS"><link linkend="GNULIB-TEST-READLINK:CAPS">GNULIB_TEST_READLINK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-REALLOC-POSIX:CAPS"><link linkend="GNULIB-TEST-REALLOC-POSIX:CAPS">GNULIB_TEST_REALLOC_POSIX</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-REALPATH:CAPS"><link linkend="GNULIB-TEST-REALPATH:CAPS">GNULIB_TEST_REALPATH</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-RENAME:CAPS"><link linkend="GNULIB-TEST-RENAME:CAPS">GNULIB_TEST_RENAME</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-RMDIR:CAPS"><link linkend="GNULIB-TEST-RMDIR:CAPS">GNULIB_TEST_RMDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-SNPRINTF:CAPS"><link linkend="GNULIB-TEST-SNPRINTF:CAPS">GNULIB_TEST_SNPRINTF</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-STAT:CAPS"><link linkend="GNULIB-TEST-STAT:CAPS">GNULIB_TEST_STAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-STRDUP:CAPS"><link linkend="GNULIB-TEST-STRDUP:CAPS">GNULIB_TEST_STRDUP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-STRTOK-R:CAPS"><link linkend="GNULIB-TEST-STRTOK-R:CAPS">GNULIB_TEST_STRTOK_R</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-STRVERSCMP:CAPS"><link linkend="GNULIB-TEST-STRVERSCMP:CAPS">GNULIB_TEST_STRVERSCMP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-SYMLINK:CAPS"><link linkend="GNULIB-TEST-SYMLINK:CAPS">GNULIB_TEST_SYMLINK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-UNLINK:CAPS"><link linkend="GNULIB-TEST-UNLINK:CAPS">GNULIB_TEST_UNLINK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GNULIB-TEST-UNSETENV:CAPS"><link linkend="GNULIB-TEST-UNSETENV:CAPS">GNULIB_TEST_UNSETENV</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>I</title>
+<indexentry><primaryie linkends="HAVE-INTMAX-T:CAPS"><link linkend="HAVE-INTMAX-T:CAPS">HAVE_INTMAX_T</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-INTTYPES-H:CAPS"><link linkend="HAVE-INTTYPES-H:CAPS">HAVE_INTTYPES_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-INTTYPES-H-WITH-UINTMAX:CAPS"><link linkend="HAVE-INTTYPES-H-WITH-UINTMAX:CAPS">HAVE_INTTYPES_H_WITH_UINTMAX</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>L</title>
+<indexentry><primaryie linkends="HAVE-LINK:CAPS"><link linkend="HAVE-LINK:CAPS">HAVE_LINK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-LONG-LONG-INT:CAPS"><link linkend="HAVE-LONG-LONG-INT:CAPS">HAVE_LONG_LONG_INT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-LSTAT:CAPS"><link linkend="HAVE-LSTAT:CAPS">HAVE_LSTAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="LSTAT-FOLLOWS-SLASHED-SYMLINK:CAPS"><link linkend="LSTAT-FOLLOWS-SLASHED-SYMLINK:CAPS">LSTAT_FOLLOWS_SLASHED_SYMLINK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="LT-OBJDIR:CAPS"><link linkend="LT-OBJDIR:CAPS">LT_OBJDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>M</title>
+<indexentry><primaryie linkends="HAVE-MALLOC-POSIX:CAPS"><link linkend="HAVE-MALLOC-POSIX:CAPS">HAVE_MALLOC_POSIX</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-MAP-ANONYMOUS:CAPS"><link linkend="HAVE-MAP-ANONYMOUS:CAPS">HAVE_MAP_ANONYMOUS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-MBRTOWC:CAPS"><link linkend="HAVE-MBRTOWC:CAPS">HAVE_MBRTOWC</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-MEMORY-H:CAPS"><link linkend="HAVE-MEMORY-H:CAPS">HAVE_MEMORY_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-MPROTECT:CAPS"><link linkend="HAVE-MPROTECT:CAPS">HAVE_MPROTECT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="OATHAPI:CAPS"><link linkend="OATHAPI:CAPS">OATHAPI</link>, macro in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-authenticate-usersfile"><link linkend="oath-authenticate-usersfile">oath_authenticate_usersfile</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-base32-decode"><link linkend="oath-base32-decode">oath_base32_decode</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-base32-encode"><link linkend="oath-base32-encode">oath_base32_encode</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-bin2hex"><link linkend="oath-bin2hex">oath_bin2hex</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-check-version"><link linkend="oath-check-version">oath_check_version</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-done"><link linkend="oath-done">oath_done</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-hex2bin"><link linkend="oath-hex2bin">oath_hex2bin</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="OATH-HOTP-DYNAMIC-TRUNCATION:CAPS"><link linkend="OATH-HOTP-DYNAMIC-TRUNCATION:CAPS">OATH_HOTP_DYNAMIC_TRUNCATION</link>, macro in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-hotp-generate"><link linkend="oath-hotp-generate">oath_hotp_generate</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="OATH-HOTP-LENGTH:CAPS"><link linkend="OATH-HOTP-LENGTH:CAPS">OATH_HOTP_LENGTH</link>, macro in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-hotp-validate"><link linkend="oath-hotp-validate">oath_hotp_validate</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-hotp-validate-callback"><link linkend="oath-hotp-validate-callback">oath_hotp_validate_callback</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-hotp-validate-strcmp-function"><link linkend="oath-hotp-validate-strcmp-function">oath_hotp_validate_strcmp_function</link>, macro in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-init"><link linkend="oath-init">oath_init</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-rc"><link linkend="oath-rc">oath_rc</link>, enum in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-strerror"><link linkend="oath-strerror">oath_strerror</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-strerror-name"><link linkend="oath-strerror-name">oath_strerror_name</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="OATH-TOTP-DEFAULT-START-TIME:CAPS"><link linkend="OATH-TOTP-DEFAULT-START-TIME:CAPS">OATH_TOTP_DEFAULT_START_TIME</link>, macro in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="OATH-TOTP-DEFAULT-TIME-STEP-SIZE:CAPS"><link linkend="OATH-TOTP-DEFAULT-TIME-STEP-SIZE:CAPS">OATH_TOTP_DEFAULT_TIME_STEP_SIZE</link>, macro in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-totp-flags"><link linkend="oath-totp-flags">oath_totp_flags</link>, enum in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-totp-generate"><link linkend="oath-totp-generate">oath_totp_generate</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-totp-generate2"><link linkend="oath-totp-generate2">oath_totp_generate2</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-totp-validate"><link linkend="oath-totp-validate">oath_totp_validate</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-totp-validate2"><link linkend="oath-totp-validate2">oath_totp_validate2</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-totp-validate2-callback"><link linkend="oath-totp-validate2-callback">oath_totp_validate2_callback</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-totp-validate3"><link linkend="oath-totp-validate3">oath_totp_validate3</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-totp-validate3-callback"><link linkend="oath-totp-validate3-callback">oath_totp_validate3_callback</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-totp-validate4"><link linkend="oath-totp-validate4">oath_totp_validate4</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-totp-validate4-callback"><link linkend="oath-totp-validate4-callback">oath_totp_validate4_callback</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-totp-validate-callback"><link linkend="oath-totp-validate-callback">oath_totp_validate_callback</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-validate-strcmp-function"><link linkend="oath-validate-strcmp-function">oath_validate_strcmp_function</link>, user_function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="OATH-VERSION:CAPS"><link linkend="OATH-VERSION:CAPS">OATH_VERSION</link>, macro in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="OATH-VERSION-NUMBER:CAPS"><link linkend="OATH-VERSION-NUMBER:CAPS">OATH_VERSION_NUMBER</link>, macro in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-OPENDIR:CAPS"><link linkend="HAVE-OPENDIR:CAPS">HAVE_OPENDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>P</title>
+<indexentry><primaryie linkends="PACKAGE:CAPS"><link linkend="PACKAGE:CAPS">PACKAGE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="PACKAGE-BUGREPORT:CAPS"><link linkend="PACKAGE-BUGREPORT:CAPS">PACKAGE_BUGREPORT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="PACKAGE-NAME:CAPS"><link linkend="PACKAGE-NAME:CAPS">PACKAGE_NAME</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="PACKAGE-STRING:CAPS"><link linkend="PACKAGE-STRING:CAPS">PACKAGE_STRING</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="PACKAGE-TARNAME:CAPS"><link linkend="PACKAGE-TARNAME:CAPS">PACKAGE_TARNAME</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="PACKAGE-URL:CAPS"><link linkend="PACKAGE-URL:CAPS">PACKAGE_URL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="PACKAGE-VERSION:CAPS"><link linkend="PACKAGE-VERSION:CAPS">PACKAGE_VERSION</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>R</title>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-ALPHASORT:CAPS"><link linkend="HAVE-RAW-DECL-ALPHASORT:CAPS">HAVE_RAW_DECL_ALPHASORT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-ATOLL:CAPS"><link linkend="HAVE-RAW-DECL-ATOLL:CAPS">HAVE_RAW_DECL_ATOLL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-BTOWC:CAPS"><link linkend="HAVE-RAW-DECL-BTOWC:CAPS">HAVE_RAW_DECL_BTOWC</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-CANONICALIZE-FILE-NAME:CAPS"><link linkend="HAVE-RAW-DECL-CANONICALIZE-FILE-NAME:CAPS">HAVE_RAW_DECL_CANONICALIZE_FILE_NAME</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-CHDIR:CAPS"><link linkend="HAVE-RAW-DECL-CHDIR:CAPS">HAVE_RAW_DECL_CHDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-CHOWN:CAPS"><link linkend="HAVE-RAW-DECL-CHOWN:CAPS">HAVE_RAW_DECL_CHOWN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-CLOSEDIR:CAPS"><link linkend="HAVE-RAW-DECL-CLOSEDIR:CAPS">HAVE_RAW_DECL_CLOSEDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-DIRFD:CAPS"><link linkend="HAVE-RAW-DECL-DIRFD:CAPS">HAVE_RAW_DECL_DIRFD</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-DPRINTF:CAPS"><link linkend="HAVE-RAW-DECL-DPRINTF:CAPS">HAVE_RAW_DECL_DPRINTF</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-DUP:CAPS"><link linkend="HAVE-RAW-DECL-DUP:CAPS">HAVE_RAW_DECL_DUP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-DUP2:CAPS"><link linkend="HAVE-RAW-DECL-DUP2:CAPS">HAVE_RAW_DECL_DUP2</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-DUP3:CAPS"><link linkend="HAVE-RAW-DECL-DUP3:CAPS">HAVE_RAW_DECL_DUP3</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-ENDUSERSHELL:CAPS"><link linkend="HAVE-RAW-DECL-ENDUSERSHELL:CAPS">HAVE_RAW_DECL_ENDUSERSHELL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-ENVIRON:CAPS"><link linkend="HAVE-RAW-DECL-ENVIRON:CAPS">HAVE_RAW_DECL_ENVIRON</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-EUIDACCESS:CAPS"><link linkend="HAVE-RAW-DECL-EUIDACCESS:CAPS">HAVE_RAW_DECL_EUIDACCESS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FACCESSAT:CAPS"><link linkend="HAVE-RAW-DECL-FACCESSAT:CAPS">HAVE_RAW_DECL_FACCESSAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FCHDIR:CAPS"><link linkend="HAVE-RAW-DECL-FCHDIR:CAPS">HAVE_RAW_DECL_FCHDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FCHMODAT:CAPS"><link linkend="HAVE-RAW-DECL-FCHMODAT:CAPS">HAVE_RAW_DECL_FCHMODAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FCHOWNAT:CAPS"><link linkend="HAVE-RAW-DECL-FCHOWNAT:CAPS">HAVE_RAW_DECL_FCHOWNAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FCNTL:CAPS"><link linkend="HAVE-RAW-DECL-FCNTL:CAPS">HAVE_RAW_DECL_FCNTL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FDATASYNC:CAPS"><link linkend="HAVE-RAW-DECL-FDATASYNC:CAPS">HAVE_RAW_DECL_FDATASYNC</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FDOPENDIR:CAPS"><link linkend="HAVE-RAW-DECL-FDOPENDIR:CAPS">HAVE_RAW_DECL_FDOPENDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FFSL:CAPS"><link linkend="HAVE-RAW-DECL-FFSL:CAPS">HAVE_RAW_DECL_FFSL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FFSLL:CAPS"><link linkend="HAVE-RAW-DECL-FFSLL:CAPS">HAVE_RAW_DECL_FFSLL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FSEEKO:CAPS"><link linkend="HAVE-RAW-DECL-FSEEKO:CAPS">HAVE_RAW_DECL_FSEEKO</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FSTAT:CAPS"><link linkend="HAVE-RAW-DECL-FSTAT:CAPS">HAVE_RAW_DECL_FSTAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FSTATAT:CAPS"><link linkend="HAVE-RAW-DECL-FSTATAT:CAPS">HAVE_RAW_DECL_FSTATAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FSYNC:CAPS"><link linkend="HAVE-RAW-DECL-FSYNC:CAPS">HAVE_RAW_DECL_FSYNC</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FTELLO:CAPS"><link linkend="HAVE-RAW-DECL-FTELLO:CAPS">HAVE_RAW_DECL_FTELLO</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FTRUNCATE:CAPS"><link linkend="HAVE-RAW-DECL-FTRUNCATE:CAPS">HAVE_RAW_DECL_FTRUNCATE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-FUTIMENS:CAPS"><link linkend="HAVE-RAW-DECL-FUTIMENS:CAPS">HAVE_RAW_DECL_FUTIMENS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETCWD:CAPS"><link linkend="HAVE-RAW-DECL-GETCWD:CAPS">HAVE_RAW_DECL_GETCWD</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETDELIM:CAPS"><link linkend="HAVE-RAW-DECL-GETDELIM:CAPS">HAVE_RAW_DECL_GETDELIM</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETDOMAINNAME:CAPS"><link linkend="HAVE-RAW-DECL-GETDOMAINNAME:CAPS">HAVE_RAW_DECL_GETDOMAINNAME</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETDTABLESIZE:CAPS"><link linkend="HAVE-RAW-DECL-GETDTABLESIZE:CAPS">HAVE_RAW_DECL_GETDTABLESIZE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETGROUPS:CAPS"><link linkend="HAVE-RAW-DECL-GETGROUPS:CAPS">HAVE_RAW_DECL_GETGROUPS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETHOSTNAME:CAPS"><link linkend="HAVE-RAW-DECL-GETHOSTNAME:CAPS">HAVE_RAW_DECL_GETHOSTNAME</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETLINE:CAPS"><link linkend="HAVE-RAW-DECL-GETLINE:CAPS">HAVE_RAW_DECL_GETLINE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETLOADAVG:CAPS"><link linkend="HAVE-RAW-DECL-GETLOADAVG:CAPS">HAVE_RAW_DECL_GETLOADAVG</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETLOGIN:CAPS"><link linkend="HAVE-RAW-DECL-GETLOGIN:CAPS">HAVE_RAW_DECL_GETLOGIN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETLOGIN-R:CAPS"><link linkend="HAVE-RAW-DECL-GETLOGIN-R:CAPS">HAVE_RAW_DECL_GETLOGIN_R</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETPAGESIZE:CAPS"><link linkend="HAVE-RAW-DECL-GETPAGESIZE:CAPS">HAVE_RAW_DECL_GETPAGESIZE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETSUBOPT:CAPS"><link linkend="HAVE-RAW-DECL-GETSUBOPT:CAPS">HAVE_RAW_DECL_GETSUBOPT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETTIMEOFDAY:CAPS"><link linkend="HAVE-RAW-DECL-GETTIMEOFDAY:CAPS">HAVE_RAW_DECL_GETTIMEOFDAY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GETUSERSHELL:CAPS"><link linkend="HAVE-RAW-DECL-GETUSERSHELL:CAPS">HAVE_RAW_DECL_GETUSERSHELL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GRANTPT:CAPS"><link linkend="HAVE-RAW-DECL-GRANTPT:CAPS">HAVE_RAW_DECL_GRANTPT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-GROUP-MEMBER:CAPS"><link linkend="HAVE-RAW-DECL-GROUP-MEMBER:CAPS">HAVE_RAW_DECL_GROUP_MEMBER</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-IMAXABS:CAPS"><link linkend="HAVE-RAW-DECL-IMAXABS:CAPS">HAVE_RAW_DECL_IMAXABS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-IMAXDIV:CAPS"><link linkend="HAVE-RAW-DECL-IMAXDIV:CAPS">HAVE_RAW_DECL_IMAXDIV</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-INITSTATE:CAPS"><link linkend="HAVE-RAW-DECL-INITSTATE:CAPS">HAVE_RAW_DECL_INITSTATE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-INITSTATE-R:CAPS"><link linkend="HAVE-RAW-DECL-INITSTATE-R:CAPS">HAVE_RAW_DECL_INITSTATE_R</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-ISATTY:CAPS"><link linkend="HAVE-RAW-DECL-ISATTY:CAPS">HAVE_RAW_DECL_ISATTY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-LCHMOD:CAPS"><link linkend="HAVE-RAW-DECL-LCHMOD:CAPS">HAVE_RAW_DECL_LCHMOD</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-LCHOWN:CAPS"><link linkend="HAVE-RAW-DECL-LCHOWN:CAPS">HAVE_RAW_DECL_LCHOWN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-LINK:CAPS"><link linkend="HAVE-RAW-DECL-LINK:CAPS">HAVE_RAW_DECL_LINK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-LINKAT:CAPS"><link linkend="HAVE-RAW-DECL-LINKAT:CAPS">HAVE_RAW_DECL_LINKAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-LSEEK:CAPS"><link linkend="HAVE-RAW-DECL-LSEEK:CAPS">HAVE_RAW_DECL_LSEEK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-LSTAT:CAPS"><link linkend="HAVE-RAW-DECL-LSTAT:CAPS">HAVE_RAW_DECL_LSTAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MBRLEN:CAPS"><link linkend="HAVE-RAW-DECL-MBRLEN:CAPS">HAVE_RAW_DECL_MBRLEN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MBRTOWC:CAPS"><link linkend="HAVE-RAW-DECL-MBRTOWC:CAPS">HAVE_RAW_DECL_MBRTOWC</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MBSINIT:CAPS"><link linkend="HAVE-RAW-DECL-MBSINIT:CAPS">HAVE_RAW_DECL_MBSINIT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MBSNRTOWCS:CAPS"><link linkend="HAVE-RAW-DECL-MBSNRTOWCS:CAPS">HAVE_RAW_DECL_MBSNRTOWCS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MBSRTOWCS:CAPS"><link linkend="HAVE-RAW-DECL-MBSRTOWCS:CAPS">HAVE_RAW_DECL_MBSRTOWCS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MEMMEM:CAPS"><link linkend="HAVE-RAW-DECL-MEMMEM:CAPS">HAVE_RAW_DECL_MEMMEM</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MEMPCPY:CAPS"><link linkend="HAVE-RAW-DECL-MEMPCPY:CAPS">HAVE_RAW_DECL_MEMPCPY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MEMRCHR:CAPS"><link linkend="HAVE-RAW-DECL-MEMRCHR:CAPS">HAVE_RAW_DECL_MEMRCHR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MKDIRAT:CAPS"><link linkend="HAVE-RAW-DECL-MKDIRAT:CAPS">HAVE_RAW_DECL_MKDIRAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MKDTEMP:CAPS"><link linkend="HAVE-RAW-DECL-MKDTEMP:CAPS">HAVE_RAW_DECL_MKDTEMP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MKFIFO:CAPS"><link linkend="HAVE-RAW-DECL-MKFIFO:CAPS">HAVE_RAW_DECL_MKFIFO</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MKFIFOAT:CAPS"><link linkend="HAVE-RAW-DECL-MKFIFOAT:CAPS">HAVE_RAW_DECL_MKFIFOAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MKNOD:CAPS"><link linkend="HAVE-RAW-DECL-MKNOD:CAPS">HAVE_RAW_DECL_MKNOD</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MKNODAT:CAPS"><link linkend="HAVE-RAW-DECL-MKNODAT:CAPS">HAVE_RAW_DECL_MKNODAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MKOSTEMP:CAPS"><link linkend="HAVE-RAW-DECL-MKOSTEMP:CAPS">HAVE_RAW_DECL_MKOSTEMP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MKOSTEMPS:CAPS"><link linkend="HAVE-RAW-DECL-MKOSTEMPS:CAPS">HAVE_RAW_DECL_MKOSTEMPS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MKSTEMP:CAPS"><link linkend="HAVE-RAW-DECL-MKSTEMP:CAPS">HAVE_RAW_DECL_MKSTEMP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-MKSTEMPS:CAPS"><link linkend="HAVE-RAW-DECL-MKSTEMPS:CAPS">HAVE_RAW_DECL_MKSTEMPS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-OPENAT:CAPS"><link linkend="HAVE-RAW-DECL-OPENAT:CAPS">HAVE_RAW_DECL_OPENAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-OPENDIR:CAPS"><link linkend="HAVE-RAW-DECL-OPENDIR:CAPS">HAVE_RAW_DECL_OPENDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-PCLOSE:CAPS"><link linkend="HAVE-RAW-DECL-PCLOSE:CAPS">HAVE_RAW_DECL_PCLOSE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-PIPE:CAPS"><link linkend="HAVE-RAW-DECL-PIPE:CAPS">HAVE_RAW_DECL_PIPE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-PIPE2:CAPS"><link linkend="HAVE-RAW-DECL-PIPE2:CAPS">HAVE_RAW_DECL_PIPE2</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-POPEN:CAPS"><link linkend="HAVE-RAW-DECL-POPEN:CAPS">HAVE_RAW_DECL_POPEN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-POSIX-OPENPT:CAPS"><link linkend="HAVE-RAW-DECL-POSIX-OPENPT:CAPS">HAVE_RAW_DECL_POSIX_OPENPT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-PREAD:CAPS"><link linkend="HAVE-RAW-DECL-PREAD:CAPS">HAVE_RAW_DECL_PREAD</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-PTSNAME:CAPS"><link linkend="HAVE-RAW-DECL-PTSNAME:CAPS">HAVE_RAW_DECL_PTSNAME</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-PTSNAME-R:CAPS"><link linkend="HAVE-RAW-DECL-PTSNAME-R:CAPS">HAVE_RAW_DECL_PTSNAME_R</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-PWRITE:CAPS"><link linkend="HAVE-RAW-DECL-PWRITE:CAPS">HAVE_RAW_DECL_PWRITE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-RANDOM:CAPS"><link linkend="HAVE-RAW-DECL-RANDOM:CAPS">HAVE_RAW_DECL_RANDOM</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-RANDOM-R:CAPS"><link linkend="HAVE-RAW-DECL-RANDOM-R:CAPS">HAVE_RAW_DECL_RANDOM_R</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-RAWMEMCHR:CAPS"><link linkend="HAVE-RAW-DECL-RAWMEMCHR:CAPS">HAVE_RAW_DECL_RAWMEMCHR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-READDIR:CAPS"><link linkend="HAVE-RAW-DECL-READDIR:CAPS">HAVE_RAW_DECL_READDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-READLINK:CAPS"><link linkend="HAVE-RAW-DECL-READLINK:CAPS">HAVE_RAW_DECL_READLINK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-READLINKAT:CAPS"><link linkend="HAVE-RAW-DECL-READLINKAT:CAPS">HAVE_RAW_DECL_READLINKAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-REALPATH:CAPS"><link linkend="HAVE-RAW-DECL-REALPATH:CAPS">HAVE_RAW_DECL_REALPATH</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-RENAMEAT:CAPS"><link linkend="HAVE-RAW-DECL-RENAMEAT:CAPS">HAVE_RAW_DECL_RENAMEAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-REWINDDIR:CAPS"><link linkend="HAVE-RAW-DECL-REWINDDIR:CAPS">HAVE_RAW_DECL_REWINDDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-RMDIR:CAPS"><link linkend="HAVE-RAW-DECL-RMDIR:CAPS">HAVE_RAW_DECL_RMDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-RPMATCH:CAPS"><link linkend="HAVE-RAW-DECL-RPMATCH:CAPS">HAVE_RAW_DECL_RPMATCH</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SCANDIR:CAPS"><link linkend="HAVE-RAW-DECL-SCANDIR:CAPS">HAVE_RAW_DECL_SCANDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SECURE-GETENV:CAPS"><link linkend="HAVE-RAW-DECL-SECURE-GETENV:CAPS">HAVE_RAW_DECL_SECURE_GETENV</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SETENV:CAPS"><link linkend="HAVE-RAW-DECL-SETENV:CAPS">HAVE_RAW_DECL_SETENV</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SETHOSTNAME:CAPS"><link linkend="HAVE-RAW-DECL-SETHOSTNAME:CAPS">HAVE_RAW_DECL_SETHOSTNAME</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SETSTATE:CAPS"><link linkend="HAVE-RAW-DECL-SETSTATE:CAPS">HAVE_RAW_DECL_SETSTATE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SETSTATE-R:CAPS"><link linkend="HAVE-RAW-DECL-SETSTATE-R:CAPS">HAVE_RAW_DECL_SETSTATE_R</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SETUSERSHELL:CAPS"><link linkend="HAVE-RAW-DECL-SETUSERSHELL:CAPS">HAVE_RAW_DECL_SETUSERSHELL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SLEEP:CAPS"><link linkend="HAVE-RAW-DECL-SLEEP:CAPS">HAVE_RAW_DECL_SLEEP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SNPRINTF:CAPS"><link linkend="HAVE-RAW-DECL-SNPRINTF:CAPS">HAVE_RAW_DECL_SNPRINTF</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SRANDOM:CAPS"><link linkend="HAVE-RAW-DECL-SRANDOM:CAPS">HAVE_RAW_DECL_SRANDOM</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SRANDOM-R:CAPS"><link linkend="HAVE-RAW-DECL-SRANDOM-R:CAPS">HAVE_RAW_DECL_SRANDOM_R</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STAT:CAPS"><link linkend="HAVE-RAW-DECL-STAT:CAPS">HAVE_RAW_DECL_STAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STPCPY:CAPS"><link linkend="HAVE-RAW-DECL-STPCPY:CAPS">HAVE_RAW_DECL_STPCPY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STPNCPY:CAPS"><link linkend="HAVE-RAW-DECL-STPNCPY:CAPS">HAVE_RAW_DECL_STPNCPY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRCASESTR:CAPS"><link linkend="HAVE-RAW-DECL-STRCASESTR:CAPS">HAVE_RAW_DECL_STRCASESTR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRCHRNUL:CAPS"><link linkend="HAVE-RAW-DECL-STRCHRNUL:CAPS">HAVE_RAW_DECL_STRCHRNUL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRDUP:CAPS"><link linkend="HAVE-RAW-DECL-STRDUP:CAPS">HAVE_RAW_DECL_STRDUP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRERROR-R:CAPS"><link linkend="HAVE-RAW-DECL-STRERROR-R:CAPS">HAVE_RAW_DECL_STRERROR_R</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRNCAT:CAPS"><link linkend="HAVE-RAW-DECL-STRNCAT:CAPS">HAVE_RAW_DECL_STRNCAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRNDUP:CAPS"><link linkend="HAVE-RAW-DECL-STRNDUP:CAPS">HAVE_RAW_DECL_STRNDUP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRNLEN:CAPS"><link linkend="HAVE-RAW-DECL-STRNLEN:CAPS">HAVE_RAW_DECL_STRNLEN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRPBRK:CAPS"><link linkend="HAVE-RAW-DECL-STRPBRK:CAPS">HAVE_RAW_DECL_STRPBRK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRSEP:CAPS"><link linkend="HAVE-RAW-DECL-STRSEP:CAPS">HAVE_RAW_DECL_STRSEP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRSIGNAL:CAPS"><link linkend="HAVE-RAW-DECL-STRSIGNAL:CAPS">HAVE_RAW_DECL_STRSIGNAL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRTOD:CAPS"><link linkend="HAVE-RAW-DECL-STRTOD:CAPS">HAVE_RAW_DECL_STRTOD</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRTOIMAX:CAPS"><link linkend="HAVE-RAW-DECL-STRTOIMAX:CAPS">HAVE_RAW_DECL_STRTOIMAX</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRTOK-R:CAPS"><link linkend="HAVE-RAW-DECL-STRTOK-R:CAPS">HAVE_RAW_DECL_STRTOK_R</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRTOLL:CAPS"><link linkend="HAVE-RAW-DECL-STRTOLL:CAPS">HAVE_RAW_DECL_STRTOLL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRTOULL:CAPS"><link linkend="HAVE-RAW-DECL-STRTOULL:CAPS">HAVE_RAW_DECL_STRTOULL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRTOUMAX:CAPS"><link linkend="HAVE-RAW-DECL-STRTOUMAX:CAPS">HAVE_RAW_DECL_STRTOUMAX</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-STRVERSCMP:CAPS"><link linkend="HAVE-RAW-DECL-STRVERSCMP:CAPS">HAVE_RAW_DECL_STRVERSCMP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SYMLINK:CAPS"><link linkend="HAVE-RAW-DECL-SYMLINK:CAPS">HAVE_RAW_DECL_SYMLINK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-SYMLINKAT:CAPS"><link linkend="HAVE-RAW-DECL-SYMLINKAT:CAPS">HAVE_RAW_DECL_SYMLINKAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-TMPFILE:CAPS"><link linkend="HAVE-RAW-DECL-TMPFILE:CAPS">HAVE_RAW_DECL_TMPFILE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-TTYNAME-R:CAPS"><link linkend="HAVE-RAW-DECL-TTYNAME-R:CAPS">HAVE_RAW_DECL_TTYNAME_R</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-UNLINK:CAPS"><link linkend="HAVE-RAW-DECL-UNLINK:CAPS">HAVE_RAW_DECL_UNLINK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-UNLINKAT:CAPS"><link linkend="HAVE-RAW-DECL-UNLINKAT:CAPS">HAVE_RAW_DECL_UNLINKAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-UNLOCKPT:CAPS"><link linkend="HAVE-RAW-DECL-UNLOCKPT:CAPS">HAVE_RAW_DECL_UNLOCKPT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-UNSETENV:CAPS"><link linkend="HAVE-RAW-DECL-UNSETENV:CAPS">HAVE_RAW_DECL_UNSETENV</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-USLEEP:CAPS"><link linkend="HAVE-RAW-DECL-USLEEP:CAPS">HAVE_RAW_DECL_USLEEP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-UTIMENSAT:CAPS"><link linkend="HAVE-RAW-DECL-UTIMENSAT:CAPS">HAVE_RAW_DECL_UTIMENSAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-VDPRINTF:CAPS"><link linkend="HAVE-RAW-DECL-VDPRINTF:CAPS">HAVE_RAW_DECL_VDPRINTF</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-VSNPRINTF:CAPS"><link linkend="HAVE-RAW-DECL-VSNPRINTF:CAPS">HAVE_RAW_DECL_VSNPRINTF</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCPCPY:CAPS"><link linkend="HAVE-RAW-DECL-WCPCPY:CAPS">HAVE_RAW_DECL_WCPCPY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCPNCPY:CAPS"><link linkend="HAVE-RAW-DECL-WCPNCPY:CAPS">HAVE_RAW_DECL_WCPNCPY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCRTOMB:CAPS"><link linkend="HAVE-RAW-DECL-WCRTOMB:CAPS">HAVE_RAW_DECL_WCRTOMB</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSCASECMP:CAPS"><link linkend="HAVE-RAW-DECL-WCSCASECMP:CAPS">HAVE_RAW_DECL_WCSCASECMP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSCAT:CAPS"><link linkend="HAVE-RAW-DECL-WCSCAT:CAPS">HAVE_RAW_DECL_WCSCAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSCHR:CAPS"><link linkend="HAVE-RAW-DECL-WCSCHR:CAPS">HAVE_RAW_DECL_WCSCHR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSCMP:CAPS"><link linkend="HAVE-RAW-DECL-WCSCMP:CAPS">HAVE_RAW_DECL_WCSCMP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSCOLL:CAPS"><link linkend="HAVE-RAW-DECL-WCSCOLL:CAPS">HAVE_RAW_DECL_WCSCOLL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSCPY:CAPS"><link linkend="HAVE-RAW-DECL-WCSCPY:CAPS">HAVE_RAW_DECL_WCSCPY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSCSPN:CAPS"><link linkend="HAVE-RAW-DECL-WCSCSPN:CAPS">HAVE_RAW_DECL_WCSCSPN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSDUP:CAPS"><link linkend="HAVE-RAW-DECL-WCSDUP:CAPS">HAVE_RAW_DECL_WCSDUP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSLEN:CAPS"><link linkend="HAVE-RAW-DECL-WCSLEN:CAPS">HAVE_RAW_DECL_WCSLEN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSNCASECMP:CAPS"><link linkend="HAVE-RAW-DECL-WCSNCASECMP:CAPS">HAVE_RAW_DECL_WCSNCASECMP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSNCAT:CAPS"><link linkend="HAVE-RAW-DECL-WCSNCAT:CAPS">HAVE_RAW_DECL_WCSNCAT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSNCMP:CAPS"><link linkend="HAVE-RAW-DECL-WCSNCMP:CAPS">HAVE_RAW_DECL_WCSNCMP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSNCPY:CAPS"><link linkend="HAVE-RAW-DECL-WCSNCPY:CAPS">HAVE_RAW_DECL_WCSNCPY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSNLEN:CAPS"><link linkend="HAVE-RAW-DECL-WCSNLEN:CAPS">HAVE_RAW_DECL_WCSNLEN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSNRTOMBS:CAPS"><link linkend="HAVE-RAW-DECL-WCSNRTOMBS:CAPS">HAVE_RAW_DECL_WCSNRTOMBS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSPBRK:CAPS"><link linkend="HAVE-RAW-DECL-WCSPBRK:CAPS">HAVE_RAW_DECL_WCSPBRK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSRCHR:CAPS"><link linkend="HAVE-RAW-DECL-WCSRCHR:CAPS">HAVE_RAW_DECL_WCSRCHR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSRTOMBS:CAPS"><link linkend="HAVE-RAW-DECL-WCSRTOMBS:CAPS">HAVE_RAW_DECL_WCSRTOMBS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSSPN:CAPS"><link linkend="HAVE-RAW-DECL-WCSSPN:CAPS">HAVE_RAW_DECL_WCSSPN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSSTR:CAPS"><link linkend="HAVE-RAW-DECL-WCSSTR:CAPS">HAVE_RAW_DECL_WCSSTR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSTOK:CAPS"><link linkend="HAVE-RAW-DECL-WCSTOK:CAPS">HAVE_RAW_DECL_WCSTOK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSWIDTH:CAPS"><link linkend="HAVE-RAW-DECL-WCSWIDTH:CAPS">HAVE_RAW_DECL_WCSWIDTH</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCSXFRM:CAPS"><link linkend="HAVE-RAW-DECL-WCSXFRM:CAPS">HAVE_RAW_DECL_WCSXFRM</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCTOB:CAPS"><link linkend="HAVE-RAW-DECL-WCTOB:CAPS">HAVE_RAW_DECL_WCTOB</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WCWIDTH:CAPS"><link linkend="HAVE-RAW-DECL-WCWIDTH:CAPS">HAVE_RAW_DECL_WCWIDTH</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WMEMCHR:CAPS"><link linkend="HAVE-RAW-DECL-WMEMCHR:CAPS">HAVE_RAW_DECL_WMEMCHR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WMEMCMP:CAPS"><link linkend="HAVE-RAW-DECL-WMEMCMP:CAPS">HAVE_RAW_DECL_WMEMCMP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WMEMCPY:CAPS"><link linkend="HAVE-RAW-DECL-WMEMCPY:CAPS">HAVE_RAW_DECL_WMEMCPY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WMEMMOVE:CAPS"><link linkend="HAVE-RAW-DECL-WMEMMOVE:CAPS">HAVE_RAW_DECL_WMEMMOVE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL-WMEMSET:CAPS"><link linkend="HAVE-RAW-DECL-WMEMSET:CAPS">HAVE_RAW_DECL_WMEMSET</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-RAW-DECL--EXIT:CAPS"><link linkend="HAVE-RAW-DECL--EXIT:CAPS">HAVE_RAW_DECL__EXIT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-READDIR:CAPS"><link linkend="HAVE-READDIR:CAPS">HAVE_READDIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-READLINK:CAPS"><link linkend="HAVE-READLINK:CAPS">HAVE_READLINK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-REALLOC-POSIX:CAPS"><link linkend="HAVE-REALLOC-POSIX:CAPS">HAVE_REALLOC_POSIX</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-REALPATH:CAPS"><link linkend="HAVE-REALPATH:CAPS">HAVE_REALPATH</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="restrict"><link linkend="restrict">restrict</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>S</title>
+<indexentry><primaryie linkends="HAVE-SNPRINTF:CAPS"><link linkend="HAVE-SNPRINTF:CAPS">HAVE_SNPRINTF</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-SNPRINTF-RETVAL-C99:CAPS"><link linkend="HAVE-SNPRINTF-RETVAL-C99:CAPS">HAVE_SNPRINTF_RETVAL_C99</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="STDC-HEADERS:CAPS"><link linkend="STDC-HEADERS:CAPS">STDC_HEADERS</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-STDINT-H:CAPS"><link linkend="HAVE-STDINT-H:CAPS">HAVE_STDINT_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-STDINT-H-WITH-UINTMAX:CAPS"><link linkend="HAVE-STDINT-H-WITH-UINTMAX:CAPS">HAVE_STDINT_H_WITH_UINTMAX</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-STDLIB-H:CAPS"><link linkend="HAVE-STDLIB-H:CAPS">HAVE_STDLIB_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-STRDUP:CAPS"><link linkend="HAVE-STRDUP:CAPS">HAVE_STRDUP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-STRINGS-H:CAPS"><link linkend="HAVE-STRINGS-H:CAPS">HAVE_STRINGS_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-STRING-H:CAPS"><link linkend="HAVE-STRING-H:CAPS">HAVE_STRING_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-STRNLEN:CAPS"><link linkend="HAVE-STRNLEN:CAPS">HAVE_STRNLEN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-STRTOK-R:CAPS"><link linkend="HAVE-STRTOK-R:CAPS">HAVE_STRTOK_R</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-STRVERSCMP:CAPS"><link linkend="HAVE-STRVERSCMP:CAPS">HAVE_STRVERSCMP</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-SYMLINK:CAPS"><link linkend="HAVE-SYMLINK:CAPS">HAVE_SYMLINK</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-SYS-MMAN-H:CAPS"><link linkend="HAVE-SYS-MMAN-H:CAPS">HAVE_SYS_MMAN_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-SYS-PARAM-H:CAPS"><link linkend="HAVE-SYS-PARAM-H:CAPS">HAVE_SYS_PARAM_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-SYS-SOCKET-H:CAPS"><link linkend="HAVE-SYS-SOCKET-H:CAPS">HAVE_SYS_SOCKET_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-SYS-STAT-H:CAPS"><link linkend="HAVE-SYS-STAT-H:CAPS">HAVE_SYS_STAT_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-SYS-TIME-H:CAPS"><link linkend="HAVE-SYS-TIME-H:CAPS">HAVE_SYS_TIME_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-SYS-TYPES-H:CAPS"><link linkend="HAVE-SYS-TYPES-H:CAPS">HAVE_SYS_TYPES_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>U</title>
+<indexentry><primaryie linkends="HAVE-UNISTD-H:CAPS"><link linkend="HAVE-UNISTD-H:CAPS">HAVE_UNISTD_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UNLINK-CANNOT-UNLINK-DIR:CAPS"><link linkend="UNLINK-CANNOT-UNLINK-DIR:CAPS">UNLINK_CANNOT_UNLINK_DIR</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-UNSETENV:CAPS"><link linkend="HAVE-UNSETENV:CAPS">HAVE_UNSETENV</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-UNSIGNED-LONG-LONG-INT:CAPS"><link linkend="HAVE-UNSIGNED-LONG-LONG-INT:CAPS">HAVE_UNSIGNED_LONG_LONG_INT</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>V</title>
+<indexentry><primaryie linkends="VERSION:CAPS"><link linkend="VERSION:CAPS">VERSION</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-VISIBILITY:CAPS"><link linkend="HAVE-VISIBILITY:CAPS">HAVE_VISIBILITY</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>W</title>
+<indexentry><primaryie linkends="HAVE-WCHAR-H:CAPS"><link linkend="HAVE-WCHAR-H:CAPS">HAVE_WCHAR_H</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-WCHAR-T:CAPS"><link linkend="HAVE-WCHAR-T:CAPS">HAVE_WCHAR_T</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-WCRTOMB:CAPS"><link linkend="HAVE-WCRTOMB:CAPS">HAVE_WCRTOMB</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-WCSLEN:CAPS"><link linkend="HAVE-WCSLEN:CAPS">HAVE_WCSLEN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-WCSNLEN:CAPS"><link linkend="HAVE-WCSNLEN:CAPS">HAVE_WCSNLEN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-WINT-T:CAPS"><link linkend="HAVE-WINT-T:CAPS">HAVE_WINT_T</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="WORDS-BIGENDIAN:CAPS"><link linkend="WORDS-BIGENDIAN:CAPS">WORDS_BIGENDIAN</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-WORKING-O-NOATIME:CAPS"><link linkend="HAVE-WORKING-O-NOATIME:CAPS">HAVE_WORKING_O_NOATIME</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE-WORKING-O-NOFOLLOW:CAPS"><link linkend="HAVE-WORKING-O-NOFOLLOW:CAPS">HAVE_WORKING_O_NOFOLLOW</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>_</title>
+<indexentry><primaryie linkends="HAVE--BOOL:CAPS"><link linkend="HAVE--BOOL:CAPS">HAVE__BOOL</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE---FPURGE:CAPS"><link linkend="HAVE---FPURGE:CAPS">HAVE___FPURGE</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HAVE---FREADING:CAPS"><link linkend="HAVE---FREADING:CAPS">HAVE___FREADING</link>, macro in <link linkend="liboath-config">config</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

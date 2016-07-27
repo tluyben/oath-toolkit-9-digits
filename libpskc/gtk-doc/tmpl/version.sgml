@@ -1,0 +1,47 @@
+<!-- ##### SECTION Title ##### -->
+version
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO PSKC_VERSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO PSKC_VERSION_NUMBER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION pskc_check_version ##### -->
+<para>
+
+</para>
+
+@req_version: 
+@Returns: 
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+          "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+	  [
+	  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+	  <!ENTITY version SYSTEM "version.xml">
+	  ]>
+<indexdiv id="api-index-1.6.0">
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="oath-totp-validate"><link linkend="oath-totp-validate">oath_totp_validate</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-totp-validate-callback"><link linkend="oath-totp-validate-callback">oath_totp_validate_callback</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-validate-strcmp-function"><link linkend="oath-validate-strcmp-function">oath_validate_strcmp_function</link>, user_function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

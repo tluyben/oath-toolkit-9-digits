@@ -1,0 +1,97 @@
+Source: oath-toolkit
+Section: devel
+Priority: optional
+Maintainer: OATH Toolkit Team <oath-toolkit-help@nongnu.org>
+Uploaders: Simon Josefsson <simon@josefsson.org>
+Build-Depends: cdbs, debhelper (>= 7.0.0), libpam0g-dev, datefudge, gtk-doc-tools, libxml2-utils, libxmlsec1-dev, dh-autoreconf
+Standards-Version: 3.9.6
+Homepage: http://www.nongnu.org/oath-toolkit/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/oath-toolkit.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/oath-toolkit.git
+
+Package: liboath-dev
+Section: libdevel
+Architecture: any
+Depends: liboath0 (= ${binary:Version}), ${misc:Depends}
+Description: Development files for the OATH Toolkit Liboath library
+ The OATH Toolkit makes it easy to build one-time password
+ authentication systems.  It contains shared libraries, command line
+ tools and a PAM module.  Supported technologies include the
+ event-based HOTP algorithm (RFC4226) and the time-based TOTP algorithm
+ (RFC6238).  OATH stands for Open AuTHentication, which is the
+ organization that specify the algorithms.  For managing secret key
+ files, the Portable Symmetric Key Container (PSKC) format described in
+ RFC6030 is supported.
+ .
+ This package contain all files necessary for developing programs that
+ use Liboath.
+
+Package: liboath0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: OATH Toolkit Liboath library
+ The OATH Toolkit makes it easy to build one-time password
+ authentication systems.  It contains shared libraries, command line
+ tools and a PAM module.  Supported technologies include the
+ event-based HOTP algorithm (RFC4226) and the time-based TOTP algorithm
+ (RFC6238).  OATH stands for Open AuTHentication, which is the
+ organization that specify the algorithms.  For managing secret key
+ files, the Portable Symmetric Key Container (PSKC) format described in
+ RFC6030 is supported.
+ .
+ This package includes the Liboath shared library that is used by
+ applications.  You normally don't need to install it manually.
+
+Package: oathtool
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: OATH Toolkit oathtool command line tool
+ The OATH Toolkit makes it easy to build one-time password
+ authentication systems.  It contains shared libraries, command line
+ tools and a PAM module.  Supported technologies include the
+ event-based HOTP algorithm (RFC4226) and the time-based TOTP algorithm
+ (RFC6238).  OATH stands for Open AuTHentication, which is the
+ organization that specify the algorithms.  For managing secret key
+ files, the Portable Symmetric Key Container (PSKC) format described in
+ RFC6030 is supported.
+ .
+ This package contains the OATH Toolkit "oathtool" command line tool.
+
+Package: oath-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: liboath0 (= ${binary:Version}) | oathtool (= ${binary:Version}) | libpam-oath (= ${binary:Version}), ${misc:Depends}
+Description: OATH Toolkit debugging symbols
+ The OATH Toolkit makes it easy to build one-time password
+ authentication systems.  It contains shared libraries, command line
+ tools and a PAM module.  Supported technologies include the
+ event-based HOTP algorithm (RFC4226) and the time-based TOTP algorithm
+ (RFC6238).  OATH stands for Open AuTHentication, which is the
+ organization that specify the algorithms.  For managing secret key
+ files, the Portable Symmetric Key Container (PSKC) format described in
+ RFC6030 is supported.
+ .
+ This package contains detached debugging information.  Most people
+ will not need this package.  It is provided primarily to provide a
+ backtrace with names in a debugger, this makes it somewhat easier to
+ interpret core dumps.  GDB will find this debug information
+ automatically.
+
+Package: libpam-oath
+Section: admin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpam-runtime
+Description: OATH Toolkit libpam_oath PAM module
+ The OATH Toolkit makes it easy to build one-time password
+ authentication systems.  It contains shared libraries, command line
+ tools and a PAM module.  Supported technologies include the
+ event-based HOTP algorithm (RFC4226) and the time-based TOTP algorithm
+ (RFC6238).  OATH stands for Open AuTHentication, which is the
+ organization that specify the algorithms.  For managing secret key
+ files, the Portable Symmetric Key Container (PSKC) format described in
+ RFC6030 is supported.
+ .
+ This package contain a PAM module to authenticate users against
+ a local file-based OATH database.

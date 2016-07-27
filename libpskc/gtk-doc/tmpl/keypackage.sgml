@@ -1,0 +1,766 @@
+<!-- ##### SECTION Title ##### -->
+keypackage
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION pskc_get_device_manufacturer ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_device_manufacturer ##### -->
+<para>
+
+</para>
+
+@key: 
+@devmfr: 
+
+
+<!-- ##### FUNCTION pskc_get_device_serialno ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_device_serialno ##### -->
+<para>
+
+</para>
+
+@key: 
+@serialno: 
+
+
+<!-- ##### FUNCTION pskc_get_device_model ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_device_model ##### -->
+<para>
+
+</para>
+
+@key: 
+@model: 
+
+
+<!-- ##### FUNCTION pskc_get_device_issueno ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_device_issueno ##### -->
+<para>
+
+</para>
+
+@key: 
+@issueno: 
+
+
+<!-- ##### FUNCTION pskc_get_device_devicebinding ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_device_devicebinding ##### -->
+<para>
+
+</para>
+
+@key: 
+@devbind: 
+
+
+<!-- ##### FUNCTION pskc_get_device_startdate ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_device_startdate ##### -->
+<para>
+
+</para>
+
+@key: 
+@startdate: 
+
+
+<!-- ##### FUNCTION pskc_get_device_expirydate ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_device_expirydate ##### -->
+<para>
+
+</para>
+
+@key: 
+@expirydate: 
+
+
+<!-- ##### FUNCTION pskc_get_device_userid ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_device_userid ##### -->
+<para>
+
+</para>
+
+@key: 
+@userid: 
+
+
+<!-- ##### FUNCTION pskc_get_cryptomodule_id ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_cryptomodule_id ##### -->
+<para>
+
+</para>
+
+@key: 
+@cid: 
+
+
+<!-- ##### FUNCTION pskc_get_key_id ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_id ##### -->
+<para>
+
+</para>
+
+@key: 
+@keyid: 
+
+
+<!-- ##### FUNCTION pskc_get_key_algorithm ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_algorithm ##### -->
+<para>
+
+</para>
+
+@key: 
+@keyalg: 
+
+
+<!-- ##### FUNCTION pskc_get_key_issuer ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_issuer ##### -->
+<para>
+
+</para>
+
+@key: 
+@keyissuer: 
+
+
+<!-- ##### FUNCTION pskc_get_key_algparm_suite ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_algparm_suite ##### -->
+<para>
+
+</para>
+
+@key: 
+@keyalgparmsuite: 
+
+
+<!-- ##### FUNCTION pskc_get_key_algparm_chall_encoding ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_algparm_chall_encoding ##### -->
+<para>
+
+</para>
+
+@key: 
+@vf: 
+
+
+<!-- ##### FUNCTION pskc_get_key_algparm_chall_min ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_algparm_chall_min ##### -->
+<para>
+
+</para>
+
+@key: 
+@challmin: 
+
+
+<!-- ##### FUNCTION pskc_get_key_algparm_chall_max ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_algparm_chall_max ##### -->
+<para>
+
+</para>
+
+@key: 
+@challmax: 
+
+
+<!-- ##### FUNCTION pskc_get_key_algparm_chall_checkdigits ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_algparm_chall_checkdigits ##### -->
+<para>
+
+</para>
+
+@key: 
+@checkdigit: 
+
+
+<!-- ##### FUNCTION pskc_get_key_algparm_resp_encoding ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_algparm_resp_encoding ##### -->
+<para>
+
+</para>
+
+@key: 
+@vf: 
+
+
+<!-- ##### FUNCTION pskc_get_key_algparm_resp_length ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_algparm_resp_length ##### -->
+<para>
+
+</para>
+
+@key: 
+@length: 
+
+
+<!-- ##### FUNCTION pskc_get_key_algparm_resp_checkdigits ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_algparm_resp_checkdigits ##### -->
+<para>
+
+</para>
+
+@key: 
+@checkdigit: 
+
+
+<!-- ##### FUNCTION pskc_get_key_profileid ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_profileid ##### -->
+<para>
+
+</para>
+
+@key: 
+@profileid: 
+
+
+<!-- ##### FUNCTION pskc_get_key_reference ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_reference ##### -->
+<para>
+
+</para>
+
+@key: 
+@keyref: 
+
+
+<!-- ##### FUNCTION pskc_get_key_friendlyname ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_friendlyname ##### -->
+<para>
+
+</para>
+
+@key: 
+@fname: 
+
+
+<!-- ##### FUNCTION pskc_get_key_userid ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_userid ##### -->
+<para>
+
+</para>
+
+@key: 
+@keyuserid: 
+
+
+<!-- ##### FUNCTION pskc_get_key_data_secret ##### -->
+<para>
+
+</para>
+
+@key: 
+@len: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_data_secret ##### -->
+<para>
+
+</para>
+
+@key: 
+@data: 
+@len: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_get_key_data_b64secret ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_data_b64secret ##### -->
+<para>
+
+</para>
+
+@key: 
+@b64secret: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_get_key_data_counter ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_data_counter ##### -->
+<para>
+
+</para>
+
+@key: 
+@counter: 
+
+
+<!-- ##### FUNCTION pskc_get_key_data_time ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_data_time ##### -->
+<para>
+
+</para>
+
+@key: 
+@datatime: 
+
+
+<!-- ##### FUNCTION pskc_get_key_data_timeinterval ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_data_timeinterval ##### -->
+<para>
+
+</para>
+
+@key: 
+@timeinterval: 
+
+
+<!-- ##### FUNCTION pskc_get_key_data_timedrift ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_data_timedrift ##### -->
+<para>
+
+</para>
+
+@key: 
+@timedrift: 
+
+
+<!-- ##### FUNCTION pskc_get_key_policy_startdate ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_policy_startdate ##### -->
+<para>
+
+</para>
+
+@key: 
+@startdate: 
+
+
+<!-- ##### FUNCTION pskc_get_key_policy_expirydate ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_policy_expirydate ##### -->
+<para>
+
+</para>
+
+@key: 
+@expirydate: 
+
+
+<!-- ##### FUNCTION pskc_get_key_policy_pinkeyid ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_policy_pinkeyid ##### -->
+<para>
+
+</para>
+
+@key: 
+@pinkeyid: 
+
+
+<!-- ##### FUNCTION pskc_get_key_policy_pinusagemode ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_policy_pinusagemode ##### -->
+<para>
+
+</para>
+
+@key: 
+@pinusagemode: 
+
+
+<!-- ##### FUNCTION pskc_get_key_policy_pinmaxfailedattempts ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_policy_pinmaxfailedattempts ##### -->
+<para>
+
+</para>
+
+@key: 
+@attempts: 
+
+
+<!-- ##### FUNCTION pskc_get_key_policy_pinminlength ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_policy_pinminlength ##### -->
+<para>
+
+</para>
+
+@key: 
+@minlength: 
+
+
+<!-- ##### FUNCTION pskc_get_key_policy_pinmaxlength ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_policy_pinmaxlength ##### -->
+<para>
+
+</para>
+
+@key: 
+@maxlength: 
+
+
+<!-- ##### FUNCTION pskc_get_key_policy_pinencoding ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_policy_pinencoding ##### -->
+<para>
+
+</para>
+
+@key: 
+@pinencoding: 
+
+
+<!-- ##### FUNCTION pskc_get_key_policy_keyusages ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_policy_keyusages ##### -->
+<para>
+
+</para>
+
+@key: 
+@keyusages: 
+
+
+<!-- ##### FUNCTION pskc_get_key_policy_numberoftransactions ##### -->
+<para>
+
+</para>
+
+@key: 
+@present: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_set_key_policy_numberoftransactions ##### -->
+<para>
+
+</para>
+
+@key: 
+@uses: 
+
+

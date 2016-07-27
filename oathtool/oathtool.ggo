@@ -1,0 +1,29 @@
+# Copyright (C) 2009-2015 Simon Josefsson
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+purpose "Generate and validate OATH one-time passwords."
+
+option "hotp" - "use event-based HOTP mode" flag on
+option "totp" - "use time-variant TOTP mode" values="sha1","sha256","sha512" default="sha1" optional argoptional
+
+option "base32" b "use base32 encoding of KEY instead of hex" flag off
+option "counter" c "HOTP counter value" longlong typestr="COUNTER" no
+option "time-step-size" s "TOTP time-step duration" string typestr="DURATION" default="30s" no
+option "start-time" S "when to start counting time steps for TOTP" string typestr="TIME" default="1970-01-01 00:00:00 UTC" no
+option "now" N "use this time as current time for TOTP" string typestr="TIME" default="now" no
+option "digits" d "number of digits in one-time password" int typestr="DIGITS" no
+option "window" w "window of counter values to test when validating OTPs" int typestr="WIDTH" no
+
+option "verbose" v "explain what is being done" flag off

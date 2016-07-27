@@ -1,0 +1,56 @@
+<!-- ##### SECTION Title ##### -->
+errors
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### ENUM pskc_rc ##### -->
+<para>
+
+</para>
+
+@PSKC_OK: 
+@PSKC_MALLOC_ERROR: 
+@PSKC_XML_ERROR: 
+@PSKC_PARSE_ERROR: 
+@PSKC_BASE64_ERROR: 
+@PSKC_UNKNOWN_OUTPUT_FORMAT: 
+@PSKC_XMLSEC_ERROR: 
+@PSKC_LAST_ERROR: 
+
+<!-- ##### FUNCTION pskc_strerror ##### -->
+<para>
+
+</para>
+
+@err: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_strerror_name ##### -->
+<para>
+
+</para>
+
+@err: 
+@Returns: 
+
+

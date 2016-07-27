@@ -1,0 +1,2883 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+          "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+	  [
+	  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+	  <!ENTITY version SYSTEM "version.xml">
+	  ]>
+<refentry id="liboath-config">
+<refmeta>
+<refentrytitle role="top_of_page" id="liboath-config.top_of_page">config</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBOATH Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>config</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsect1 id="liboath-config.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="name" colwidth="150px"/>
+<colspec colname="description"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="DBL-EXPBIT0-BIT:CAPS">DBL_EXPBIT0_BIT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="DBL-EXPBIT0-WORD:CAPS">DBL_EXPBIT0_WORD</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="FUNC-FFLUSH-STDIN:CAPS">FUNC_FFLUSH_STDIN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="FUNC-REALPATH-WORKS:CAPS">FUNC_REALPATH_WORKS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GETTIMEOFDAY-TIMEZONE:CAPS">GETTIMEOFDAY_TIMEZONE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-CANONICALIZE-LGPL:CAPS">GNULIB_CANONICALIZE_LGPL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-FFLUSH:CAPS">GNULIB_FFLUSH</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-FSCANF:CAPS">GNULIB_FSCANF</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-GC-HMAC-SHA1:CAPS">GNULIB_GC_HMAC_SHA1</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-GC-HMAC-SHA256:CAPS">GNULIB_GC_HMAC_SHA256</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-GC-HMAC-SHA512:CAPS">GNULIB_GC_HMAC_SHA512</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-SCANF:CAPS">GNULIB_SCANF</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-SNPRINTF:CAPS">GNULIB_SNPRINTF</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-CANONICALIZE-FILE-NAME:CAPS">GNULIB_TEST_CANONICALIZE_FILE_NAME</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-CHDIR:CAPS">GNULIB_TEST_CHDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-CLOSE:CAPS">GNULIB_TEST_CLOSE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-CLOSEDIR:CAPS">GNULIB_TEST_CLOSEDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-ENVIRON:CAPS">GNULIB_TEST_ENVIRON</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-FCLOSE:CAPS">GNULIB_TEST_FCLOSE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-FDOPEN:CAPS">GNULIB_TEST_FDOPEN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-FFLUSH:CAPS">GNULIB_TEST_FFLUSH</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-FOPEN:CAPS">GNULIB_TEST_FOPEN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-FPURGE:CAPS">GNULIB_TEST_FPURGE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-FSEEK:CAPS">GNULIB_TEST_FSEEK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-FSEEKO:CAPS">GNULIB_TEST_FSEEKO</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-FSTAT:CAPS">GNULIB_TEST_FSTAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-FTELL:CAPS">GNULIB_TEST_FTELL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-FTELLO:CAPS">GNULIB_TEST_FTELLO</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-GETCWD:CAPS">GNULIB_TEST_GETCWD</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-GETDELIM:CAPS">GNULIB_TEST_GETDELIM</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-GETLINE:CAPS">GNULIB_TEST_GETLINE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-GETPAGESIZE:CAPS">GNULIB_TEST_GETPAGESIZE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-GETTIMEOFDAY:CAPS">GNULIB_TEST_GETTIMEOFDAY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-LINK:CAPS">GNULIB_TEST_LINK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-LSEEK:CAPS">GNULIB_TEST_LSEEK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-LSTAT:CAPS">GNULIB_TEST_LSTAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-MALLOC-POSIX:CAPS">GNULIB_TEST_MALLOC_POSIX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-MEMCHR:CAPS">GNULIB_TEST_MEMCHR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-OPENDIR:CAPS">GNULIB_TEST_OPENDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-PUTENV:CAPS">GNULIB_TEST_PUTENV</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-READDIR:CAPS">GNULIB_TEST_READDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-READLINK:CAPS">GNULIB_TEST_READLINK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-REALLOC-POSIX:CAPS">GNULIB_TEST_REALLOC_POSIX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-REALPATH:CAPS">GNULIB_TEST_REALPATH</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-RENAME:CAPS">GNULIB_TEST_RENAME</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-RMDIR:CAPS">GNULIB_TEST_RMDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-SNPRINTF:CAPS">GNULIB_TEST_SNPRINTF</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-STAT:CAPS">GNULIB_TEST_STAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-STRDUP:CAPS">GNULIB_TEST_STRDUP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-STRTOK-R:CAPS">GNULIB_TEST_STRTOK_R</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-STRVERSCMP:CAPS">GNULIB_TEST_STRVERSCMP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-SYMLINK:CAPS">GNULIB_TEST_SYMLINK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-UNLINK:CAPS">GNULIB_TEST_UNLINK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="GNULIB-TEST-UNSETENV:CAPS">GNULIB_TEST_UNSETENV</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-ALLOCA:CAPS">HAVE_ALLOCA</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-ALLOCA-H:CAPS">HAVE_ALLOCA_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-CANONICALIZE-FILE-NAME:CAPS">HAVE_CANONICALIZE_FILE_NAME</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-CLOSEDIR:CAPS">HAVE_CLOSEDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-DECL-FPURGE:CAPS">HAVE_DECL_FPURGE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-DECL-FSEEKO:CAPS">HAVE_DECL_FSEEKO</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-DECL-FTELLO:CAPS">HAVE_DECL_FTELLO</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-DECL-GETDELIM:CAPS">HAVE_DECL_GETDELIM</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-DECL-GETLINE:CAPS">HAVE_DECL_GETLINE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-DECL-SNPRINTF:CAPS">HAVE_DECL_SNPRINTF</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-DECL-STRDUP:CAPS">HAVE_DECL_STRDUP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-DECL-STRTOK-R:CAPS">HAVE_DECL_STRTOK_R</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-DECL-UNSETENV:CAPS">HAVE_DECL_UNSETENV</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-DECL--SNPRINTF:CAPS">HAVE_DECL__SNPRINTF</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-DIRENT-H:CAPS">HAVE_DIRENT_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-DLFCN-H:CAPS">HAVE_DLFCN_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-ENVIRON-DECL:CAPS">HAVE_ENVIRON_DECL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-FEATURES-H:CAPS">HAVE_FEATURES_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-FSEEKO:CAPS">HAVE_FSEEKO</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-GETCWD:CAPS">HAVE_GETCWD</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-GETDELIM:CAPS">HAVE_GETDELIM</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-GETPAGESIZE:CAPS">HAVE_GETPAGESIZE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-GETTIMEOFDAY:CAPS">HAVE_GETTIMEOFDAY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-INTMAX-T:CAPS">HAVE_INTMAX_T</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-INTTYPES-H:CAPS">HAVE_INTTYPES_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-INTTYPES-H-WITH-UINTMAX:CAPS">HAVE_INTTYPES_H_WITH_UINTMAX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-LINK:CAPS">HAVE_LINK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-LONG-LONG-INT:CAPS">HAVE_LONG_LONG_INT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-LSTAT:CAPS">HAVE_LSTAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-MALLOC-POSIX:CAPS">HAVE_MALLOC_POSIX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-MAP-ANONYMOUS:CAPS">HAVE_MAP_ANONYMOUS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-MBRTOWC:CAPS">HAVE_MBRTOWC</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-MEMORY-H:CAPS">HAVE_MEMORY_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-MPROTECT:CAPS">HAVE_MPROTECT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-OPENDIR:CAPS">HAVE_OPENDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-ALPHASORT:CAPS">HAVE_RAW_DECL_ALPHASORT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-ATOLL:CAPS">HAVE_RAW_DECL_ATOLL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-BTOWC:CAPS">HAVE_RAW_DECL_BTOWC</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-CANONICALIZE-FILE-NAME:CAPS">HAVE_RAW_DECL_CANONICALIZE_FILE_NAME</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-CHDIR:CAPS">HAVE_RAW_DECL_CHDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-CHOWN:CAPS">HAVE_RAW_DECL_CHOWN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-CLOSEDIR:CAPS">HAVE_RAW_DECL_CLOSEDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-DIRFD:CAPS">HAVE_RAW_DECL_DIRFD</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-DPRINTF:CAPS">HAVE_RAW_DECL_DPRINTF</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-DUP:CAPS">HAVE_RAW_DECL_DUP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-DUP2:CAPS">HAVE_RAW_DECL_DUP2</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-DUP3:CAPS">HAVE_RAW_DECL_DUP3</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-ENDUSERSHELL:CAPS">HAVE_RAW_DECL_ENDUSERSHELL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-ENVIRON:CAPS">HAVE_RAW_DECL_ENVIRON</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-EUIDACCESS:CAPS">HAVE_RAW_DECL_EUIDACCESS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FACCESSAT:CAPS">HAVE_RAW_DECL_FACCESSAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FCHDIR:CAPS">HAVE_RAW_DECL_FCHDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FCHMODAT:CAPS">HAVE_RAW_DECL_FCHMODAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FCHOWNAT:CAPS">HAVE_RAW_DECL_FCHOWNAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FCNTL:CAPS">HAVE_RAW_DECL_FCNTL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FDATASYNC:CAPS">HAVE_RAW_DECL_FDATASYNC</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FDOPENDIR:CAPS">HAVE_RAW_DECL_FDOPENDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FFSL:CAPS">HAVE_RAW_DECL_FFSL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FFSLL:CAPS">HAVE_RAW_DECL_FFSLL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FSEEKO:CAPS">HAVE_RAW_DECL_FSEEKO</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FSTAT:CAPS">HAVE_RAW_DECL_FSTAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FSTATAT:CAPS">HAVE_RAW_DECL_FSTATAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FSYNC:CAPS">HAVE_RAW_DECL_FSYNC</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FTELLO:CAPS">HAVE_RAW_DECL_FTELLO</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FTRUNCATE:CAPS">HAVE_RAW_DECL_FTRUNCATE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-FUTIMENS:CAPS">HAVE_RAW_DECL_FUTIMENS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETCWD:CAPS">HAVE_RAW_DECL_GETCWD</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETDELIM:CAPS">HAVE_RAW_DECL_GETDELIM</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETDOMAINNAME:CAPS">HAVE_RAW_DECL_GETDOMAINNAME</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETDTABLESIZE:CAPS">HAVE_RAW_DECL_GETDTABLESIZE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETGROUPS:CAPS">HAVE_RAW_DECL_GETGROUPS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETHOSTNAME:CAPS">HAVE_RAW_DECL_GETHOSTNAME</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETLINE:CAPS">HAVE_RAW_DECL_GETLINE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETLOADAVG:CAPS">HAVE_RAW_DECL_GETLOADAVG</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETLOGIN:CAPS">HAVE_RAW_DECL_GETLOGIN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETLOGIN-R:CAPS">HAVE_RAW_DECL_GETLOGIN_R</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETPAGESIZE:CAPS">HAVE_RAW_DECL_GETPAGESIZE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETSUBOPT:CAPS">HAVE_RAW_DECL_GETSUBOPT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETTIMEOFDAY:CAPS">HAVE_RAW_DECL_GETTIMEOFDAY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GETUSERSHELL:CAPS">HAVE_RAW_DECL_GETUSERSHELL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GRANTPT:CAPS">HAVE_RAW_DECL_GRANTPT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-GROUP-MEMBER:CAPS">HAVE_RAW_DECL_GROUP_MEMBER</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-IMAXABS:CAPS">HAVE_RAW_DECL_IMAXABS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-IMAXDIV:CAPS">HAVE_RAW_DECL_IMAXDIV</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-INITSTATE:CAPS">HAVE_RAW_DECL_INITSTATE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-INITSTATE-R:CAPS">HAVE_RAW_DECL_INITSTATE_R</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-ISATTY:CAPS">HAVE_RAW_DECL_ISATTY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-LCHMOD:CAPS">HAVE_RAW_DECL_LCHMOD</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-LCHOWN:CAPS">HAVE_RAW_DECL_LCHOWN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-LINK:CAPS">HAVE_RAW_DECL_LINK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-LINKAT:CAPS">HAVE_RAW_DECL_LINKAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-LSEEK:CAPS">HAVE_RAW_DECL_LSEEK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-LSTAT:CAPS">HAVE_RAW_DECL_LSTAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MBRLEN:CAPS">HAVE_RAW_DECL_MBRLEN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MBRTOWC:CAPS">HAVE_RAW_DECL_MBRTOWC</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MBSINIT:CAPS">HAVE_RAW_DECL_MBSINIT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MBSNRTOWCS:CAPS">HAVE_RAW_DECL_MBSNRTOWCS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MBSRTOWCS:CAPS">HAVE_RAW_DECL_MBSRTOWCS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MEMMEM:CAPS">HAVE_RAW_DECL_MEMMEM</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MEMPCPY:CAPS">HAVE_RAW_DECL_MEMPCPY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MEMRCHR:CAPS">HAVE_RAW_DECL_MEMRCHR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MKDIRAT:CAPS">HAVE_RAW_DECL_MKDIRAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MKDTEMP:CAPS">HAVE_RAW_DECL_MKDTEMP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MKFIFO:CAPS">HAVE_RAW_DECL_MKFIFO</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MKFIFOAT:CAPS">HAVE_RAW_DECL_MKFIFOAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MKNOD:CAPS">HAVE_RAW_DECL_MKNOD</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MKNODAT:CAPS">HAVE_RAW_DECL_MKNODAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MKOSTEMP:CAPS">HAVE_RAW_DECL_MKOSTEMP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MKOSTEMPS:CAPS">HAVE_RAW_DECL_MKOSTEMPS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MKSTEMP:CAPS">HAVE_RAW_DECL_MKSTEMP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-MKSTEMPS:CAPS">HAVE_RAW_DECL_MKSTEMPS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-OPENAT:CAPS">HAVE_RAW_DECL_OPENAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-OPENDIR:CAPS">HAVE_RAW_DECL_OPENDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-PCLOSE:CAPS">HAVE_RAW_DECL_PCLOSE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-PIPE:CAPS">HAVE_RAW_DECL_PIPE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-PIPE2:CAPS">HAVE_RAW_DECL_PIPE2</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-POPEN:CAPS">HAVE_RAW_DECL_POPEN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-POSIX-OPENPT:CAPS">HAVE_RAW_DECL_POSIX_OPENPT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-PREAD:CAPS">HAVE_RAW_DECL_PREAD</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-PTSNAME:CAPS">HAVE_RAW_DECL_PTSNAME</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-PTSNAME-R:CAPS">HAVE_RAW_DECL_PTSNAME_R</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-PWRITE:CAPS">HAVE_RAW_DECL_PWRITE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-RANDOM:CAPS">HAVE_RAW_DECL_RANDOM</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-RANDOM-R:CAPS">HAVE_RAW_DECL_RANDOM_R</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-RAWMEMCHR:CAPS">HAVE_RAW_DECL_RAWMEMCHR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-READDIR:CAPS">HAVE_RAW_DECL_READDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-READLINK:CAPS">HAVE_RAW_DECL_READLINK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-READLINKAT:CAPS">HAVE_RAW_DECL_READLINKAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-REALPATH:CAPS">HAVE_RAW_DECL_REALPATH</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-RENAMEAT:CAPS">HAVE_RAW_DECL_RENAMEAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-REWINDDIR:CAPS">HAVE_RAW_DECL_REWINDDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-RMDIR:CAPS">HAVE_RAW_DECL_RMDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-RPMATCH:CAPS">HAVE_RAW_DECL_RPMATCH</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SCANDIR:CAPS">HAVE_RAW_DECL_SCANDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SECURE-GETENV:CAPS">HAVE_RAW_DECL_SECURE_GETENV</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SETENV:CAPS">HAVE_RAW_DECL_SETENV</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SETHOSTNAME:CAPS">HAVE_RAW_DECL_SETHOSTNAME</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SETSTATE:CAPS">HAVE_RAW_DECL_SETSTATE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SETSTATE-R:CAPS">HAVE_RAW_DECL_SETSTATE_R</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SETUSERSHELL:CAPS">HAVE_RAW_DECL_SETUSERSHELL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SLEEP:CAPS">HAVE_RAW_DECL_SLEEP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SNPRINTF:CAPS">HAVE_RAW_DECL_SNPRINTF</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SRANDOM:CAPS">HAVE_RAW_DECL_SRANDOM</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SRANDOM-R:CAPS">HAVE_RAW_DECL_SRANDOM_R</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STAT:CAPS">HAVE_RAW_DECL_STAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STPCPY:CAPS">HAVE_RAW_DECL_STPCPY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STPNCPY:CAPS">HAVE_RAW_DECL_STPNCPY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRCASESTR:CAPS">HAVE_RAW_DECL_STRCASESTR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRCHRNUL:CAPS">HAVE_RAW_DECL_STRCHRNUL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRDUP:CAPS">HAVE_RAW_DECL_STRDUP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRERROR-R:CAPS">HAVE_RAW_DECL_STRERROR_R</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRNCAT:CAPS">HAVE_RAW_DECL_STRNCAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRNDUP:CAPS">HAVE_RAW_DECL_STRNDUP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRNLEN:CAPS">HAVE_RAW_DECL_STRNLEN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRPBRK:CAPS">HAVE_RAW_DECL_STRPBRK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRSEP:CAPS">HAVE_RAW_DECL_STRSEP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRSIGNAL:CAPS">HAVE_RAW_DECL_STRSIGNAL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRTOD:CAPS">HAVE_RAW_DECL_STRTOD</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRTOIMAX:CAPS">HAVE_RAW_DECL_STRTOIMAX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRTOK-R:CAPS">HAVE_RAW_DECL_STRTOK_R</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRTOLL:CAPS">HAVE_RAW_DECL_STRTOLL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRTOULL:CAPS">HAVE_RAW_DECL_STRTOULL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRTOUMAX:CAPS">HAVE_RAW_DECL_STRTOUMAX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-STRVERSCMP:CAPS">HAVE_RAW_DECL_STRVERSCMP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SYMLINK:CAPS">HAVE_RAW_DECL_SYMLINK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-SYMLINKAT:CAPS">HAVE_RAW_DECL_SYMLINKAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-TMPFILE:CAPS">HAVE_RAW_DECL_TMPFILE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-TTYNAME-R:CAPS">HAVE_RAW_DECL_TTYNAME_R</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-UNLINK:CAPS">HAVE_RAW_DECL_UNLINK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-UNLINKAT:CAPS">HAVE_RAW_DECL_UNLINKAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-UNLOCKPT:CAPS">HAVE_RAW_DECL_UNLOCKPT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-UNSETENV:CAPS">HAVE_RAW_DECL_UNSETENV</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-USLEEP:CAPS">HAVE_RAW_DECL_USLEEP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-UTIMENSAT:CAPS">HAVE_RAW_DECL_UTIMENSAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-VDPRINTF:CAPS">HAVE_RAW_DECL_VDPRINTF</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-VSNPRINTF:CAPS">HAVE_RAW_DECL_VSNPRINTF</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCPCPY:CAPS">HAVE_RAW_DECL_WCPCPY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCPNCPY:CAPS">HAVE_RAW_DECL_WCPNCPY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCRTOMB:CAPS">HAVE_RAW_DECL_WCRTOMB</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSCASECMP:CAPS">HAVE_RAW_DECL_WCSCASECMP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSCAT:CAPS">HAVE_RAW_DECL_WCSCAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSCHR:CAPS">HAVE_RAW_DECL_WCSCHR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSCMP:CAPS">HAVE_RAW_DECL_WCSCMP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSCOLL:CAPS">HAVE_RAW_DECL_WCSCOLL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSCPY:CAPS">HAVE_RAW_DECL_WCSCPY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSCSPN:CAPS">HAVE_RAW_DECL_WCSCSPN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSDUP:CAPS">HAVE_RAW_DECL_WCSDUP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSLEN:CAPS">HAVE_RAW_DECL_WCSLEN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSNCASECMP:CAPS">HAVE_RAW_DECL_WCSNCASECMP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSNCAT:CAPS">HAVE_RAW_DECL_WCSNCAT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSNCMP:CAPS">HAVE_RAW_DECL_WCSNCMP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSNCPY:CAPS">HAVE_RAW_DECL_WCSNCPY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSNLEN:CAPS">HAVE_RAW_DECL_WCSNLEN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSNRTOMBS:CAPS">HAVE_RAW_DECL_WCSNRTOMBS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSPBRK:CAPS">HAVE_RAW_DECL_WCSPBRK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSRCHR:CAPS">HAVE_RAW_DECL_WCSRCHR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSRTOMBS:CAPS">HAVE_RAW_DECL_WCSRTOMBS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSSPN:CAPS">HAVE_RAW_DECL_WCSSPN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSSTR:CAPS">HAVE_RAW_DECL_WCSSTR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSTOK:CAPS">HAVE_RAW_DECL_WCSTOK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSWIDTH:CAPS">HAVE_RAW_DECL_WCSWIDTH</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCSXFRM:CAPS">HAVE_RAW_DECL_WCSXFRM</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCTOB:CAPS">HAVE_RAW_DECL_WCTOB</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WCWIDTH:CAPS">HAVE_RAW_DECL_WCWIDTH</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WMEMCHR:CAPS">HAVE_RAW_DECL_WMEMCHR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WMEMCMP:CAPS">HAVE_RAW_DECL_WMEMCMP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WMEMCPY:CAPS">HAVE_RAW_DECL_WMEMCPY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WMEMMOVE:CAPS">HAVE_RAW_DECL_WMEMMOVE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL-WMEMSET:CAPS">HAVE_RAW_DECL_WMEMSET</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-RAW-DECL--EXIT:CAPS">HAVE_RAW_DECL__EXIT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-READDIR:CAPS">HAVE_READDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-READLINK:CAPS">HAVE_READLINK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-REALLOC-POSIX:CAPS">HAVE_REALLOC_POSIX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-REALPATH:CAPS">HAVE_REALPATH</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-SNPRINTF:CAPS">HAVE_SNPRINTF</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-SNPRINTF-RETVAL-C99:CAPS">HAVE_SNPRINTF_RETVAL_C99</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-STDINT-H:CAPS">HAVE_STDINT_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-STDINT-H-WITH-UINTMAX:CAPS">HAVE_STDINT_H_WITH_UINTMAX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-STDLIB-H:CAPS">HAVE_STDLIB_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-STRDUP:CAPS">HAVE_STRDUP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-STRINGS-H:CAPS">HAVE_STRINGS_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-STRING-H:CAPS">HAVE_STRING_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-STRNLEN:CAPS">HAVE_STRNLEN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-STRTOK-R:CAPS">HAVE_STRTOK_R</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-STRVERSCMP:CAPS">HAVE_STRVERSCMP</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-SYMLINK:CAPS">HAVE_SYMLINK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-SYS-MMAN-H:CAPS">HAVE_SYS_MMAN_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-SYS-PARAM-H:CAPS">HAVE_SYS_PARAM_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-SYS-SOCKET-H:CAPS">HAVE_SYS_SOCKET_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-SYS-STAT-H:CAPS">HAVE_SYS_STAT_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-SYS-TIME-H:CAPS">HAVE_SYS_TIME_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-SYS-TYPES-H:CAPS">HAVE_SYS_TYPES_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-UNISTD-H:CAPS">HAVE_UNISTD_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-UNSETENV:CAPS">HAVE_UNSETENV</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-UNSIGNED-LONG-LONG-INT:CAPS">HAVE_UNSIGNED_LONG_LONG_INT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-VISIBILITY:CAPS">HAVE_VISIBILITY</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-WCHAR-H:CAPS">HAVE_WCHAR_H</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-WCHAR-T:CAPS">HAVE_WCHAR_T</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-WCRTOMB:CAPS">HAVE_WCRTOMB</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-WCSLEN:CAPS">HAVE_WCSLEN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-WCSNLEN:CAPS">HAVE_WCSNLEN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-WINT-T:CAPS">HAVE_WINT_T</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-WORKING-O-NOATIME:CAPS">HAVE_WORKING_O_NOATIME</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE-WORKING-O-NOFOLLOW:CAPS">HAVE_WORKING_O_NOFOLLOW</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE--BOOL:CAPS">HAVE__BOOL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE---FPURGE:CAPS">HAVE___FPURGE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HAVE---FREADING:CAPS">HAVE___FREADING</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="LSTAT-FOLLOWS-SLASHED-SYMLINK:CAPS">LSTAT_FOLLOWS_SLASHED_SYMLINK</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="LT-OBJDIR:CAPS">LT_OBJDIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="PACKAGE:CAPS">PACKAGE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="PACKAGE-BUGREPORT:CAPS">PACKAGE_BUGREPORT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="PACKAGE-NAME:CAPS">PACKAGE_NAME</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="PACKAGE-STRING:CAPS">PACKAGE_STRING</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="PACKAGE-TARNAME:CAPS">PACKAGE_TARNAME</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="PACKAGE-URL:CAPS">PACKAGE_URL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="PACKAGE-VERSION:CAPS">PACKAGE_VERSION</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="STDC-HEADERS:CAPS">STDC_HEADERS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="UNLINK-CANNOT-UNLINK-DIR:CAPS">UNLINK_CANNOT_UNLINK_DIR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="VERSION:CAPS">VERSION</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="WORDS-BIGENDIAN:CAPS">WORDS_BIGENDIAN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="restrict">restrict</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+
+<refsect1 id="liboath-config.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+
+</refsect1>
+<refsect1 id="liboath-config.functions_details" role="details">
+<title role="details.title">Functions</title>
+<para />
+</refsect1>
+<refsect1 id="liboath-config.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="DBL-EXPBIT0-BIT:CAPS" role="macro">
+<title>DBL_EXPBIT0_BIT</title>
+<indexterm zone="DBL-EXPBIT0-BIT:CAPS"><primary>DBL_EXPBIT0_BIT</primary></indexterm>
+<programlisting language="C">#define DBL_EXPBIT0_BIT 20
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="DBL-EXPBIT0-WORD:CAPS" role="macro">
+<title>DBL_EXPBIT0_WORD</title>
+<indexterm zone="DBL-EXPBIT0-WORD:CAPS"><primary>DBL_EXPBIT0_WORD</primary></indexterm>
+<programlisting language="C">#define DBL_EXPBIT0_WORD 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="FUNC-FFLUSH-STDIN:CAPS" role="macro">
+<title>FUNC_FFLUSH_STDIN</title>
+<indexterm zone="FUNC-FFLUSH-STDIN:CAPS"><primary>FUNC_FFLUSH_STDIN</primary></indexterm>
+<programlisting language="C">#define FUNC_FFLUSH_STDIN 0
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="FUNC-REALPATH-WORKS:CAPS" role="macro">
+<title>FUNC_REALPATH_WORKS</title>
+<indexterm zone="FUNC-REALPATH-WORKS:CAPS"><primary>FUNC_REALPATH_WORKS</primary></indexterm>
+<programlisting language="C">#define FUNC_REALPATH_WORKS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GETTIMEOFDAY-TIMEZONE:CAPS" role="macro">
+<title>GETTIMEOFDAY_TIMEZONE</title>
+<indexterm zone="GETTIMEOFDAY-TIMEZONE:CAPS"><primary>GETTIMEOFDAY_TIMEZONE</primary></indexterm>
+<programlisting language="C">#define GETTIMEOFDAY_TIMEZONE struct timezone
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-CANONICALIZE-LGPL:CAPS" role="macro">
+<title>GNULIB_CANONICALIZE_LGPL</title>
+<indexterm zone="GNULIB-CANONICALIZE-LGPL:CAPS"><primary>GNULIB_CANONICALIZE_LGPL</primary></indexterm>
+<programlisting language="C">#define GNULIB_CANONICALIZE_LGPL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-FFLUSH:CAPS" role="macro">
+<title>GNULIB_FFLUSH</title>
+<indexterm zone="GNULIB-FFLUSH:CAPS"><primary>GNULIB_FFLUSH</primary></indexterm>
+<programlisting language="C">#define GNULIB_FFLUSH 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-FSCANF:CAPS" role="macro">
+<title>GNULIB_FSCANF</title>
+<indexterm zone="GNULIB-FSCANF:CAPS"><primary>GNULIB_FSCANF</primary></indexterm>
+<programlisting language="C">#define GNULIB_FSCANF 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-GC-HMAC-SHA1:CAPS" role="macro">
+<title>GNULIB_GC_HMAC_SHA1</title>
+<indexterm zone="GNULIB-GC-HMAC-SHA1:CAPS"><primary>GNULIB_GC_HMAC_SHA1</primary></indexterm>
+<programlisting language="C">#define GNULIB_GC_HMAC_SHA1 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-GC-HMAC-SHA256:CAPS" role="macro">
+<title>GNULIB_GC_HMAC_SHA256</title>
+<indexterm zone="GNULIB-GC-HMAC-SHA256:CAPS"><primary>GNULIB_GC_HMAC_SHA256</primary></indexterm>
+<programlisting language="C">#define GNULIB_GC_HMAC_SHA256 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-GC-HMAC-SHA512:CAPS" role="macro">
+<title>GNULIB_GC_HMAC_SHA512</title>
+<indexterm zone="GNULIB-GC-HMAC-SHA512:CAPS"><primary>GNULIB_GC_HMAC_SHA512</primary></indexterm>
+<programlisting language="C">#define GNULIB_GC_HMAC_SHA512 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-SCANF:CAPS" role="macro">
+<title>GNULIB_SCANF</title>
+<indexterm zone="GNULIB-SCANF:CAPS"><primary>GNULIB_SCANF</primary></indexterm>
+<programlisting language="C">#define GNULIB_SCANF 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-SNPRINTF:CAPS" role="macro">
+<title>GNULIB_SNPRINTF</title>
+<indexterm zone="GNULIB-SNPRINTF:CAPS"><primary>GNULIB_SNPRINTF</primary></indexterm>
+<programlisting language="C">#define GNULIB_SNPRINTF 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-CANONICALIZE-FILE-NAME:CAPS" role="macro">
+<title>GNULIB_TEST_CANONICALIZE_FILE_NAME</title>
+<indexterm zone="GNULIB-TEST-CANONICALIZE-FILE-NAME:CAPS"><primary>GNULIB_TEST_CANONICALIZE_FILE_NAME</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_CANONICALIZE_FILE_NAME 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-CHDIR:CAPS" role="macro">
+<title>GNULIB_TEST_CHDIR</title>
+<indexterm zone="GNULIB-TEST-CHDIR:CAPS"><primary>GNULIB_TEST_CHDIR</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_CHDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-CLOSE:CAPS" role="macro">
+<title>GNULIB_TEST_CLOSE</title>
+<indexterm zone="GNULIB-TEST-CLOSE:CAPS"><primary>GNULIB_TEST_CLOSE</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_CLOSE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-CLOSEDIR:CAPS" role="macro">
+<title>GNULIB_TEST_CLOSEDIR</title>
+<indexterm zone="GNULIB-TEST-CLOSEDIR:CAPS"><primary>GNULIB_TEST_CLOSEDIR</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_CLOSEDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-ENVIRON:CAPS" role="macro">
+<title>GNULIB_TEST_ENVIRON</title>
+<indexterm zone="GNULIB-TEST-ENVIRON:CAPS"><primary>GNULIB_TEST_ENVIRON</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_ENVIRON 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-FCLOSE:CAPS" role="macro">
+<title>GNULIB_TEST_FCLOSE</title>
+<indexterm zone="GNULIB-TEST-FCLOSE:CAPS"><primary>GNULIB_TEST_FCLOSE</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_FCLOSE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-FDOPEN:CAPS" role="macro">
+<title>GNULIB_TEST_FDOPEN</title>
+<indexterm zone="GNULIB-TEST-FDOPEN:CAPS"><primary>GNULIB_TEST_FDOPEN</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_FDOPEN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-FFLUSH:CAPS" role="macro">
+<title>GNULIB_TEST_FFLUSH</title>
+<indexterm zone="GNULIB-TEST-FFLUSH:CAPS"><primary>GNULIB_TEST_FFLUSH</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_FFLUSH 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-FOPEN:CAPS" role="macro">
+<title>GNULIB_TEST_FOPEN</title>
+<indexterm zone="GNULIB-TEST-FOPEN:CAPS"><primary>GNULIB_TEST_FOPEN</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_FOPEN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-FPURGE:CAPS" role="macro">
+<title>GNULIB_TEST_FPURGE</title>
+<indexterm zone="GNULIB-TEST-FPURGE:CAPS"><primary>GNULIB_TEST_FPURGE</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_FPURGE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-FSEEK:CAPS" role="macro">
+<title>GNULIB_TEST_FSEEK</title>
+<indexterm zone="GNULIB-TEST-FSEEK:CAPS"><primary>GNULIB_TEST_FSEEK</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_FSEEK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-FSEEKO:CAPS" role="macro">
+<title>GNULIB_TEST_FSEEKO</title>
+<indexterm zone="GNULIB-TEST-FSEEKO:CAPS"><primary>GNULIB_TEST_FSEEKO</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_FSEEKO 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-FSTAT:CAPS" role="macro">
+<title>GNULIB_TEST_FSTAT</title>
+<indexterm zone="GNULIB-TEST-FSTAT:CAPS"><primary>GNULIB_TEST_FSTAT</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_FSTAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-FTELL:CAPS" role="macro">
+<title>GNULIB_TEST_FTELL</title>
+<indexterm zone="GNULIB-TEST-FTELL:CAPS"><primary>GNULIB_TEST_FTELL</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_FTELL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-FTELLO:CAPS" role="macro">
+<title>GNULIB_TEST_FTELLO</title>
+<indexterm zone="GNULIB-TEST-FTELLO:CAPS"><primary>GNULIB_TEST_FTELLO</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_FTELLO 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-GETCWD:CAPS" role="macro">
+<title>GNULIB_TEST_GETCWD</title>
+<indexterm zone="GNULIB-TEST-GETCWD:CAPS"><primary>GNULIB_TEST_GETCWD</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_GETCWD 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-GETDELIM:CAPS" role="macro">
+<title>GNULIB_TEST_GETDELIM</title>
+<indexterm zone="GNULIB-TEST-GETDELIM:CAPS"><primary>GNULIB_TEST_GETDELIM</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_GETDELIM 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-GETLINE:CAPS" role="macro">
+<title>GNULIB_TEST_GETLINE</title>
+<indexterm zone="GNULIB-TEST-GETLINE:CAPS"><primary>GNULIB_TEST_GETLINE</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_GETLINE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-GETPAGESIZE:CAPS" role="macro">
+<title>GNULIB_TEST_GETPAGESIZE</title>
+<indexterm zone="GNULIB-TEST-GETPAGESIZE:CAPS"><primary>GNULIB_TEST_GETPAGESIZE</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_GETPAGESIZE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-GETTIMEOFDAY:CAPS" role="macro">
+<title>GNULIB_TEST_GETTIMEOFDAY</title>
+<indexterm zone="GNULIB-TEST-GETTIMEOFDAY:CAPS"><primary>GNULIB_TEST_GETTIMEOFDAY</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_GETTIMEOFDAY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-LINK:CAPS" role="macro">
+<title>GNULIB_TEST_LINK</title>
+<indexterm zone="GNULIB-TEST-LINK:CAPS"><primary>GNULIB_TEST_LINK</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_LINK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-LSEEK:CAPS" role="macro">
+<title>GNULIB_TEST_LSEEK</title>
+<indexterm zone="GNULIB-TEST-LSEEK:CAPS"><primary>GNULIB_TEST_LSEEK</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_LSEEK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-LSTAT:CAPS" role="macro">
+<title>GNULIB_TEST_LSTAT</title>
+<indexterm zone="GNULIB-TEST-LSTAT:CAPS"><primary>GNULIB_TEST_LSTAT</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_LSTAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-MALLOC-POSIX:CAPS" role="macro">
+<title>GNULIB_TEST_MALLOC_POSIX</title>
+<indexterm zone="GNULIB-TEST-MALLOC-POSIX:CAPS"><primary>GNULIB_TEST_MALLOC_POSIX</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_MALLOC_POSIX 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-MEMCHR:CAPS" role="macro">
+<title>GNULIB_TEST_MEMCHR</title>
+<indexterm zone="GNULIB-TEST-MEMCHR:CAPS"><primary>GNULIB_TEST_MEMCHR</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_MEMCHR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-OPENDIR:CAPS" role="macro">
+<title>GNULIB_TEST_OPENDIR</title>
+<indexterm zone="GNULIB-TEST-OPENDIR:CAPS"><primary>GNULIB_TEST_OPENDIR</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_OPENDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-PUTENV:CAPS" role="macro">
+<title>GNULIB_TEST_PUTENV</title>
+<indexterm zone="GNULIB-TEST-PUTENV:CAPS"><primary>GNULIB_TEST_PUTENV</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_PUTENV 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-READDIR:CAPS" role="macro">
+<title>GNULIB_TEST_READDIR</title>
+<indexterm zone="GNULIB-TEST-READDIR:CAPS"><primary>GNULIB_TEST_READDIR</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_READDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-READLINK:CAPS" role="macro">
+<title>GNULIB_TEST_READLINK</title>
+<indexterm zone="GNULIB-TEST-READLINK:CAPS"><primary>GNULIB_TEST_READLINK</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_READLINK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-REALLOC-POSIX:CAPS" role="macro">
+<title>GNULIB_TEST_REALLOC_POSIX</title>
+<indexterm zone="GNULIB-TEST-REALLOC-POSIX:CAPS"><primary>GNULIB_TEST_REALLOC_POSIX</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_REALLOC_POSIX 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-REALPATH:CAPS" role="macro">
+<title>GNULIB_TEST_REALPATH</title>
+<indexterm zone="GNULIB-TEST-REALPATH:CAPS"><primary>GNULIB_TEST_REALPATH</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_REALPATH 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-RENAME:CAPS" role="macro">
+<title>GNULIB_TEST_RENAME</title>
+<indexterm zone="GNULIB-TEST-RENAME:CAPS"><primary>GNULIB_TEST_RENAME</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_RENAME 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-RMDIR:CAPS" role="macro">
+<title>GNULIB_TEST_RMDIR</title>
+<indexterm zone="GNULIB-TEST-RMDIR:CAPS"><primary>GNULIB_TEST_RMDIR</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_RMDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-SNPRINTF:CAPS" role="macro">
+<title>GNULIB_TEST_SNPRINTF</title>
+<indexterm zone="GNULIB-TEST-SNPRINTF:CAPS"><primary>GNULIB_TEST_SNPRINTF</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_SNPRINTF 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-STAT:CAPS" role="macro">
+<title>GNULIB_TEST_STAT</title>
+<indexterm zone="GNULIB-TEST-STAT:CAPS"><primary>GNULIB_TEST_STAT</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_STAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-STRDUP:CAPS" role="macro">
+<title>GNULIB_TEST_STRDUP</title>
+<indexterm zone="GNULIB-TEST-STRDUP:CAPS"><primary>GNULIB_TEST_STRDUP</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_STRDUP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-STRTOK-R:CAPS" role="macro">
+<title>GNULIB_TEST_STRTOK_R</title>
+<indexterm zone="GNULIB-TEST-STRTOK-R:CAPS"><primary>GNULIB_TEST_STRTOK_R</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_STRTOK_R 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-STRVERSCMP:CAPS" role="macro">
+<title>GNULIB_TEST_STRVERSCMP</title>
+<indexterm zone="GNULIB-TEST-STRVERSCMP:CAPS"><primary>GNULIB_TEST_STRVERSCMP</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_STRVERSCMP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-SYMLINK:CAPS" role="macro">
+<title>GNULIB_TEST_SYMLINK</title>
+<indexterm zone="GNULIB-TEST-SYMLINK:CAPS"><primary>GNULIB_TEST_SYMLINK</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_SYMLINK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-UNLINK:CAPS" role="macro">
+<title>GNULIB_TEST_UNLINK</title>
+<indexterm zone="GNULIB-TEST-UNLINK:CAPS"><primary>GNULIB_TEST_UNLINK</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_UNLINK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="GNULIB-TEST-UNSETENV:CAPS" role="macro">
+<title>GNULIB_TEST_UNSETENV</title>
+<indexterm zone="GNULIB-TEST-UNSETENV:CAPS"><primary>GNULIB_TEST_UNSETENV</primary></indexterm>
+<programlisting language="C">#define GNULIB_TEST_UNSETENV 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-ALLOCA:CAPS" role="macro">
+<title>HAVE_ALLOCA</title>
+<indexterm zone="HAVE-ALLOCA:CAPS"><primary>HAVE_ALLOCA</primary></indexterm>
+<programlisting language="C">#define HAVE_ALLOCA 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-ALLOCA-H:CAPS" role="macro">
+<title>HAVE_ALLOCA_H</title>
+<indexterm zone="HAVE-ALLOCA-H:CAPS"><primary>HAVE_ALLOCA_H</primary></indexterm>
+<programlisting language="C">#define HAVE_ALLOCA_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-CANONICALIZE-FILE-NAME:CAPS" role="macro">
+<title>HAVE_CANONICALIZE_FILE_NAME</title>
+<indexterm zone="HAVE-CANONICALIZE-FILE-NAME:CAPS"><primary>HAVE_CANONICALIZE_FILE_NAME</primary></indexterm>
+<programlisting language="C">#define HAVE_CANONICALIZE_FILE_NAME 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-CLOSEDIR:CAPS" role="macro">
+<title>HAVE_CLOSEDIR</title>
+<indexterm zone="HAVE-CLOSEDIR:CAPS"><primary>HAVE_CLOSEDIR</primary></indexterm>
+<programlisting language="C">#define HAVE_CLOSEDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-DECL-FPURGE:CAPS" role="macro">
+<title>HAVE_DECL_FPURGE</title>
+<indexterm zone="HAVE-DECL-FPURGE:CAPS"><primary>HAVE_DECL_FPURGE</primary></indexterm>
+<programlisting language="C">#define HAVE_DECL_FPURGE 0
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-DECL-FSEEKO:CAPS" role="macro">
+<title>HAVE_DECL_FSEEKO</title>
+<indexterm zone="HAVE-DECL-FSEEKO:CAPS"><primary>HAVE_DECL_FSEEKO</primary></indexterm>
+<programlisting language="C">#define HAVE_DECL_FSEEKO 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-DECL-FTELLO:CAPS" role="macro">
+<title>HAVE_DECL_FTELLO</title>
+<indexterm zone="HAVE-DECL-FTELLO:CAPS"><primary>HAVE_DECL_FTELLO</primary></indexterm>
+<programlisting language="C">#define HAVE_DECL_FTELLO 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-DECL-GETDELIM:CAPS" role="macro">
+<title>HAVE_DECL_GETDELIM</title>
+<indexterm zone="HAVE-DECL-GETDELIM:CAPS"><primary>HAVE_DECL_GETDELIM</primary></indexterm>
+<programlisting language="C">#define HAVE_DECL_GETDELIM 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-DECL-GETLINE:CAPS" role="macro">
+<title>HAVE_DECL_GETLINE</title>
+<indexterm zone="HAVE-DECL-GETLINE:CAPS"><primary>HAVE_DECL_GETLINE</primary></indexterm>
+<programlisting language="C">#define HAVE_DECL_GETLINE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-DECL-SNPRINTF:CAPS" role="macro">
+<title>HAVE_DECL_SNPRINTF</title>
+<indexterm zone="HAVE-DECL-SNPRINTF:CAPS"><primary>HAVE_DECL_SNPRINTF</primary></indexterm>
+<programlisting language="C">#define HAVE_DECL_SNPRINTF 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-DECL-STRDUP:CAPS" role="macro">
+<title>HAVE_DECL_STRDUP</title>
+<indexterm zone="HAVE-DECL-STRDUP:CAPS"><primary>HAVE_DECL_STRDUP</primary></indexterm>
+<programlisting language="C">#define HAVE_DECL_STRDUP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-DECL-STRTOK-R:CAPS" role="macro">
+<title>HAVE_DECL_STRTOK_R</title>
+<indexterm zone="HAVE-DECL-STRTOK-R:CAPS"><primary>HAVE_DECL_STRTOK_R</primary></indexterm>
+<programlisting language="C">#define HAVE_DECL_STRTOK_R 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-DECL-UNSETENV:CAPS" role="macro">
+<title>HAVE_DECL_UNSETENV</title>
+<indexterm zone="HAVE-DECL-UNSETENV:CAPS"><primary>HAVE_DECL_UNSETENV</primary></indexterm>
+<programlisting language="C">#define HAVE_DECL_UNSETENV 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-DECL--SNPRINTF:CAPS" role="macro">
+<title>HAVE_DECL__SNPRINTF</title>
+<indexterm zone="HAVE-DECL--SNPRINTF:CAPS"><primary>HAVE_DECL__SNPRINTF</primary></indexterm>
+<programlisting language="C">#define HAVE_DECL__SNPRINTF 0
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-DIRENT-H:CAPS" role="macro">
+<title>HAVE_DIRENT_H</title>
+<indexterm zone="HAVE-DIRENT-H:CAPS"><primary>HAVE_DIRENT_H</primary></indexterm>
+<programlisting language="C">#define HAVE_DIRENT_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-DLFCN-H:CAPS" role="macro">
+<title>HAVE_DLFCN_H</title>
+<indexterm zone="HAVE-DLFCN-H:CAPS"><primary>HAVE_DLFCN_H</primary></indexterm>
+<programlisting language="C">#define HAVE_DLFCN_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-ENVIRON-DECL:CAPS" role="macro">
+<title>HAVE_ENVIRON_DECL</title>
+<indexterm zone="HAVE-ENVIRON-DECL:CAPS"><primary>HAVE_ENVIRON_DECL</primary></indexterm>
+<programlisting language="C">#define HAVE_ENVIRON_DECL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-FEATURES-H:CAPS" role="macro">
+<title>HAVE_FEATURES_H</title>
+<indexterm zone="HAVE-FEATURES-H:CAPS"><primary>HAVE_FEATURES_H</primary></indexterm>
+<programlisting language="C">#define HAVE_FEATURES_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-FSEEKO:CAPS" role="macro">
+<title>HAVE_FSEEKO</title>
+<indexterm zone="HAVE-FSEEKO:CAPS"><primary>HAVE_FSEEKO</primary></indexterm>
+<programlisting language="C">#define HAVE_FSEEKO 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-GETCWD:CAPS" role="macro">
+<title>HAVE_GETCWD</title>
+<indexterm zone="HAVE-GETCWD:CAPS"><primary>HAVE_GETCWD</primary></indexterm>
+<programlisting language="C">#define HAVE_GETCWD 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-GETDELIM:CAPS" role="macro">
+<title>HAVE_GETDELIM</title>
+<indexterm zone="HAVE-GETDELIM:CAPS"><primary>HAVE_GETDELIM</primary></indexterm>
+<programlisting language="C">#define HAVE_GETDELIM 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-GETPAGESIZE:CAPS" role="macro">
+<title>HAVE_GETPAGESIZE</title>
+<indexterm zone="HAVE-GETPAGESIZE:CAPS"><primary>HAVE_GETPAGESIZE</primary></indexterm>
+<programlisting language="C">#define HAVE_GETPAGESIZE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-GETTIMEOFDAY:CAPS" role="macro">
+<title>HAVE_GETTIMEOFDAY</title>
+<indexterm zone="HAVE-GETTIMEOFDAY:CAPS"><primary>HAVE_GETTIMEOFDAY</primary></indexterm>
+<programlisting language="C">#define HAVE_GETTIMEOFDAY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-INTMAX-T:CAPS" role="macro">
+<title>HAVE_INTMAX_T</title>
+<indexterm zone="HAVE-INTMAX-T:CAPS"><primary>HAVE_INTMAX_T</primary></indexterm>
+<programlisting language="C">#define HAVE_INTMAX_T 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-INTTYPES-H:CAPS" role="macro">
+<title>HAVE_INTTYPES_H</title>
+<indexterm zone="HAVE-INTTYPES-H:CAPS"><primary>HAVE_INTTYPES_H</primary></indexterm>
+<programlisting language="C">#define HAVE_INTTYPES_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-INTTYPES-H-WITH-UINTMAX:CAPS" role="macro">
+<title>HAVE_INTTYPES_H_WITH_UINTMAX</title>
+<indexterm zone="HAVE-INTTYPES-H-WITH-UINTMAX:CAPS"><primary>HAVE_INTTYPES_H_WITH_UINTMAX</primary></indexterm>
+<programlisting language="C">#define HAVE_INTTYPES_H_WITH_UINTMAX 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-LINK:CAPS" role="macro">
+<title>HAVE_LINK</title>
+<indexterm zone="HAVE-LINK:CAPS"><primary>HAVE_LINK</primary></indexterm>
+<programlisting language="C">#define HAVE_LINK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-LONG-LONG-INT:CAPS" role="macro">
+<title>HAVE_LONG_LONG_INT</title>
+<indexterm zone="HAVE-LONG-LONG-INT:CAPS"><primary>HAVE_LONG_LONG_INT</primary></indexterm>
+<programlisting language="C">#define HAVE_LONG_LONG_INT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-LSTAT:CAPS" role="macro">
+<title>HAVE_LSTAT</title>
+<indexterm zone="HAVE-LSTAT:CAPS"><primary>HAVE_LSTAT</primary></indexterm>
+<programlisting language="C">#define HAVE_LSTAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-MALLOC-POSIX:CAPS" role="macro">
+<title>HAVE_MALLOC_POSIX</title>
+<indexterm zone="HAVE-MALLOC-POSIX:CAPS"><primary>HAVE_MALLOC_POSIX</primary></indexterm>
+<programlisting language="C">#define HAVE_MALLOC_POSIX 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-MAP-ANONYMOUS:CAPS" role="macro">
+<title>HAVE_MAP_ANONYMOUS</title>
+<indexterm zone="HAVE-MAP-ANONYMOUS:CAPS"><primary>HAVE_MAP_ANONYMOUS</primary></indexterm>
+<programlisting language="C">#define HAVE_MAP_ANONYMOUS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-MBRTOWC:CAPS" role="macro">
+<title>HAVE_MBRTOWC</title>
+<indexterm zone="HAVE-MBRTOWC:CAPS"><primary>HAVE_MBRTOWC</primary></indexterm>
+<programlisting language="C">#define HAVE_MBRTOWC 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-MEMORY-H:CAPS" role="macro">
+<title>HAVE_MEMORY_H</title>
+<indexterm zone="HAVE-MEMORY-H:CAPS"><primary>HAVE_MEMORY_H</primary></indexterm>
+<programlisting language="C">#define HAVE_MEMORY_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-MPROTECT:CAPS" role="macro">
+<title>HAVE_MPROTECT</title>
+<indexterm zone="HAVE-MPROTECT:CAPS"><primary>HAVE_MPROTECT</primary></indexterm>
+<programlisting language="C">#define HAVE_MPROTECT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-OPENDIR:CAPS" role="macro">
+<title>HAVE_OPENDIR</title>
+<indexterm zone="HAVE-OPENDIR:CAPS"><primary>HAVE_OPENDIR</primary></indexterm>
+<programlisting language="C">#define HAVE_OPENDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-ALPHASORT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_ALPHASORT</title>
+<indexterm zone="HAVE-RAW-DECL-ALPHASORT:CAPS"><primary>HAVE_RAW_DECL_ALPHASORT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_ALPHASORT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-ATOLL:CAPS" role="macro">
+<title>HAVE_RAW_DECL_ATOLL</title>
+<indexterm zone="HAVE-RAW-DECL-ATOLL:CAPS"><primary>HAVE_RAW_DECL_ATOLL</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_ATOLL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-BTOWC:CAPS" role="macro">
+<title>HAVE_RAW_DECL_BTOWC</title>
+<indexterm zone="HAVE-RAW-DECL-BTOWC:CAPS"><primary>HAVE_RAW_DECL_BTOWC</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_BTOWC 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-CANONICALIZE-FILE-NAME:CAPS" role="macro">
+<title>HAVE_RAW_DECL_CANONICALIZE_FILE_NAME</title>
+<indexterm zone="HAVE-RAW-DECL-CANONICALIZE-FILE-NAME:CAPS"><primary>HAVE_RAW_DECL_CANONICALIZE_FILE_NAME</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_CANONICALIZE_FILE_NAME 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-CHDIR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_CHDIR</title>
+<indexterm zone="HAVE-RAW-DECL-CHDIR:CAPS"><primary>HAVE_RAW_DECL_CHDIR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_CHDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-CHOWN:CAPS" role="macro">
+<title>HAVE_RAW_DECL_CHOWN</title>
+<indexterm zone="HAVE-RAW-DECL-CHOWN:CAPS"><primary>HAVE_RAW_DECL_CHOWN</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_CHOWN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-CLOSEDIR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_CLOSEDIR</title>
+<indexterm zone="HAVE-RAW-DECL-CLOSEDIR:CAPS"><primary>HAVE_RAW_DECL_CLOSEDIR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_CLOSEDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-DIRFD:CAPS" role="macro">
+<title>HAVE_RAW_DECL_DIRFD</title>
+<indexterm zone="HAVE-RAW-DECL-DIRFD:CAPS"><primary>HAVE_RAW_DECL_DIRFD</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_DIRFD 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-DPRINTF:CAPS" role="macro">
+<title>HAVE_RAW_DECL_DPRINTF</title>
+<indexterm zone="HAVE-RAW-DECL-DPRINTF:CAPS"><primary>HAVE_RAW_DECL_DPRINTF</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_DPRINTF 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-DUP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_DUP</title>
+<indexterm zone="HAVE-RAW-DECL-DUP:CAPS"><primary>HAVE_RAW_DECL_DUP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_DUP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-DUP2:CAPS" role="macro">
+<title>HAVE_RAW_DECL_DUP2</title>
+<indexterm zone="HAVE-RAW-DECL-DUP2:CAPS"><primary>HAVE_RAW_DECL_DUP2</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_DUP2 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-DUP3:CAPS" role="macro">
+<title>HAVE_RAW_DECL_DUP3</title>
+<indexterm zone="HAVE-RAW-DECL-DUP3:CAPS"><primary>HAVE_RAW_DECL_DUP3</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_DUP3 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-ENDUSERSHELL:CAPS" role="macro">
+<title>HAVE_RAW_DECL_ENDUSERSHELL</title>
+<indexterm zone="HAVE-RAW-DECL-ENDUSERSHELL:CAPS"><primary>HAVE_RAW_DECL_ENDUSERSHELL</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_ENDUSERSHELL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-ENVIRON:CAPS" role="macro">
+<title>HAVE_RAW_DECL_ENVIRON</title>
+<indexterm zone="HAVE-RAW-DECL-ENVIRON:CAPS"><primary>HAVE_RAW_DECL_ENVIRON</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_ENVIRON 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-EUIDACCESS:CAPS" role="macro">
+<title>HAVE_RAW_DECL_EUIDACCESS</title>
+<indexterm zone="HAVE-RAW-DECL-EUIDACCESS:CAPS"><primary>HAVE_RAW_DECL_EUIDACCESS</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_EUIDACCESS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FACCESSAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FACCESSAT</title>
+<indexterm zone="HAVE-RAW-DECL-FACCESSAT:CAPS"><primary>HAVE_RAW_DECL_FACCESSAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FACCESSAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FCHDIR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FCHDIR</title>
+<indexterm zone="HAVE-RAW-DECL-FCHDIR:CAPS"><primary>HAVE_RAW_DECL_FCHDIR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FCHDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FCHMODAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FCHMODAT</title>
+<indexterm zone="HAVE-RAW-DECL-FCHMODAT:CAPS"><primary>HAVE_RAW_DECL_FCHMODAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FCHMODAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FCHOWNAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FCHOWNAT</title>
+<indexterm zone="HAVE-RAW-DECL-FCHOWNAT:CAPS"><primary>HAVE_RAW_DECL_FCHOWNAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FCHOWNAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FCNTL:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FCNTL</title>
+<indexterm zone="HAVE-RAW-DECL-FCNTL:CAPS"><primary>HAVE_RAW_DECL_FCNTL</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FCNTL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FDATASYNC:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FDATASYNC</title>
+<indexterm zone="HAVE-RAW-DECL-FDATASYNC:CAPS"><primary>HAVE_RAW_DECL_FDATASYNC</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FDATASYNC 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FDOPENDIR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FDOPENDIR</title>
+<indexterm zone="HAVE-RAW-DECL-FDOPENDIR:CAPS"><primary>HAVE_RAW_DECL_FDOPENDIR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FDOPENDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FFSL:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FFSL</title>
+<indexterm zone="HAVE-RAW-DECL-FFSL:CAPS"><primary>HAVE_RAW_DECL_FFSL</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FFSL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FFSLL:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FFSLL</title>
+<indexterm zone="HAVE-RAW-DECL-FFSLL:CAPS"><primary>HAVE_RAW_DECL_FFSLL</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FFSLL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FSEEKO:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FSEEKO</title>
+<indexterm zone="HAVE-RAW-DECL-FSEEKO:CAPS"><primary>HAVE_RAW_DECL_FSEEKO</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FSEEKO 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FSTAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FSTAT</title>
+<indexterm zone="HAVE-RAW-DECL-FSTAT:CAPS"><primary>HAVE_RAW_DECL_FSTAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FSTAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FSTATAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FSTATAT</title>
+<indexterm zone="HAVE-RAW-DECL-FSTATAT:CAPS"><primary>HAVE_RAW_DECL_FSTATAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FSTATAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FSYNC:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FSYNC</title>
+<indexterm zone="HAVE-RAW-DECL-FSYNC:CAPS"><primary>HAVE_RAW_DECL_FSYNC</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FSYNC 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FTELLO:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FTELLO</title>
+<indexterm zone="HAVE-RAW-DECL-FTELLO:CAPS"><primary>HAVE_RAW_DECL_FTELLO</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FTELLO 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FTRUNCATE:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FTRUNCATE</title>
+<indexterm zone="HAVE-RAW-DECL-FTRUNCATE:CAPS"><primary>HAVE_RAW_DECL_FTRUNCATE</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FTRUNCATE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-FUTIMENS:CAPS" role="macro">
+<title>HAVE_RAW_DECL_FUTIMENS</title>
+<indexterm zone="HAVE-RAW-DECL-FUTIMENS:CAPS"><primary>HAVE_RAW_DECL_FUTIMENS</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_FUTIMENS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETCWD:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETCWD</title>
+<indexterm zone="HAVE-RAW-DECL-GETCWD:CAPS"><primary>HAVE_RAW_DECL_GETCWD</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETCWD 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETDELIM:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETDELIM</title>
+<indexterm zone="HAVE-RAW-DECL-GETDELIM:CAPS"><primary>HAVE_RAW_DECL_GETDELIM</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETDELIM 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETDOMAINNAME:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETDOMAINNAME</title>
+<indexterm zone="HAVE-RAW-DECL-GETDOMAINNAME:CAPS"><primary>HAVE_RAW_DECL_GETDOMAINNAME</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETDOMAINNAME 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETDTABLESIZE:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETDTABLESIZE</title>
+<indexterm zone="HAVE-RAW-DECL-GETDTABLESIZE:CAPS"><primary>HAVE_RAW_DECL_GETDTABLESIZE</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETDTABLESIZE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETGROUPS:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETGROUPS</title>
+<indexterm zone="HAVE-RAW-DECL-GETGROUPS:CAPS"><primary>HAVE_RAW_DECL_GETGROUPS</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETGROUPS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETHOSTNAME:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETHOSTNAME</title>
+<indexterm zone="HAVE-RAW-DECL-GETHOSTNAME:CAPS"><primary>HAVE_RAW_DECL_GETHOSTNAME</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETHOSTNAME 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETLINE:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETLINE</title>
+<indexterm zone="HAVE-RAW-DECL-GETLINE:CAPS"><primary>HAVE_RAW_DECL_GETLINE</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETLINE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETLOADAVG:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETLOADAVG</title>
+<indexterm zone="HAVE-RAW-DECL-GETLOADAVG:CAPS"><primary>HAVE_RAW_DECL_GETLOADAVG</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETLOADAVG 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETLOGIN:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETLOGIN</title>
+<indexterm zone="HAVE-RAW-DECL-GETLOGIN:CAPS"><primary>HAVE_RAW_DECL_GETLOGIN</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETLOGIN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETLOGIN-R:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETLOGIN_R</title>
+<indexterm zone="HAVE-RAW-DECL-GETLOGIN-R:CAPS"><primary>HAVE_RAW_DECL_GETLOGIN_R</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETLOGIN_R 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETPAGESIZE:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETPAGESIZE</title>
+<indexterm zone="HAVE-RAW-DECL-GETPAGESIZE:CAPS"><primary>HAVE_RAW_DECL_GETPAGESIZE</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETPAGESIZE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETSUBOPT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETSUBOPT</title>
+<indexterm zone="HAVE-RAW-DECL-GETSUBOPT:CAPS"><primary>HAVE_RAW_DECL_GETSUBOPT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETSUBOPT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETTIMEOFDAY:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETTIMEOFDAY</title>
+<indexterm zone="HAVE-RAW-DECL-GETTIMEOFDAY:CAPS"><primary>HAVE_RAW_DECL_GETTIMEOFDAY</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETTIMEOFDAY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GETUSERSHELL:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GETUSERSHELL</title>
+<indexterm zone="HAVE-RAW-DECL-GETUSERSHELL:CAPS"><primary>HAVE_RAW_DECL_GETUSERSHELL</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GETUSERSHELL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GRANTPT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GRANTPT</title>
+<indexterm zone="HAVE-RAW-DECL-GRANTPT:CAPS"><primary>HAVE_RAW_DECL_GRANTPT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GRANTPT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-GROUP-MEMBER:CAPS" role="macro">
+<title>HAVE_RAW_DECL_GROUP_MEMBER</title>
+<indexterm zone="HAVE-RAW-DECL-GROUP-MEMBER:CAPS"><primary>HAVE_RAW_DECL_GROUP_MEMBER</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_GROUP_MEMBER 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-IMAXABS:CAPS" role="macro">
+<title>HAVE_RAW_DECL_IMAXABS</title>
+<indexterm zone="HAVE-RAW-DECL-IMAXABS:CAPS"><primary>HAVE_RAW_DECL_IMAXABS</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_IMAXABS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-IMAXDIV:CAPS" role="macro">
+<title>HAVE_RAW_DECL_IMAXDIV</title>
+<indexterm zone="HAVE-RAW-DECL-IMAXDIV:CAPS"><primary>HAVE_RAW_DECL_IMAXDIV</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_IMAXDIV 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-INITSTATE:CAPS" role="macro">
+<title>HAVE_RAW_DECL_INITSTATE</title>
+<indexterm zone="HAVE-RAW-DECL-INITSTATE:CAPS"><primary>HAVE_RAW_DECL_INITSTATE</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_INITSTATE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-INITSTATE-R:CAPS" role="macro">
+<title>HAVE_RAW_DECL_INITSTATE_R</title>
+<indexterm zone="HAVE-RAW-DECL-INITSTATE-R:CAPS"><primary>HAVE_RAW_DECL_INITSTATE_R</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_INITSTATE_R 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-ISATTY:CAPS" role="macro">
+<title>HAVE_RAW_DECL_ISATTY</title>
+<indexterm zone="HAVE-RAW-DECL-ISATTY:CAPS"><primary>HAVE_RAW_DECL_ISATTY</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_ISATTY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-LCHMOD:CAPS" role="macro">
+<title>HAVE_RAW_DECL_LCHMOD</title>
+<indexterm zone="HAVE-RAW-DECL-LCHMOD:CAPS"><primary>HAVE_RAW_DECL_LCHMOD</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_LCHMOD 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-LCHOWN:CAPS" role="macro">
+<title>HAVE_RAW_DECL_LCHOWN</title>
+<indexterm zone="HAVE-RAW-DECL-LCHOWN:CAPS"><primary>HAVE_RAW_DECL_LCHOWN</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_LCHOWN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-LINK:CAPS" role="macro">
+<title>HAVE_RAW_DECL_LINK</title>
+<indexterm zone="HAVE-RAW-DECL-LINK:CAPS"><primary>HAVE_RAW_DECL_LINK</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_LINK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-LINKAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_LINKAT</title>
+<indexterm zone="HAVE-RAW-DECL-LINKAT:CAPS"><primary>HAVE_RAW_DECL_LINKAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_LINKAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-LSEEK:CAPS" role="macro">
+<title>HAVE_RAW_DECL_LSEEK</title>
+<indexterm zone="HAVE-RAW-DECL-LSEEK:CAPS"><primary>HAVE_RAW_DECL_LSEEK</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_LSEEK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-LSTAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_LSTAT</title>
+<indexterm zone="HAVE-RAW-DECL-LSTAT:CAPS"><primary>HAVE_RAW_DECL_LSTAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_LSTAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MBRLEN:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MBRLEN</title>
+<indexterm zone="HAVE-RAW-DECL-MBRLEN:CAPS"><primary>HAVE_RAW_DECL_MBRLEN</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MBRLEN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MBRTOWC:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MBRTOWC</title>
+<indexterm zone="HAVE-RAW-DECL-MBRTOWC:CAPS"><primary>HAVE_RAW_DECL_MBRTOWC</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MBRTOWC 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MBSINIT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MBSINIT</title>
+<indexterm zone="HAVE-RAW-DECL-MBSINIT:CAPS"><primary>HAVE_RAW_DECL_MBSINIT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MBSINIT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MBSNRTOWCS:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MBSNRTOWCS</title>
+<indexterm zone="HAVE-RAW-DECL-MBSNRTOWCS:CAPS"><primary>HAVE_RAW_DECL_MBSNRTOWCS</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MBSNRTOWCS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MBSRTOWCS:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MBSRTOWCS</title>
+<indexterm zone="HAVE-RAW-DECL-MBSRTOWCS:CAPS"><primary>HAVE_RAW_DECL_MBSRTOWCS</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MBSRTOWCS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MEMMEM:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MEMMEM</title>
+<indexterm zone="HAVE-RAW-DECL-MEMMEM:CAPS"><primary>HAVE_RAW_DECL_MEMMEM</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MEMMEM 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MEMPCPY:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MEMPCPY</title>
+<indexterm zone="HAVE-RAW-DECL-MEMPCPY:CAPS"><primary>HAVE_RAW_DECL_MEMPCPY</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MEMPCPY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MEMRCHR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MEMRCHR</title>
+<indexterm zone="HAVE-RAW-DECL-MEMRCHR:CAPS"><primary>HAVE_RAW_DECL_MEMRCHR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MEMRCHR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MKDIRAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MKDIRAT</title>
+<indexterm zone="HAVE-RAW-DECL-MKDIRAT:CAPS"><primary>HAVE_RAW_DECL_MKDIRAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MKDIRAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MKDTEMP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MKDTEMP</title>
+<indexterm zone="HAVE-RAW-DECL-MKDTEMP:CAPS"><primary>HAVE_RAW_DECL_MKDTEMP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MKDTEMP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MKFIFO:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MKFIFO</title>
+<indexterm zone="HAVE-RAW-DECL-MKFIFO:CAPS"><primary>HAVE_RAW_DECL_MKFIFO</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MKFIFO 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MKFIFOAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MKFIFOAT</title>
+<indexterm zone="HAVE-RAW-DECL-MKFIFOAT:CAPS"><primary>HAVE_RAW_DECL_MKFIFOAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MKFIFOAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MKNOD:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MKNOD</title>
+<indexterm zone="HAVE-RAW-DECL-MKNOD:CAPS"><primary>HAVE_RAW_DECL_MKNOD</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MKNOD 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MKNODAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MKNODAT</title>
+<indexterm zone="HAVE-RAW-DECL-MKNODAT:CAPS"><primary>HAVE_RAW_DECL_MKNODAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MKNODAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MKOSTEMP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MKOSTEMP</title>
+<indexterm zone="HAVE-RAW-DECL-MKOSTEMP:CAPS"><primary>HAVE_RAW_DECL_MKOSTEMP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MKOSTEMP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MKOSTEMPS:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MKOSTEMPS</title>
+<indexterm zone="HAVE-RAW-DECL-MKOSTEMPS:CAPS"><primary>HAVE_RAW_DECL_MKOSTEMPS</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MKOSTEMPS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MKSTEMP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MKSTEMP</title>
+<indexterm zone="HAVE-RAW-DECL-MKSTEMP:CAPS"><primary>HAVE_RAW_DECL_MKSTEMP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MKSTEMP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-MKSTEMPS:CAPS" role="macro">
+<title>HAVE_RAW_DECL_MKSTEMPS</title>
+<indexterm zone="HAVE-RAW-DECL-MKSTEMPS:CAPS"><primary>HAVE_RAW_DECL_MKSTEMPS</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_MKSTEMPS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-OPENAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_OPENAT</title>
+<indexterm zone="HAVE-RAW-DECL-OPENAT:CAPS"><primary>HAVE_RAW_DECL_OPENAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_OPENAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-OPENDIR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_OPENDIR</title>
+<indexterm zone="HAVE-RAW-DECL-OPENDIR:CAPS"><primary>HAVE_RAW_DECL_OPENDIR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_OPENDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-PCLOSE:CAPS" role="macro">
+<title>HAVE_RAW_DECL_PCLOSE</title>
+<indexterm zone="HAVE-RAW-DECL-PCLOSE:CAPS"><primary>HAVE_RAW_DECL_PCLOSE</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_PCLOSE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-PIPE:CAPS" role="macro">
+<title>HAVE_RAW_DECL_PIPE</title>
+<indexterm zone="HAVE-RAW-DECL-PIPE:CAPS"><primary>HAVE_RAW_DECL_PIPE</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_PIPE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-PIPE2:CAPS" role="macro">
+<title>HAVE_RAW_DECL_PIPE2</title>
+<indexterm zone="HAVE-RAW-DECL-PIPE2:CAPS"><primary>HAVE_RAW_DECL_PIPE2</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_PIPE2 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-POPEN:CAPS" role="macro">
+<title>HAVE_RAW_DECL_POPEN</title>
+<indexterm zone="HAVE-RAW-DECL-POPEN:CAPS"><primary>HAVE_RAW_DECL_POPEN</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_POPEN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-POSIX-OPENPT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_POSIX_OPENPT</title>
+<indexterm zone="HAVE-RAW-DECL-POSIX-OPENPT:CAPS"><primary>HAVE_RAW_DECL_POSIX_OPENPT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_POSIX_OPENPT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-PREAD:CAPS" role="macro">
+<title>HAVE_RAW_DECL_PREAD</title>
+<indexterm zone="HAVE-RAW-DECL-PREAD:CAPS"><primary>HAVE_RAW_DECL_PREAD</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_PREAD 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-PTSNAME:CAPS" role="macro">
+<title>HAVE_RAW_DECL_PTSNAME</title>
+<indexterm zone="HAVE-RAW-DECL-PTSNAME:CAPS"><primary>HAVE_RAW_DECL_PTSNAME</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_PTSNAME 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-PTSNAME-R:CAPS" role="macro">
+<title>HAVE_RAW_DECL_PTSNAME_R</title>
+<indexterm zone="HAVE-RAW-DECL-PTSNAME-R:CAPS"><primary>HAVE_RAW_DECL_PTSNAME_R</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_PTSNAME_R 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-PWRITE:CAPS" role="macro">
+<title>HAVE_RAW_DECL_PWRITE</title>
+<indexterm zone="HAVE-RAW-DECL-PWRITE:CAPS"><primary>HAVE_RAW_DECL_PWRITE</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_PWRITE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-RANDOM:CAPS" role="macro">
+<title>HAVE_RAW_DECL_RANDOM</title>
+<indexterm zone="HAVE-RAW-DECL-RANDOM:CAPS"><primary>HAVE_RAW_DECL_RANDOM</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_RANDOM 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-RANDOM-R:CAPS" role="macro">
+<title>HAVE_RAW_DECL_RANDOM_R</title>
+<indexterm zone="HAVE-RAW-DECL-RANDOM-R:CAPS"><primary>HAVE_RAW_DECL_RANDOM_R</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_RANDOM_R 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-RAWMEMCHR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_RAWMEMCHR</title>
+<indexterm zone="HAVE-RAW-DECL-RAWMEMCHR:CAPS"><primary>HAVE_RAW_DECL_RAWMEMCHR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_RAWMEMCHR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-READDIR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_READDIR</title>
+<indexterm zone="HAVE-RAW-DECL-READDIR:CAPS"><primary>HAVE_RAW_DECL_READDIR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_READDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-READLINK:CAPS" role="macro">
+<title>HAVE_RAW_DECL_READLINK</title>
+<indexterm zone="HAVE-RAW-DECL-READLINK:CAPS"><primary>HAVE_RAW_DECL_READLINK</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_READLINK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-READLINKAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_READLINKAT</title>
+<indexterm zone="HAVE-RAW-DECL-READLINKAT:CAPS"><primary>HAVE_RAW_DECL_READLINKAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_READLINKAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-REALPATH:CAPS" role="macro">
+<title>HAVE_RAW_DECL_REALPATH</title>
+<indexterm zone="HAVE-RAW-DECL-REALPATH:CAPS"><primary>HAVE_RAW_DECL_REALPATH</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_REALPATH 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-RENAMEAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_RENAMEAT</title>
+<indexterm zone="HAVE-RAW-DECL-RENAMEAT:CAPS"><primary>HAVE_RAW_DECL_RENAMEAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_RENAMEAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-REWINDDIR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_REWINDDIR</title>
+<indexterm zone="HAVE-RAW-DECL-REWINDDIR:CAPS"><primary>HAVE_RAW_DECL_REWINDDIR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_REWINDDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-RMDIR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_RMDIR</title>
+<indexterm zone="HAVE-RAW-DECL-RMDIR:CAPS"><primary>HAVE_RAW_DECL_RMDIR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_RMDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-RPMATCH:CAPS" role="macro">
+<title>HAVE_RAW_DECL_RPMATCH</title>
+<indexterm zone="HAVE-RAW-DECL-RPMATCH:CAPS"><primary>HAVE_RAW_DECL_RPMATCH</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_RPMATCH 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SCANDIR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SCANDIR</title>
+<indexterm zone="HAVE-RAW-DECL-SCANDIR:CAPS"><primary>HAVE_RAW_DECL_SCANDIR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SCANDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SECURE-GETENV:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SECURE_GETENV</title>
+<indexterm zone="HAVE-RAW-DECL-SECURE-GETENV:CAPS"><primary>HAVE_RAW_DECL_SECURE_GETENV</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SECURE_GETENV 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SETENV:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SETENV</title>
+<indexterm zone="HAVE-RAW-DECL-SETENV:CAPS"><primary>HAVE_RAW_DECL_SETENV</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SETENV 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SETHOSTNAME:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SETHOSTNAME</title>
+<indexterm zone="HAVE-RAW-DECL-SETHOSTNAME:CAPS"><primary>HAVE_RAW_DECL_SETHOSTNAME</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SETHOSTNAME 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SETSTATE:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SETSTATE</title>
+<indexterm zone="HAVE-RAW-DECL-SETSTATE:CAPS"><primary>HAVE_RAW_DECL_SETSTATE</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SETSTATE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SETSTATE-R:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SETSTATE_R</title>
+<indexterm zone="HAVE-RAW-DECL-SETSTATE-R:CAPS"><primary>HAVE_RAW_DECL_SETSTATE_R</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SETSTATE_R 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SETUSERSHELL:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SETUSERSHELL</title>
+<indexterm zone="HAVE-RAW-DECL-SETUSERSHELL:CAPS"><primary>HAVE_RAW_DECL_SETUSERSHELL</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SETUSERSHELL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SLEEP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SLEEP</title>
+<indexterm zone="HAVE-RAW-DECL-SLEEP:CAPS"><primary>HAVE_RAW_DECL_SLEEP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SLEEP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SNPRINTF:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SNPRINTF</title>
+<indexterm zone="HAVE-RAW-DECL-SNPRINTF:CAPS"><primary>HAVE_RAW_DECL_SNPRINTF</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SNPRINTF 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SRANDOM:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SRANDOM</title>
+<indexterm zone="HAVE-RAW-DECL-SRANDOM:CAPS"><primary>HAVE_RAW_DECL_SRANDOM</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SRANDOM 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SRANDOM-R:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SRANDOM_R</title>
+<indexterm zone="HAVE-RAW-DECL-SRANDOM-R:CAPS"><primary>HAVE_RAW_DECL_SRANDOM_R</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SRANDOM_R 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STAT</title>
+<indexterm zone="HAVE-RAW-DECL-STAT:CAPS"><primary>HAVE_RAW_DECL_STAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STPCPY:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STPCPY</title>
+<indexterm zone="HAVE-RAW-DECL-STPCPY:CAPS"><primary>HAVE_RAW_DECL_STPCPY</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STPCPY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STPNCPY:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STPNCPY</title>
+<indexterm zone="HAVE-RAW-DECL-STPNCPY:CAPS"><primary>HAVE_RAW_DECL_STPNCPY</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STPNCPY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRCASESTR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRCASESTR</title>
+<indexterm zone="HAVE-RAW-DECL-STRCASESTR:CAPS"><primary>HAVE_RAW_DECL_STRCASESTR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRCASESTR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRCHRNUL:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRCHRNUL</title>
+<indexterm zone="HAVE-RAW-DECL-STRCHRNUL:CAPS"><primary>HAVE_RAW_DECL_STRCHRNUL</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRCHRNUL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRDUP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRDUP</title>
+<indexterm zone="HAVE-RAW-DECL-STRDUP:CAPS"><primary>HAVE_RAW_DECL_STRDUP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRDUP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRERROR-R:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRERROR_R</title>
+<indexterm zone="HAVE-RAW-DECL-STRERROR-R:CAPS"><primary>HAVE_RAW_DECL_STRERROR_R</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRERROR_R 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRNCAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRNCAT</title>
+<indexterm zone="HAVE-RAW-DECL-STRNCAT:CAPS"><primary>HAVE_RAW_DECL_STRNCAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRNCAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRNDUP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRNDUP</title>
+<indexterm zone="HAVE-RAW-DECL-STRNDUP:CAPS"><primary>HAVE_RAW_DECL_STRNDUP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRNDUP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRNLEN:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRNLEN</title>
+<indexterm zone="HAVE-RAW-DECL-STRNLEN:CAPS"><primary>HAVE_RAW_DECL_STRNLEN</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRNLEN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRPBRK:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRPBRK</title>
+<indexterm zone="HAVE-RAW-DECL-STRPBRK:CAPS"><primary>HAVE_RAW_DECL_STRPBRK</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRPBRK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRSEP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRSEP</title>
+<indexterm zone="HAVE-RAW-DECL-STRSEP:CAPS"><primary>HAVE_RAW_DECL_STRSEP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRSEP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRSIGNAL:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRSIGNAL</title>
+<indexterm zone="HAVE-RAW-DECL-STRSIGNAL:CAPS"><primary>HAVE_RAW_DECL_STRSIGNAL</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRSIGNAL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRTOD:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRTOD</title>
+<indexterm zone="HAVE-RAW-DECL-STRTOD:CAPS"><primary>HAVE_RAW_DECL_STRTOD</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRTOD 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRTOIMAX:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRTOIMAX</title>
+<indexterm zone="HAVE-RAW-DECL-STRTOIMAX:CAPS"><primary>HAVE_RAW_DECL_STRTOIMAX</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRTOIMAX 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRTOK-R:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRTOK_R</title>
+<indexterm zone="HAVE-RAW-DECL-STRTOK-R:CAPS"><primary>HAVE_RAW_DECL_STRTOK_R</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRTOK_R 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRTOLL:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRTOLL</title>
+<indexterm zone="HAVE-RAW-DECL-STRTOLL:CAPS"><primary>HAVE_RAW_DECL_STRTOLL</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRTOLL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRTOULL:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRTOULL</title>
+<indexterm zone="HAVE-RAW-DECL-STRTOULL:CAPS"><primary>HAVE_RAW_DECL_STRTOULL</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRTOULL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRTOUMAX:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRTOUMAX</title>
+<indexterm zone="HAVE-RAW-DECL-STRTOUMAX:CAPS"><primary>HAVE_RAW_DECL_STRTOUMAX</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRTOUMAX 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-STRVERSCMP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_STRVERSCMP</title>
+<indexterm zone="HAVE-RAW-DECL-STRVERSCMP:CAPS"><primary>HAVE_RAW_DECL_STRVERSCMP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_STRVERSCMP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SYMLINK:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SYMLINK</title>
+<indexterm zone="HAVE-RAW-DECL-SYMLINK:CAPS"><primary>HAVE_RAW_DECL_SYMLINK</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SYMLINK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-SYMLINKAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_SYMLINKAT</title>
+<indexterm zone="HAVE-RAW-DECL-SYMLINKAT:CAPS"><primary>HAVE_RAW_DECL_SYMLINKAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_SYMLINKAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-TMPFILE:CAPS" role="macro">
+<title>HAVE_RAW_DECL_TMPFILE</title>
+<indexterm zone="HAVE-RAW-DECL-TMPFILE:CAPS"><primary>HAVE_RAW_DECL_TMPFILE</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_TMPFILE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-TTYNAME-R:CAPS" role="macro">
+<title>HAVE_RAW_DECL_TTYNAME_R</title>
+<indexterm zone="HAVE-RAW-DECL-TTYNAME-R:CAPS"><primary>HAVE_RAW_DECL_TTYNAME_R</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_TTYNAME_R 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-UNLINK:CAPS" role="macro">
+<title>HAVE_RAW_DECL_UNLINK</title>
+<indexterm zone="HAVE-RAW-DECL-UNLINK:CAPS"><primary>HAVE_RAW_DECL_UNLINK</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_UNLINK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-UNLINKAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_UNLINKAT</title>
+<indexterm zone="HAVE-RAW-DECL-UNLINKAT:CAPS"><primary>HAVE_RAW_DECL_UNLINKAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_UNLINKAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-UNLOCKPT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_UNLOCKPT</title>
+<indexterm zone="HAVE-RAW-DECL-UNLOCKPT:CAPS"><primary>HAVE_RAW_DECL_UNLOCKPT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_UNLOCKPT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-UNSETENV:CAPS" role="macro">
+<title>HAVE_RAW_DECL_UNSETENV</title>
+<indexterm zone="HAVE-RAW-DECL-UNSETENV:CAPS"><primary>HAVE_RAW_DECL_UNSETENV</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_UNSETENV 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-USLEEP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_USLEEP</title>
+<indexterm zone="HAVE-RAW-DECL-USLEEP:CAPS"><primary>HAVE_RAW_DECL_USLEEP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_USLEEP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-UTIMENSAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_UTIMENSAT</title>
+<indexterm zone="HAVE-RAW-DECL-UTIMENSAT:CAPS"><primary>HAVE_RAW_DECL_UTIMENSAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_UTIMENSAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-VDPRINTF:CAPS" role="macro">
+<title>HAVE_RAW_DECL_VDPRINTF</title>
+<indexterm zone="HAVE-RAW-DECL-VDPRINTF:CAPS"><primary>HAVE_RAW_DECL_VDPRINTF</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_VDPRINTF 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-VSNPRINTF:CAPS" role="macro">
+<title>HAVE_RAW_DECL_VSNPRINTF</title>
+<indexterm zone="HAVE-RAW-DECL-VSNPRINTF:CAPS"><primary>HAVE_RAW_DECL_VSNPRINTF</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_VSNPRINTF 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCPCPY:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCPCPY</title>
+<indexterm zone="HAVE-RAW-DECL-WCPCPY:CAPS"><primary>HAVE_RAW_DECL_WCPCPY</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCPCPY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCPNCPY:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCPNCPY</title>
+<indexterm zone="HAVE-RAW-DECL-WCPNCPY:CAPS"><primary>HAVE_RAW_DECL_WCPNCPY</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCPNCPY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCRTOMB:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCRTOMB</title>
+<indexterm zone="HAVE-RAW-DECL-WCRTOMB:CAPS"><primary>HAVE_RAW_DECL_WCRTOMB</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCRTOMB 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSCASECMP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSCASECMP</title>
+<indexterm zone="HAVE-RAW-DECL-WCSCASECMP:CAPS"><primary>HAVE_RAW_DECL_WCSCASECMP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSCASECMP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSCAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSCAT</title>
+<indexterm zone="HAVE-RAW-DECL-WCSCAT:CAPS"><primary>HAVE_RAW_DECL_WCSCAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSCAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSCHR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSCHR</title>
+<indexterm zone="HAVE-RAW-DECL-WCSCHR:CAPS"><primary>HAVE_RAW_DECL_WCSCHR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSCHR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSCMP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSCMP</title>
+<indexterm zone="HAVE-RAW-DECL-WCSCMP:CAPS"><primary>HAVE_RAW_DECL_WCSCMP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSCMP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSCOLL:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSCOLL</title>
+<indexterm zone="HAVE-RAW-DECL-WCSCOLL:CAPS"><primary>HAVE_RAW_DECL_WCSCOLL</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSCOLL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSCPY:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSCPY</title>
+<indexterm zone="HAVE-RAW-DECL-WCSCPY:CAPS"><primary>HAVE_RAW_DECL_WCSCPY</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSCPY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSCSPN:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSCSPN</title>
+<indexterm zone="HAVE-RAW-DECL-WCSCSPN:CAPS"><primary>HAVE_RAW_DECL_WCSCSPN</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSCSPN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSDUP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSDUP</title>
+<indexterm zone="HAVE-RAW-DECL-WCSDUP:CAPS"><primary>HAVE_RAW_DECL_WCSDUP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSDUP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSLEN:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSLEN</title>
+<indexterm zone="HAVE-RAW-DECL-WCSLEN:CAPS"><primary>HAVE_RAW_DECL_WCSLEN</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSLEN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSNCASECMP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSNCASECMP</title>
+<indexterm zone="HAVE-RAW-DECL-WCSNCASECMP:CAPS"><primary>HAVE_RAW_DECL_WCSNCASECMP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSNCASECMP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSNCAT:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSNCAT</title>
+<indexterm zone="HAVE-RAW-DECL-WCSNCAT:CAPS"><primary>HAVE_RAW_DECL_WCSNCAT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSNCAT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSNCMP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSNCMP</title>
+<indexterm zone="HAVE-RAW-DECL-WCSNCMP:CAPS"><primary>HAVE_RAW_DECL_WCSNCMP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSNCMP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSNCPY:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSNCPY</title>
+<indexterm zone="HAVE-RAW-DECL-WCSNCPY:CAPS"><primary>HAVE_RAW_DECL_WCSNCPY</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSNCPY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSNLEN:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSNLEN</title>
+<indexterm zone="HAVE-RAW-DECL-WCSNLEN:CAPS"><primary>HAVE_RAW_DECL_WCSNLEN</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSNLEN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSNRTOMBS:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSNRTOMBS</title>
+<indexterm zone="HAVE-RAW-DECL-WCSNRTOMBS:CAPS"><primary>HAVE_RAW_DECL_WCSNRTOMBS</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSNRTOMBS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSPBRK:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSPBRK</title>
+<indexterm zone="HAVE-RAW-DECL-WCSPBRK:CAPS"><primary>HAVE_RAW_DECL_WCSPBRK</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSPBRK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSRCHR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSRCHR</title>
+<indexterm zone="HAVE-RAW-DECL-WCSRCHR:CAPS"><primary>HAVE_RAW_DECL_WCSRCHR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSRCHR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSRTOMBS:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSRTOMBS</title>
+<indexterm zone="HAVE-RAW-DECL-WCSRTOMBS:CAPS"><primary>HAVE_RAW_DECL_WCSRTOMBS</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSRTOMBS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSSPN:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSSPN</title>
+<indexterm zone="HAVE-RAW-DECL-WCSSPN:CAPS"><primary>HAVE_RAW_DECL_WCSSPN</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSSPN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSSTR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSSTR</title>
+<indexterm zone="HAVE-RAW-DECL-WCSSTR:CAPS"><primary>HAVE_RAW_DECL_WCSSTR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSSTR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSTOK:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSTOK</title>
+<indexterm zone="HAVE-RAW-DECL-WCSTOK:CAPS"><primary>HAVE_RAW_DECL_WCSTOK</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSTOK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSWIDTH:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSWIDTH</title>
+<indexterm zone="HAVE-RAW-DECL-WCSWIDTH:CAPS"><primary>HAVE_RAW_DECL_WCSWIDTH</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSWIDTH 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCSXFRM:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCSXFRM</title>
+<indexterm zone="HAVE-RAW-DECL-WCSXFRM:CAPS"><primary>HAVE_RAW_DECL_WCSXFRM</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCSXFRM 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCTOB:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCTOB</title>
+<indexterm zone="HAVE-RAW-DECL-WCTOB:CAPS"><primary>HAVE_RAW_DECL_WCTOB</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCTOB 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WCWIDTH:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WCWIDTH</title>
+<indexterm zone="HAVE-RAW-DECL-WCWIDTH:CAPS"><primary>HAVE_RAW_DECL_WCWIDTH</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WCWIDTH 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WMEMCHR:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WMEMCHR</title>
+<indexterm zone="HAVE-RAW-DECL-WMEMCHR:CAPS"><primary>HAVE_RAW_DECL_WMEMCHR</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WMEMCHR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WMEMCMP:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WMEMCMP</title>
+<indexterm zone="HAVE-RAW-DECL-WMEMCMP:CAPS"><primary>HAVE_RAW_DECL_WMEMCMP</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WMEMCMP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WMEMCPY:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WMEMCPY</title>
+<indexterm zone="HAVE-RAW-DECL-WMEMCPY:CAPS"><primary>HAVE_RAW_DECL_WMEMCPY</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WMEMCPY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WMEMMOVE:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WMEMMOVE</title>
+<indexterm zone="HAVE-RAW-DECL-WMEMMOVE:CAPS"><primary>HAVE_RAW_DECL_WMEMMOVE</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WMEMMOVE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL-WMEMSET:CAPS" role="macro">
+<title>HAVE_RAW_DECL_WMEMSET</title>
+<indexterm zone="HAVE-RAW-DECL-WMEMSET:CAPS"><primary>HAVE_RAW_DECL_WMEMSET</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL_WMEMSET 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-RAW-DECL--EXIT:CAPS" role="macro">
+<title>HAVE_RAW_DECL__EXIT</title>
+<indexterm zone="HAVE-RAW-DECL--EXIT:CAPS"><primary>HAVE_RAW_DECL__EXIT</primary></indexterm>
+<programlisting language="C">#define HAVE_RAW_DECL__EXIT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-READDIR:CAPS" role="macro">
+<title>HAVE_READDIR</title>
+<indexterm zone="HAVE-READDIR:CAPS"><primary>HAVE_READDIR</primary></indexterm>
+<programlisting language="C">#define HAVE_READDIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-READLINK:CAPS" role="macro">
+<title>HAVE_READLINK</title>
+<indexterm zone="HAVE-READLINK:CAPS"><primary>HAVE_READLINK</primary></indexterm>
+<programlisting language="C">#define HAVE_READLINK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-REALLOC-POSIX:CAPS" role="macro">
+<title>HAVE_REALLOC_POSIX</title>
+<indexterm zone="HAVE-REALLOC-POSIX:CAPS"><primary>HAVE_REALLOC_POSIX</primary></indexterm>
+<programlisting language="C">#define HAVE_REALLOC_POSIX 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-REALPATH:CAPS" role="macro">
+<title>HAVE_REALPATH</title>
+<indexterm zone="HAVE-REALPATH:CAPS"><primary>HAVE_REALPATH</primary></indexterm>
+<programlisting language="C">#define HAVE_REALPATH 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-SNPRINTF:CAPS" role="macro">
+<title>HAVE_SNPRINTF</title>
+<indexterm zone="HAVE-SNPRINTF:CAPS"><primary>HAVE_SNPRINTF</primary></indexterm>
+<programlisting language="C">#define HAVE_SNPRINTF 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-SNPRINTF-RETVAL-C99:CAPS" role="macro">
+<title>HAVE_SNPRINTF_RETVAL_C99</title>
+<indexterm zone="HAVE-SNPRINTF-RETVAL-C99:CAPS"><primary>HAVE_SNPRINTF_RETVAL_C99</primary></indexterm>
+<programlisting language="C">#define HAVE_SNPRINTF_RETVAL_C99 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-STDINT-H:CAPS" role="macro">
+<title>HAVE_STDINT_H</title>
+<indexterm zone="HAVE-STDINT-H:CAPS"><primary>HAVE_STDINT_H</primary></indexterm>
+<programlisting language="C">#define HAVE_STDINT_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-STDINT-H-WITH-UINTMAX:CAPS" role="macro">
+<title>HAVE_STDINT_H_WITH_UINTMAX</title>
+<indexterm zone="HAVE-STDINT-H-WITH-UINTMAX:CAPS"><primary>HAVE_STDINT_H_WITH_UINTMAX</primary></indexterm>
+<programlisting language="C">#define HAVE_STDINT_H_WITH_UINTMAX 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-STDLIB-H:CAPS" role="macro">
+<title>HAVE_STDLIB_H</title>
+<indexterm zone="HAVE-STDLIB-H:CAPS"><primary>HAVE_STDLIB_H</primary></indexterm>
+<programlisting language="C">#define HAVE_STDLIB_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-STRDUP:CAPS" role="macro">
+<title>HAVE_STRDUP</title>
+<indexterm zone="HAVE-STRDUP:CAPS"><primary>HAVE_STRDUP</primary></indexterm>
+<programlisting language="C">#define HAVE_STRDUP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-STRINGS-H:CAPS" role="macro">
+<title>HAVE_STRINGS_H</title>
+<indexterm zone="HAVE-STRINGS-H:CAPS"><primary>HAVE_STRINGS_H</primary></indexterm>
+<programlisting language="C">#define HAVE_STRINGS_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-STRING-H:CAPS" role="macro">
+<title>HAVE_STRING_H</title>
+<indexterm zone="HAVE-STRING-H:CAPS"><primary>HAVE_STRING_H</primary></indexterm>
+<programlisting language="C">#define HAVE_STRING_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-STRNLEN:CAPS" role="macro">
+<title>HAVE_STRNLEN</title>
+<indexterm zone="HAVE-STRNLEN:CAPS"><primary>HAVE_STRNLEN</primary></indexterm>
+<programlisting language="C">#define HAVE_STRNLEN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-STRTOK-R:CAPS" role="macro">
+<title>HAVE_STRTOK_R</title>
+<indexterm zone="HAVE-STRTOK-R:CAPS"><primary>HAVE_STRTOK_R</primary></indexterm>
+<programlisting language="C">#define HAVE_STRTOK_R 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-STRVERSCMP:CAPS" role="macro">
+<title>HAVE_STRVERSCMP</title>
+<indexterm zone="HAVE-STRVERSCMP:CAPS"><primary>HAVE_STRVERSCMP</primary></indexterm>
+<programlisting language="C">#define HAVE_STRVERSCMP 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-SYMLINK:CAPS" role="macro">
+<title>HAVE_SYMLINK</title>
+<indexterm zone="HAVE-SYMLINK:CAPS"><primary>HAVE_SYMLINK</primary></indexterm>
+<programlisting language="C">#define HAVE_SYMLINK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-SYS-MMAN-H:CAPS" role="macro">
+<title>HAVE_SYS_MMAN_H</title>
+<indexterm zone="HAVE-SYS-MMAN-H:CAPS"><primary>HAVE_SYS_MMAN_H</primary></indexterm>
+<programlisting language="C">#define HAVE_SYS_MMAN_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-SYS-PARAM-H:CAPS" role="macro">
+<title>HAVE_SYS_PARAM_H</title>
+<indexterm zone="HAVE-SYS-PARAM-H:CAPS"><primary>HAVE_SYS_PARAM_H</primary></indexterm>
+<programlisting language="C">#define HAVE_SYS_PARAM_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-SYS-SOCKET-H:CAPS" role="macro">
+<title>HAVE_SYS_SOCKET_H</title>
+<indexterm zone="HAVE-SYS-SOCKET-H:CAPS"><primary>HAVE_SYS_SOCKET_H</primary></indexterm>
+<programlisting language="C">#define HAVE_SYS_SOCKET_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-SYS-STAT-H:CAPS" role="macro">
+<title>HAVE_SYS_STAT_H</title>
+<indexterm zone="HAVE-SYS-STAT-H:CAPS"><primary>HAVE_SYS_STAT_H</primary></indexterm>
+<programlisting language="C">#define HAVE_SYS_STAT_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-SYS-TIME-H:CAPS" role="macro">
+<title>HAVE_SYS_TIME_H</title>
+<indexterm zone="HAVE-SYS-TIME-H:CAPS"><primary>HAVE_SYS_TIME_H</primary></indexterm>
+<programlisting language="C">#define HAVE_SYS_TIME_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-SYS-TYPES-H:CAPS" role="macro">
+<title>HAVE_SYS_TYPES_H</title>
+<indexterm zone="HAVE-SYS-TYPES-H:CAPS"><primary>HAVE_SYS_TYPES_H</primary></indexterm>
+<programlisting language="C">#define HAVE_SYS_TYPES_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-UNISTD-H:CAPS" role="macro">
+<title>HAVE_UNISTD_H</title>
+<indexterm zone="HAVE-UNISTD-H:CAPS"><primary>HAVE_UNISTD_H</primary></indexterm>
+<programlisting language="C">#define HAVE_UNISTD_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-UNSETENV:CAPS" role="macro">
+<title>HAVE_UNSETENV</title>
+<indexterm zone="HAVE-UNSETENV:CAPS"><primary>HAVE_UNSETENV</primary></indexterm>
+<programlisting language="C">#define HAVE_UNSETENV 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-UNSIGNED-LONG-LONG-INT:CAPS" role="macro">
+<title>HAVE_UNSIGNED_LONG_LONG_INT</title>
+<indexterm zone="HAVE-UNSIGNED-LONG-LONG-INT:CAPS"><primary>HAVE_UNSIGNED_LONG_LONG_INT</primary></indexterm>
+<programlisting language="C">#define HAVE_UNSIGNED_LONG_LONG_INT 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-VISIBILITY:CAPS" role="macro">
+<title>HAVE_VISIBILITY</title>
+<indexterm zone="HAVE-VISIBILITY:CAPS"><primary>HAVE_VISIBILITY</primary></indexterm>
+<programlisting language="C">#define HAVE_VISIBILITY 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-WCHAR-H:CAPS" role="macro">
+<title>HAVE_WCHAR_H</title>
+<indexterm zone="HAVE-WCHAR-H:CAPS"><primary>HAVE_WCHAR_H</primary></indexterm>
+<programlisting language="C">#define HAVE_WCHAR_H 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-WCHAR-T:CAPS" role="macro">
+<title>HAVE_WCHAR_T</title>
+<indexterm zone="HAVE-WCHAR-T:CAPS"><primary>HAVE_WCHAR_T</primary></indexterm>
+<programlisting language="C">#define HAVE_WCHAR_T 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-WCRTOMB:CAPS" role="macro">
+<title>HAVE_WCRTOMB</title>
+<indexterm zone="HAVE-WCRTOMB:CAPS"><primary>HAVE_WCRTOMB</primary></indexterm>
+<programlisting language="C">#define HAVE_WCRTOMB 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-WCSLEN:CAPS" role="macro">
+<title>HAVE_WCSLEN</title>
+<indexterm zone="HAVE-WCSLEN:CAPS"><primary>HAVE_WCSLEN</primary></indexterm>
+<programlisting language="C">#define HAVE_WCSLEN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-WCSNLEN:CAPS" role="macro">
+<title>HAVE_WCSNLEN</title>
+<indexterm zone="HAVE-WCSNLEN:CAPS"><primary>HAVE_WCSNLEN</primary></indexterm>
+<programlisting language="C">#define HAVE_WCSNLEN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-WINT-T:CAPS" role="macro">
+<title>HAVE_WINT_T</title>
+<indexterm zone="HAVE-WINT-T:CAPS"><primary>HAVE_WINT_T</primary></indexterm>
+<programlisting language="C">#define HAVE_WINT_T 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-WORKING-O-NOATIME:CAPS" role="macro">
+<title>HAVE_WORKING_O_NOATIME</title>
+<indexterm zone="HAVE-WORKING-O-NOATIME:CAPS"><primary>HAVE_WORKING_O_NOATIME</primary></indexterm>
+<programlisting language="C">#define HAVE_WORKING_O_NOATIME 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE-WORKING-O-NOFOLLOW:CAPS" role="macro">
+<title>HAVE_WORKING_O_NOFOLLOW</title>
+<indexterm zone="HAVE-WORKING-O-NOFOLLOW:CAPS"><primary>HAVE_WORKING_O_NOFOLLOW</primary></indexterm>
+<programlisting language="C">#define HAVE_WORKING_O_NOFOLLOW 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE--BOOL:CAPS" role="macro">
+<title>HAVE__BOOL</title>
+<indexterm zone="HAVE--BOOL:CAPS"><primary>HAVE__BOOL</primary></indexterm>
+<programlisting language="C">#define HAVE__BOOL 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE---FPURGE:CAPS" role="macro">
+<title>HAVE___FPURGE</title>
+<indexterm zone="HAVE---FPURGE:CAPS"><primary>HAVE___FPURGE</primary></indexterm>
+<programlisting language="C">#define HAVE___FPURGE 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="HAVE---FREADING:CAPS" role="macro">
+<title>HAVE___FREADING</title>
+<indexterm zone="HAVE---FREADING:CAPS"><primary>HAVE___FREADING</primary></indexterm>
+<programlisting language="C">#define HAVE___FREADING 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="LSTAT-FOLLOWS-SLASHED-SYMLINK:CAPS" role="macro">
+<title>LSTAT_FOLLOWS_SLASHED_SYMLINK</title>
+<indexterm zone="LSTAT-FOLLOWS-SLASHED-SYMLINK:CAPS"><primary>LSTAT_FOLLOWS_SLASHED_SYMLINK</primary></indexterm>
+<programlisting language="C">#define LSTAT_FOLLOWS_SLASHED_SYMLINK 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="LT-OBJDIR:CAPS" role="macro">
+<title>LT_OBJDIR</title>
+<indexterm zone="LT-OBJDIR:CAPS"><primary>LT_OBJDIR</primary></indexterm>
+<programlisting language="C">#define LT_OBJDIR ".libs/"
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="PACKAGE:CAPS" role="macro">
+<title>PACKAGE</title>
+<indexterm zone="PACKAGE:CAPS"><primary>PACKAGE</primary></indexterm>
+<programlisting language="C">#define PACKAGE "liboath"
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="PACKAGE-BUGREPORT:CAPS" role="macro">
+<title>PACKAGE_BUGREPORT</title>
+<indexterm zone="PACKAGE-BUGREPORT:CAPS"><primary>PACKAGE_BUGREPORT</primary></indexterm>
+<programlisting language="C">#define PACKAGE_BUGREPORT "oath-toolkit-help@nongnu.org"
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="PACKAGE-NAME:CAPS" role="macro">
+<title>PACKAGE_NAME</title>
+<indexterm zone="PACKAGE-NAME:CAPS"><primary>PACKAGE_NAME</primary></indexterm>
+<programlisting language="C">#define PACKAGE_NAME "liboath"
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="PACKAGE-STRING:CAPS" role="macro">
+<title>PACKAGE_STRING</title>
+<indexterm zone="PACKAGE-STRING:CAPS"><primary>PACKAGE_STRING</primary></indexterm>
+<programlisting language="C">#define PACKAGE_STRING "liboath 2.6.1"
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="PACKAGE-TARNAME:CAPS" role="macro">
+<title>PACKAGE_TARNAME</title>
+<indexterm zone="PACKAGE-TARNAME:CAPS"><primary>PACKAGE_TARNAME</primary></indexterm>
+<programlisting language="C">#define PACKAGE_TARNAME "liboath"
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="PACKAGE-URL:CAPS" role="macro">
+<title>PACKAGE_URL</title>
+<indexterm zone="PACKAGE-URL:CAPS"><primary>PACKAGE_URL</primary></indexterm>
+<programlisting language="C">#define PACKAGE_URL "http://www.nongnu.org/oath-toolkit/"
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="PACKAGE-VERSION:CAPS" role="macro">
+<title>PACKAGE_VERSION</title>
+<indexterm zone="PACKAGE-VERSION:CAPS"><primary>PACKAGE_VERSION</primary></indexterm>
+<programlisting language="C">#define PACKAGE_VERSION "2.6.1"
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="STDC-HEADERS:CAPS" role="macro">
+<title>STDC_HEADERS</title>
+<indexterm zone="STDC-HEADERS:CAPS"><primary>STDC_HEADERS</primary></indexterm>
+<programlisting language="C">#define STDC_HEADERS 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="UNLINK-CANNOT-UNLINK-DIR:CAPS" role="macro">
+<title>UNLINK_CANNOT_UNLINK_DIR</title>
+<indexterm zone="UNLINK-CANNOT-UNLINK-DIR:CAPS"><primary>UNLINK_CANNOT_UNLINK_DIR</primary></indexterm>
+<programlisting language="C">#define UNLINK_CANNOT_UNLINK_DIR 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="VERSION:CAPS" role="macro">
+<title>VERSION</title>
+<indexterm zone="VERSION:CAPS"><primary>VERSION</primary></indexterm>
+<programlisting language="C">#define VERSION "2.6.1"
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="WORDS-BIGENDIAN:CAPS" role="macro">
+<title>WORDS_BIGENDIAN</title>
+<indexterm zone="WORDS-BIGENDIAN:CAPS"><primary>WORDS_BIGENDIAN</primary></indexterm>
+<programlisting language="C">#  define WORDS_BIGENDIAN 1
+</programlisting>
+<para>
+</para>
+</refsect2>
+<refsect2 id="restrict" role="macro">
+<title>restrict</title>
+<indexterm zone="restrict"><primary>restrict</primary></indexterm>
+<programlisting language="C">#define restrict __restrict
+</programlisting>
+<para>
+</para>
+</refsect2>
+
+</refsect1>
+
+</refentry>

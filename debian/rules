@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/autotools.mk
+include /usr/share/cdbs/1/rules/autoreconf.mk
+
+DEB_DH_STRIP_ARGS = --dbg-package=oath-dbg
+DEB_MAKE_CHECK_TARGET = VERBOSE=t check
+DEB_DH_MAKESHLIBS_ARGS_liboath0 = -- -c4
+DEB_CONFIGURE_EXTRA_FLAGS = --enable-gtk-doc --enable-gtk-doc-pdf 
+DEB_CONFIGURE_EXTRA_FLAGS += --with-pam-dir=/lib/security
+DEB_CONFIGURE_EXTRA_FLAGS += --disable-pskc

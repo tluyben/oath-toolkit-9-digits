@@ -1,0 +1,4 @@
+debian/tmp/usr/include/liboath/oath.h
+debian/tmp/usr/lib/liboath.a
+debian/tmp/usr/lib/liboath.so
+debian/tmp/usr/lib/pkgconfig/liboath.pc

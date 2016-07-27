@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+          "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+	  [
+	  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+	  <!ENTITY version SYSTEM "version.xml">
+	  ]>
+<indexdiv id="api-index-1.12.0">
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="oath-base32-decode"><link linkend="oath-base32-decode">oath_base32_decode</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-base32-encode"><link linkend="oath-base32-encode">oath_base32_encode</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+<indexentry><primaryie linkends="oath-bin2hex"><link linkend="oath-bin2hex">oath_bin2hex</link>, function in <link linkend="liboath-oath">oath</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

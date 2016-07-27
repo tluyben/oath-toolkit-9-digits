@@ -1,0 +1,33 @@
+3: (null): Liboath unknown error
+2: (null): Liboath unknown error
+1: (null): Liboath unknown error
+0: OATH_OK: Successful return
+-1: OATH_CRYPTO_ERROR: Internal error in crypto functions
+-2: OATH_INVALID_DIGITS: Unsupported number of OTP digits
+-3: OATH_PRINTF_ERROR: Error from system printf call
+-4: OATH_INVALID_HEX: Hex string is invalid
+-5: OATH_TOO_SMALL_BUFFER: The output buffer is too small
+-6: OATH_INVALID_OTP: The OTP is not valid
+-7: OATH_REPLAYED_OTP: The OTP has been replayed
+-8: OATH_BAD_PASSWORD: The password does not match
+-9: OATH_INVALID_COUNTER: The counter value is corrupt
+-10: OATH_INVALID_TIMESTAMP: The timestamp is corrupt
+-11: OATH_NO_SUCH_FILE: The supplied filename does not exist
+-12: OATH_UNKNOWN_USER: Cannot find information about user
+-13: OATH_FILE_SEEK_ERROR: System error when seeking in file
+-14: OATH_FILE_CREATE_ERROR: System error when creating file
+-15: OATH_FILE_LOCK_ERROR: System error when locking file
+-16: OATH_FILE_RENAME_ERROR: System error when renaming file
+-17: OATH_FILE_UNLINK_ERROR: System error when removing file
+-18: OATH_TIME_ERROR: System error for time manipulation
+-19: OATH_STRCMP_ERROR: A strcmp callback returned an error
+-20: OATH_INVALID_BASE32: Base32 string is invalid
+-21: OATH_BASE32_OVERFLOW: Base32 encoding would overflow
+-22: OATH_MALLOC_ERROR: Memory allocation failed
+-23: OATH_FILE_FLUSH_ERROR: System error when flushing file buffer
+-24: OATH_FILE_SYNC_ERROR: System error when syncing file to disk
+-25: OATH_FILE_CLOSE_ERROR: System error when closing file
+-26: (null): Liboath unknown error
+-27: (null): Liboath unknown error
+-28: (null): Liboath unknown error
+PASS tst_errors (exit status: 0)

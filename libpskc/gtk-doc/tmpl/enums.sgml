@@ -1,0 +1,122 @@
+<!-- ##### SECTION Title ##### -->
+enums
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### ENUM pskc_pinusagemode ##### -->
+<para>
+
+</para>
+
+@PSKC_PINUSAGEMODE_UNKNOWN: 
+@PSKC_PINUSAGEMODE_LOCAL: 
+@PSKC_PINUSAGEMODE_PREPEND: 
+@PSKC_PINUSAGEMODE_APPEND: 
+@PSKC_PINUSAGEMODE_ALGORITHMIC: 
+@PSKC_PINUSAGEMODE_LAST: 
+
+<!-- ##### FUNCTION pskc_pinusagemode2str ##### -->
+<para>
+
+</para>
+
+@pinusagemode: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_str2pinusagemode ##### -->
+<para>
+
+</para>
+
+@pinusagemode: 
+@Returns: 
+
+
+<!-- ##### ENUM pskc_valueformat ##### -->
+<para>
+
+</para>
+
+@PSKC_VALUEFORMAT_UNKNOWN: 
+@PSKC_VALUEFORMAT_DECIMAL: 
+@PSKC_VALUEFORMAT_HEXADECIMAL: 
+@PSKC_VALUEFORMAT_ALPHANUMERIC: 
+@PSKC_VALUEFORMAT_BASE64: 
+@PSKC_VALUEFORMAT_BINARY: 
+@PSKC_VALUEFORMAT_LAST: 
+
+<!-- ##### FUNCTION pskc_valueformat2str ##### -->
+<para>
+
+</para>
+
+@valueformat: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_str2valueformat ##### -->
+<para>
+
+</para>
+
+@valueformat: 
+@Returns: 
+
+
+<!-- ##### ENUM pskc_keyusage ##### -->
+<para>
+
+</para>
+
+@PSKC_KEYUSAGE_UNKNOWN: 
+@PSKC_KEYUSAGE_OTP: 
+@PSKC_KEYUSAGE_CR: 
+@PSKC_KEYUSAGE_ENCRYPT: 
+@PSKC_KEYUSAGE_INTEGRITY: 
+@PSKC_KEYUSAGE_VERIFY: 
+@PSKC_KEYUSAGE_UNLOCK: 
+@PSKC_KEYUSAGE_DECRYPT: 
+@PSKC_KEYUSAGE_KEYWRAP: 
+@PSKC_KEYUSAGE_UNWRAP: 
+@PSKC_KEYUSAGE_DERIVE: 
+@PSKC_KEYUSAGE_GENERATE: 
+@PSKC_KEYUSAGE_LAST: 
+
+<!-- ##### FUNCTION pskc_keyusage2str ##### -->
+<para>
+
+</para>
+
+@keyusage: 
+@Returns: 
+
+
+<!-- ##### FUNCTION pskc_str2keyusage ##### -->
+<para>
+
+</para>
+
+@keyusage: 
+@Returns: 
+
+
